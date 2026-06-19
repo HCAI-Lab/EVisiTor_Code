@@ -1,0 +1,3 @@
+model,model_label,step_count,run_count_min,run_count_max,human_subjects,model_total_attention_mean_per_run,human_total_fixations_mean_per_subject,total_count_diff_model_minus_human,total_count_diff_pct,model_left_prop,human_left_prop,left_prop_diff_pp,step_total_rmse,step_left_prop_mae_pp
+Perfect_model,Original Perfect,14,27,27,7,191.77777777777777,697.9999999999999,-506.2222222222221,-72.52467367080547,0.6537273078408652,0.508085977482088,14.564133035877724,45.02053985001095,17.461560768150186
+Ablation_Perfect,Ablation Perfect,14,25,25,7,370.0,697.9999999999999,-327.9999999999999,-46.991404011461306,0.8204324324324325,0.508085977482088,31.234645495034453,32.583465373459596,29.24528999689267

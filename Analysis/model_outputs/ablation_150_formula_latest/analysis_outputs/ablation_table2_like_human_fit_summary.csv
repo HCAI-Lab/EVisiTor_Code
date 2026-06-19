@@ -1,0 +1,6 @@
+Model,Mean task variance,Mean model subtask variance,Task mean correlation with humans,Task RMSE (s),Human-SD-normalized RMSE,Mean abs task error (s),Mean model SD (s),Model-human total diff (s)
+Full Realistic,20.632,3.327,0.955,15.520,0.613,10.287,3.493,5.441
+Visual Search Only,15.882,2.662,0.946,16.756,0.762,12.493,1.892,-157.227
+Correction Checking,5.501,0.819,0.917,19.924,0.881,14.709,1.953,-173.064
+Batched Formula Typing,0.156,0.023,0.916,20.260,0.878,15.049,0.353,-106.431
+Perfect,0.066,0.010,0.913,22.074,0.977,16.504,0.237,-219.438

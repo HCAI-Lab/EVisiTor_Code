@@ -1,0 +1,3 @@
+model,model_label,task_count,run_count_min,run_count_max,model_total_mean_sec,model_total_std_approx_sec,human_total_mean_sec,human_total_std_approx_sec,model_minus_human_sec,model_minus_human_pct,mean_abs_task_error_sec,mean_abs_task_pct_error,rmse_task_sec
+Ablation_Perfect,Ablation Perfect,14,25,25,478.1565471679999,1.0579787341529556,715.38335507,95.05778012675684,-237.22680790200008,-33.16079500882258,17.642654907285714,39.59546211202066,23.10027013638257
+Perfect_model,Original Perfect,14,26,27,363.16519002193735,0.8564394978200482,715.38335507,95.05778012675684,-352.21816504806264,-49.23488400336044,25.158440360575902,51.73266802828334,31.289512350009748

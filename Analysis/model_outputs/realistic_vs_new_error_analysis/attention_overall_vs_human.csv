@@ -1,0 +1,3 @@
+model,model_label,step_count,run_count_min,run_count_max,human_subjects,model_total_attention_mean_per_run,human_total_fixations_mean_per_subject,total_count_diff_model_minus_human,total_count_diff_pct,model_left_prop,human_left_prop,left_prop_diff_pp,step_total_rmse,step_left_prop_mae_pp
+New_Error (3-5-2-TCP),New Error (3-5-2-TCP),14,150,150,7,1307.48,697.9999999999999,609.4800000000001,87.31805157593126,0.7945768450250354,0.508085977482088,28.64908675429475,86.97610669299547,23.89739903250793
+Ablation_Full_Realistic,Full Realistic,14,25,25,7,1331.2,697.9999999999999,633.2000000000002,90.71633237822353,0.798377403846154,0.508085977482088,29.0291426364066,87.13329612320689,24.97295206441503

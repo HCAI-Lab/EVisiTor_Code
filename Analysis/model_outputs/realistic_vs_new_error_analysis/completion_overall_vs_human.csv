@@ -1,0 +1,3 @@
+model,model_label,task_count,run_count_min,run_count_max,model_total_mean_sec,model_total_std_approx_sec,human_total_mean_sec,human_total_std_approx_sec,model_minus_human_sec,model_minus_human_pct,mean_abs_task_error_sec,mean_abs_task_pct_error,rmse_task_sec
+Ablation_Full_Realistic,Full Realistic,14,25,25,702.2965865400001,17.28852745715635,715.38335507,95.05778012675684,-13.086768529999858,-1.8293364581734395,10.059063366428573,20.45061266829604,14.959776144178907
+New_Error (3-5-2-TCP),New Error (3-5-2-TCP),14,150,150,669.1785313993336,16.13092840411537,715.38335507,95.05778012675684,-46.20482367066643,-6.458750171248435,10.455610093142857,22.527354006105906,13.784154646541527

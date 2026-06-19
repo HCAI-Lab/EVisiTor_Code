@@ -1,0 +1,10 @@
+metric,value
+new_total_mean_sec,702.9508686959999
+human_total_mean_sec,715.38335507
+perfect_model_total_mean_sec,478.07243742266667
+new_minus_human_sec,-12.432486374000064
+new_minus_perfect_model_sec,224.87843127333326
+perfect_model_minus_human_sec,-237.31091764733333
+new_total_std_approx_sec,16.995403544013037
+human_total_std_approx_sec,95.05778012675684
+perfect_model_total_std_approx_sec,0.9610323570145058

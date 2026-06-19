@@ -1,0 +1,5604 @@
+[
+  {
+    "name": "\u202asubject.xlsx\u202c  -  Saved",
+    "type": "text",
+    "control_type": "TitleBar",
+    "position": [
+      324,
+      25
+    ],
+    "rect": [
+      43,
+      1,
+      605,
+      49
+    ],
+    "width": 562,
+    "height": 48,
+    "color": "black",
+    "text": "\u202asubject.xlsx\u202c  -  Saved",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "\u202asubject.xlsx\u202c  -  Saved",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      128,
+      25
+    ],
+    "rect": [
+      43,
+      1,
+      214,
+      49
+    ],
+    "width": 171,
+    "height": 48,
+    "color": "black",
+    "text": "\u202asubject.xlsx\u202c  -  Saved",
+    "highlighted": false,
+    "parent_text": "\u202asubject.xlsx\u202c  -  Saved",
+    "children_count": 1
+  },
+  {
+    "name": "Bagherzadehkhorasani, Amirreza",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      902,
+      25
+    ],
+    "rect": [
+      877,
+      1,
+      927,
+      49
+    ],
+    "width": 50,
+    "height": 48,
+    "color": "black",
+    "text": "Bagherzadehkhorasani, Amirreza",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Bagherzadehkhorasani, Amirreza",
+    "type": "text",
+    "control_type": "Image",
+    "position": [
+      903,
+      25
+    ],
+    "rect": [
+      891,
+      13,
+      915,
+      37
+    ],
+    "width": 24,
+    "height": 24,
+    "color": "dark-green",
+    "text": "Bagherzadehkhorasani, Amirreza",
+    "highlighted": false,
+    "parent_text": "Bagherzadehkhorasani, Amirreza",
+    "children_count": 0
+  },
+  {
+    "name": "Help",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      999,
+      25
+    ],
+    "rect": [
+      975,
+      1,
+      1023,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Help",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Minimize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1047,
+      25
+    ],
+    "rect": [
+      1023,
+      1,
+      1071,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Minimize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Maximize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1095,
+      25
+    ],
+    "rect": [
+      1071,
+      1,
+      1119,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Maximize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1143,
+      25
+    ],
+    "rect": [
+      1119,
+      1,
+      1167,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "File",
+    "type": "text",
+    "control_type": "List",
+    "position": [
+      81,
+      540
+    ],
+    "rect": [
+      1,
+      49,
+      161,
+      1031
+    ],
+    "width": 160,
+    "height": 982,
+    "color": "black",
+    "text": "File",
+    "highlighted": true,
+    "parent_text": "",
+    "children_count": 12
+  },
+  {
+    "name": "Back",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      71
+    ],
+    "rect": [
+      1,
+      49,
+      161,
+      94
+    ],
+    "width": 160,
+    "height": 45,
+    "color": "black",
+    "text": "Back",
+    "highlighted": true,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Home",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      114
+    ],
+    "rect": [
+      1,
+      94,
+      161,
+      134
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Home",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "New",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      154
+    ],
+    "rect": [
+      1,
+      134,
+      161,
+      174
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "New",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Open",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      194
+    ],
+    "rect": [
+      1,
+      174,
+      161,
+      214
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Open",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Share",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      234
+    ],
+    "rect": [
+      1,
+      214,
+      161,
+      254
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Share",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Info",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      290
+    ],
+    "rect": [
+      1,
+      270,
+      161,
+      310
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Info",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Save a Copy",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      330
+    ],
+    "rect": [
+      1,
+      310,
+      161,
+      350
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Save a Copy",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Print",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      370
+    ],
+    "rect": [
+      1,
+      350,
+      161,
+      390
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Print",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Export",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      410
+    ],
+    "rect": [
+      1,
+      390,
+      161,
+      430
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Export",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      450
+    ],
+    "rect": [
+      1,
+      430,
+      161,
+      470
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Account",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      955
+    ],
+    "rect": [
+      1,
+      935,
+      161,
+      975
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Account",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Options",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      81,
+      995
+    ],
+    "rect": [
+      1,
+      975,
+      161,
+      1015
+    ],
+    "width": 160,
+    "height": 40,
+    "color": "black",
+    "text": "Options",
+    "highlighted": false,
+    "parent_text": "File",
+    "children_count": 0
+  },
+  {
+    "name": "Good morning",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      285,
+      70
+    ],
+    "rect": [
+      213,
+      49,
+      357,
+      91
+    ],
+    "width": 144,
+    "height": 42,
+    "color": "dark-green",
+    "text": "Good morning",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Hide or show region",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      197,
+      117
+    ],
+    "rect": [
+      185,
+      105,
+      209,
+      129
+    ],
+    "width": 24,
+    "height": 24,
+    "color": "black",
+    "text": "Hide or show region",
+    "highlighted": false,
+    "parent_text": "New",
+    "children_count": 0
+  },
+  {
+    "name": "More templates",
+    "type": "text",
+    "control_type": "Hyperlink",
+    "position": [
+      1047,
+      117
+    ],
+    "rect": [
+      993,
+      109,
+      1102,
+      125
+    ],
+    "width": 109,
+    "height": 16,
+    "color": "dark-green",
+    "text": "More templates",
+    "highlighted": false,
+    "parent_text": "New",
+    "children_count": 0
+  },
+  {
+    "name": "Templates",
+    "type": "text",
+    "control_type": "List",
+    "position": [
+      655,
+      219
+    ],
+    "rect": [
+      209,
+      143,
+      1102,
+      295
+    ],
+    "width": 893,
+    "height": 152,
+    "color": "gray",
+    "text": "Templates",
+    "highlighted": false,
+    "parent_text": "New",
+    "children_count": 4
+  },
+  {
+    "name": "Blank workbook",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      299,
+      219
+    ],
+    "rect": [
+      209,
+      143,
+      389,
+      295
+    ],
+    "width": 180,
+    "height": 152,
+    "color": "gray",
+    "text": "Blank workbook",
+    "highlighted": false,
+    "parent_text": "Templates",
+    "children_count": 0
+  },
+  {
+    "name": "Welcome to Excel",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      537,
+      219
+    ],
+    "rect": [
+      447,
+      143,
+      627,
+      295
+    ],
+    "width": 180,
+    "height": 152,
+    "color": "gray",
+    "text": "Welcome to Excel",
+    "highlighted": false,
+    "parent_text": "Templates",
+    "children_count": 0
+  },
+  {
+    "name": "Formula tutorial",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      775,
+      219
+    ],
+    "rect": [
+      685,
+      143,
+      865,
+      295
+    ],
+    "width": 180,
+    "height": 152,
+    "color": "gray",
+    "text": "Formula tutorial",
+    "highlighted": false,
+    "parent_text": "Templates",
+    "children_count": 0
+  },
+  {
+    "name": "PivotTable tutorial",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      1012,
+      219
+    ],
+    "rect": [
+      922,
+      143,
+      1102,
+      295
+    ],
+    "width": 180,
+    "height": 152,
+    "color": "gray",
+    "text": "PivotTable tutorial",
+    "highlighted": false,
+    "parent_text": "Templates",
+    "children_count": 0
+  },
+  {
+    "name": "Recent",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      250,
+      355
+    ],
+    "rect": [
+      209,
+      339,
+      291,
+      371
+    ],
+    "width": 82,
+    "height": 32,
+    "color": "dark-cyan",
+    "text": "Recent",
+    "highlighted": false,
+    "parent_text": "Open",
+    "children_count": 0
+  },
+  {
+    "name": "Favorites",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      344,
+      355
+    ],
+    "rect": [
+      303,
+      339,
+      385,
+      371
+    ],
+    "width": 82,
+    "height": 32,
+    "color": "dark-green",
+    "text": "Favorites",
+    "highlighted": false,
+    "parent_text": "Open",
+    "children_count": 0
+  },
+  {
+    "name": "Shared with Me",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      457,
+      355
+    ],
+    "rect": [
+      397,
+      339,
+      518,
+      371
+    ],
+    "width": 121,
+    "height": 32,
+    "color": "dark-green",
+    "text": "Shared with Me",
+    "highlighted": false,
+    "parent_text": "Open",
+    "children_count": 0
+  },
+  {
+    "name": "Search",
+    "type": "text",
+    "control_type": "Edit",
+    "position": [
+      898,
+      354
+    ],
+    "rect": [
+      695,
+      347,
+      1101,
+      362
+    ],
+    "width": 406,
+    "height": 15,
+    "color": "black",
+    "text": "Search",
+    "highlighted": false,
+    "parent_text": "Open",
+    "children_count": 0
+  },
+  {
+    "name": "subject.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      434
+    ],
+    "rect": [
+      209,
+      406,
+      1102,
+      462
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "subject.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "normalization.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      490
+    ],
+    "rect": [
+      209,
+      462,
+      1102,
+      518
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "normalization.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "normalization-excel-tasks-v2_AAAI2023.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      546
+    ],
+    "rect": [
+      209,
+      518,
+      1102,
+      574
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "normalization-excel-tasks-v2_AAAI2023.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "PostDocSearch.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      602
+    ],
+    "rect": [
+      209,
+      574,
+      1102,
+      630
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "PostDocSearch.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "data.csv",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      658
+    ],
+    "rect": [
+      209,
+      630,
+      1102,
+      686
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "data.csv",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "Mislabels_and_feature_predictions.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      714
+    ],
+    "rect": [
+      209,
+      686,
+      1102,
+      742
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "Mislabels_and_feature_predictions.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "Quiz-Makeup Tracking.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      770
+    ],
+    "rect": [
+      209,
+      742,
+      1102,
+      798
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "Quiz-Makeup Tracking.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "Labs_absence.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      826
+    ],
+    "rect": [
+      209,
+      798,
+      1102,
+      854
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "Labs_absence.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "ExcelModelTrace-v4-AIEDAM2022.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      882
+    ],
+    "rect": [
+      209,
+      854,
+      1102,
+      910
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "ExcelModelTrace-v4-AIEDAM2022.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "Hard_maze_V4.xlsx",
+    "type": "listitem",
+    "control_type": "ListItem",
+    "position": [
+      655,
+      938
+    ],
+    "rect": [
+      209,
+      910,
+      1102,
+      966
+    ],
+    "width": 893,
+    "height": 56,
+    "color": "black",
+    "text": "Hard_maze_V4.xlsx",
+    "highlighted": false,
+    "parent_text": "Recent",
+    "children_count": 0
+  },
+  {
+    "name": "More workbooks",
+    "type": "text",
+    "control_type": "Hyperlink",
+    "position": [
+      1044,
+      986
+    ],
+    "rect": [
+      987,
+      978,
+      1102,
+      994
+    ],
+    "width": 115,
+    "height": 16,
+    "color": "dark-green",
+    "text": "More workbooks",
+    "highlighted": false,
+    "parent_text": "Open",
+    "children_count": 0
+  },
+  {
+    "name": "System",
+    "type": "text",
+    "control_type": "MenuBar",
+    "position": [
+      12,
+      19
+    ],
+    "rect": [
+      1,
+      8,
+      23,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "System",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      12,
+      19
+    ],
+    "rect": [
+      1,
+      8,
+      23,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "System",
+    "children_count": 0
+  },
+  {
+    "name": "Minimize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1051,
+      -11
+    ],
+    "rect": [
+      1028,
+      -23,
+      1075,
+      2
+    ],
+    "width": 47,
+    "height": 25,
+    "color": "black",
+    "text": "Minimize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Maximize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1098,
+      -11
+    ],
+    "rect": [
+      1075,
+      -23,
+      1121,
+      2
+    ],
+    "width": 46,
+    "height": 25,
+    "color": "black",
+    "text": "Maximize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1144,
+      -11
+    ],
+    "rect": [
+      1121,
+      -23,
+      1168,
+      2
+    ],
+    "width": 47,
+    "height": 25,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Status Bar",
+    "type": "text",
+    "control_type": "StatusBar",
+    "position": [
+      1544,
+      1020
+    ],
+    "rect": [
+      1169,
+      1009,
+      1919,
+      1031
+    ],
+    "width": 750,
+    "height": 22,
+    "color": "black",
+    "text": "Status Bar",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 11
+  },
+  {
+    "name": "Cell Mode Ready",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      1196,
+      1020
+    ],
+    "rect": [
+      1173,
+      1010,
+      1220,
+      1031
+    ],
+    "width": 47,
+    "height": 21,
+    "color": "black",
+    "text": "Cell Mode Ready",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Accessibility Checker Accessibility: Good to go",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1303,
+      1020
+    ],
+    "rect": [
+      1223,
+      1010,
+      1384,
+      1031
+    ],
+    "width": 161,
+    "height": 21,
+    "color": "black",
+    "text": "Accessibility Checker Accessibility: Good to go",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Display Settings",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1540,
+      1020
+    ],
+    "rect": [
+      1482,
+      1010,
+      1598,
+      1031
+    ],
+    "width": 116,
+    "height": 21,
+    "color": "black",
+    "text": "Display Settings",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Normal",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1628,
+      1020
+    ],
+    "rect": [
+      1608,
+      1010,
+      1648,
+      1031
+    ],
+    "width": 40,
+    "height": 21,
+    "color": "dark-green",
+    "text": "Normal",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Page Layout",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1668,
+      1020
+    ],
+    "rect": [
+      1648,
+      1010,
+      1688,
+      1031
+    ],
+    "width": 40,
+    "height": 21,
+    "color": "black",
+    "text": "Page Layout",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Page Break Preview",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1708,
+      1020
+    ],
+    "rect": [
+      1688,
+      1010,
+      1728,
+      1031
+    ],
+    "width": 40,
+    "height": 21,
+    "color": "black",
+    "text": "Page Break Preview",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Zoom Out",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1738,
+      1020
+    ],
+    "rect": [
+      1729,
+      1010,
+      1747,
+      1031
+    ],
+    "width": 18,
+    "height": 21,
+    "color": "black",
+    "text": "Zoom Out",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Zoom",
+    "type": "text",
+    "control_type": "Slider",
+    "position": [
+      1797,
+      1020
+    ],
+    "rect": [
+      1747,
+      1010,
+      1847,
+      1031
+    ],
+    "width": 100,
+    "height": 21,
+    "color": "black",
+    "text": "Zoom",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 3
+  },
+  {
+    "name": "Zoom Out",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1771,
+      1020
+    ],
+    "rect": [
+      1747,
+      1010,
+      1795,
+      1031
+    ],
+    "width": 48,
+    "height": 21,
+    "color": "black",
+    "text": "Zoom Out",
+    "highlighted": false,
+    "parent_text": "Zoom",
+    "children_count": 0
+  },
+  {
+    "name": "Position",
+    "type": "text",
+    "control_type": "Thumb",
+    "position": [
+      1797,
+      1020
+    ],
+    "rect": [
+      1795,
+      1015,
+      1800,
+      1026
+    ],
+    "width": 5,
+    "height": 11,
+    "color": "dark-gray",
+    "text": "Position",
+    "highlighted": false,
+    "parent_text": "Zoom",
+    "children_count": 0
+  },
+  {
+    "name": "Zoom In",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1823,
+      1020
+    ],
+    "rect": [
+      1800,
+      1010,
+      1847,
+      1031
+    ],
+    "width": 47,
+    "height": 21,
+    "color": "black",
+    "text": "Zoom In",
+    "highlighted": false,
+    "parent_text": "Zoom",
+    "children_count": 0
+  },
+  {
+    "name": "Zoom In",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1856,
+      1020
+    ],
+    "rect": [
+      1847,
+      1010,
+      1865,
+      1031
+    ],
+    "width": 18,
+    "height": 21,
+    "color": "black",
+    "text": "Zoom In",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Zoom 100%",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      1886,
+      1020
+    ],
+    "rect": [
+      1865,
+      1010,
+      1908,
+      1031
+    ],
+    "width": 43,
+    "height": 21,
+    "color": "black",
+    "text": "Zoom 100%",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Size box",
+    "type": "text",
+    "control_type": "Thumb",
+    "position": [
+      1913,
+      1020
+    ],
+    "rect": [
+      1908,
+      1010,
+      1919,
+      1031
+    ],
+    "width": 11,
+    "height": 21,
+    "color": "black",
+    "text": "Size box",
+    "highlighted": false,
+    "parent_text": "Status Bar",
+    "children_count": 0
+  },
+  {
+    "name": "Quick Access Toolbar",
+    "type": "text",
+    "control_type": "ToolBar",
+    "position": [
+      1335,
+      25
+    ],
+    "rect": [
+      1211,
+      1,
+      1459,
+      49
+    ],
+    "width": 248,
+    "height": 48,
+    "color": "black",
+    "text": "Quick Access Toolbar",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 5
+  },
+  {
+    "name": "AutoSave",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1267,
+      24
+    ],
+    "rect": [
+      1211,
+      10,
+      1323,
+      39
+    ],
+    "width": 112,
+    "height": 29,
+    "color": "black",
+    "text": "AutoSave",
+    "highlighted": false,
+    "parent_text": "Quick Access Toolbar",
+    "children_count": 0
+  },
+  {
+    "name": "Save",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1338,
+      24
+    ],
+    "rect": [
+      1324,
+      10,
+      1352,
+      39
+    ],
+    "width": 28,
+    "height": 29,
+    "color": "black",
+    "text": "Save",
+    "highlighted": false,
+    "parent_text": "Quick Access Toolbar",
+    "children_count": 0
+  },
+  {
+    "name": "Undo",
+    "type": "text",
+    "control_type": "SplitButton",
+    "position": [
+      1372,
+      24
+    ],
+    "rect": [
+      1353,
+      10,
+      1391,
+      39
+    ],
+    "width": 38,
+    "height": 29,
+    "color": "black",
+    "text": "Undo",
+    "highlighted": false,
+    "parent_text": "Quick Access Toolbar",
+    "children_count": 2
+  },
+  {
+    "name": "Undo",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1365,
+      24
+    ],
+    "rect": [
+      1353,
+      10,
+      1378,
+      39
+    ],
+    "width": 25,
+    "height": 29,
+    "color": "black",
+    "text": "Undo",
+    "highlighted": false,
+    "parent_text": "Undo",
+    "children_count": 0
+  },
+  {
+    "name": "More Options",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1384,
+      24
+    ],
+    "rect": [
+      1378,
+      10,
+      1391,
+      39
+    ],
+    "width": 13,
+    "height": 29,
+    "color": "black",
+    "text": "More Options",
+    "highlighted": false,
+    "parent_text": "Undo",
+    "children_count": 0
+  },
+  {
+    "name": "Redo",
+    "type": "text",
+    "control_type": "SplitButton",
+    "position": [
+      1411,
+      24
+    ],
+    "rect": [
+      1392,
+      10,
+      1430,
+      39
+    ],
+    "width": 38,
+    "height": 29,
+    "color": "black",
+    "text": "Redo",
+    "highlighted": false,
+    "parent_text": "Quick Access Toolbar",
+    "children_count": 2
+  },
+  {
+    "name": "Redo",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1404,
+      24
+    ],
+    "rect": [
+      1392,
+      10,
+      1417,
+      39
+    ],
+    "width": 25,
+    "height": 29,
+    "color": "black",
+    "text": "Redo",
+    "highlighted": false,
+    "parent_text": "Redo",
+    "children_count": 0
+  },
+  {
+    "name": "More Options",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1423,
+      24
+    ],
+    "rect": [
+      1417,
+      10,
+      1430,
+      39
+    ],
+    "width": 13,
+    "height": 29,
+    "color": "black",
+    "text": "More Options",
+    "highlighted": false,
+    "parent_text": "Redo",
+    "children_count": 0
+  },
+  {
+    "name": "Customize Quick Access Toolbar",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1445,
+      24
+    ],
+    "rect": [
+      1431,
+      9,
+      1459,
+      40
+    ],
+    "width": 28,
+    "height": 31,
+    "color": "black",
+    "text": "Customize Quick Access Toolbar",
+    "highlighted": false,
+    "parent_text": "Quick Access Toolbar",
+    "children_count": 0
+  },
+  {
+    "name": "\u202anormalization-excel-tasks-v2_AAAI2023.xlsx\u202c  -  Saved",
+    "type": "text",
+    "control_type": "TitleBar",
+    "position": [
+      1565,
+      25
+    ],
+    "rect": [
+      1460,
+      1,
+      1671,
+      49
+    ],
+    "width": 211,
+    "height": 48,
+    "color": "black",
+    "text": "\u202anormalization-excel-tasks-v2_AAAI2023.xlsx\u202c  -  Saved",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 1
+  },
+  {
+    "name": "\u202anormalization-excel-tasks-v2_AAAI2023.xlsx\u202c  -  Saved",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1555,
+      25
+    ],
+    "rect": [
+      1460,
+      1,
+      1650,
+      49
+    ],
+    "width": 190,
+    "height": 48,
+    "color": "black",
+    "text": "\u202anormalization-excel-tasks-v2_AAAI2023.xlsx\u202c  -  Saved",
+    "highlighted": false,
+    "parent_text": "\u202anormalization-excel-tasks-v2_AAAI2023.xlsx\u202c  -  Saved",
+    "children_count": 1
+  },
+  {
+    "name": "Search",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1694,
+      25
+    ],
+    "rect": [
+      1671,
+      7,
+      1717,
+      43
+    ],
+    "width": 46,
+    "height": 36,
+    "color": "black",
+    "text": "Search",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Bagherzadehkhorasani, Amirreza",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1750,
+      25
+    ],
+    "rect": [
+      1725,
+      1,
+      1775,
+      49
+    ],
+    "width": 50,
+    "height": 48,
+    "color": "black",
+    "text": "Bagherzadehkhorasani, Amirreza",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Minimize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1799,
+      25
+    ],
+    "rect": [
+      1775,
+      1,
+      1823,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Minimize",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Maximize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1847,
+      25
+    ],
+    "rect": [
+      1823,
+      1,
+      1871,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Maximize",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1895,
+      25
+    ],
+    "rect": [
+      1871,
+      1,
+      1919,
+      49
+    ],
+    "width": 48,
+    "height": 48,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "File Tab",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1200,
+      64
+    ],
+    "rect": [
+      1173,
+      49,
+      1227,
+      79
+    ],
+    "width": 54,
+    "height": 30,
+    "color": "black",
+    "text": "File Tab",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Ribbon Tabs",
+    "type": "text",
+    "control_type": "Tab",
+    "position": [
+      1567,
+      64
+    ],
+    "rect": [
+      1227,
+      49,
+      1907,
+      79
+    ],
+    "width": 680,
+    "height": 30,
+    "color": "black",
+    "text": "Ribbon Tabs",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 12
+  },
+  {
+    "name": "Home",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1254,
+      64
+    ],
+    "rect": [
+      1227,
+      49,
+      1282,
+      79
+    ],
+    "width": 55,
+    "height": 30,
+    "color": "black",
+    "text": "Home",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Insert",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1309,
+      64
+    ],
+    "rect": [
+      1283,
+      49,
+      1336,
+      79
+    ],
+    "width": 53,
+    "height": 30,
+    "color": "black",
+    "text": "Insert",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Draw",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1361,
+      64
+    ],
+    "rect": [
+      1337,
+      49,
+      1386,
+      79
+    ],
+    "width": 49,
+    "height": 30,
+    "color": "black",
+    "text": "Draw",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Page Layout",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1433,
+      64
+    ],
+    "rect": [
+      1387,
+      49,
+      1480,
+      79
+    ],
+    "width": 93,
+    "height": 30,
+    "color": "black",
+    "text": "Page Layout",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Formulas",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1518,
+      64
+    ],
+    "rect": [
+      1481,
+      49,
+      1555,
+      79
+    ],
+    "width": 74,
+    "height": 30,
+    "color": "black",
+    "text": "Formulas",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Data",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1579,
+      64
+    ],
+    "rect": [
+      1556,
+      49,
+      1602,
+      79
+    ],
+    "width": 46,
+    "height": 30,
+    "color": "black",
+    "text": "Data",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Review",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1633,
+      64
+    ],
+    "rect": [
+      1603,
+      49,
+      1663,
+      79
+    ],
+    "width": 60,
+    "height": 30,
+    "color": "black",
+    "text": "Review",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "View",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1687,
+      64
+    ],
+    "rect": [
+      1664,
+      49,
+      1710,
+      79
+    ],
+    "width": 46,
+    "height": 30,
+    "color": "black",
+    "text": "View",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Automate",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1750,
+      64
+    ],
+    "rect": [
+      1711,
+      49,
+      1790,
+      79
+    ],
+    "width": 79,
+    "height": 30,
+    "color": "black",
+    "text": "Automate",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Help",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1814,
+      64
+    ],
+    "rect": [
+      1791,
+      49,
+      1837,
+      79
+    ],
+    "width": 46,
+    "height": 30,
+    "color": "black",
+    "text": "Help",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Comments",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1855,
+      64
+    ],
+    "rect": [
+      1843,
+      52,
+      1867,
+      76
+    ],
+    "width": 24,
+    "height": 24,
+    "color": "dark-green",
+    "text": "Comments",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Share",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1891,
+      64
+    ],
+    "rect": [
+      1875,
+      49,
+      1907,
+      79
+    ],
+    "width": 32,
+    "height": 30,
+    "color": "dark-cyan",
+    "text": "Share",
+    "highlighted": false,
+    "parent_text": "Ribbon Tabs",
+    "children_count": 0
+  },
+  {
+    "name": "Clipboard",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1216,
+      129
+    ],
+    "rect": [
+      1181,
+      81,
+      1251,
+      177
+    ],
+    "width": 70,
+    "height": 96,
+    "color": "dark-green",
+    "text": "Clipboard",
+    "highlighted": false,
+    "parent_text": "Clipboard",
+    "children_count": 0
+  },
+  {
+    "name": "Font",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1278,
+      129
+    ],
+    "rect": [
+      1251,
+      81,
+      1306,
+      177
+    ],
+    "width": 55,
+    "height": 96,
+    "color": "dark-green",
+    "text": "Font",
+    "highlighted": false,
+    "parent_text": "Font",
+    "children_count": 0
+  },
+  {
+    "name": "Alignment",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1343,
+      129
+    ],
+    "rect": [
+      1306,
+      81,
+      1380,
+      177
+    ],
+    "width": 74,
+    "height": 96,
+    "color": "black",
+    "text": "Alignment",
+    "highlighted": false,
+    "parent_text": "Alignment",
+    "children_count": 0
+  },
+  {
+    "name": "Number",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1411,
+      129
+    ],
+    "rect": [
+      1380,
+      81,
+      1442,
+      177
+    ],
+    "width": 62,
+    "height": 96,
+    "color": "black",
+    "text": "Number",
+    "highlighted": false,
+    "parent_text": "Number",
+    "children_count": 0
+  },
+  {
+    "name": "Conditional Formatting",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1534,
+      95
+    ],
+    "rect": [
+      1450,
+      83,
+      1618,
+      107
+    ],
+    "width": 168,
+    "height": 24,
+    "color": "dark-green",
+    "text": "Conditional Formatting",
+    "highlighted": false,
+    "parent_text": "Styles",
+    "children_count": 0
+  },
+  {
+    "name": "Format as Table",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1513,
+      121
+    ],
+    "rect": [
+      1450,
+      109,
+      1577,
+      133
+    ],
+    "width": 127,
+    "height": 24,
+    "color": "dark-green",
+    "text": "Format as Table",
+    "highlighted": false,
+    "parent_text": "Styles",
+    "children_count": 0
+  },
+  {
+    "name": "Cell Styles",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1498,
+      147
+    ],
+    "rect": [
+      1450,
+      135,
+      1547,
+      159
+    ],
+    "width": 97,
+    "height": 24,
+    "color": "dark-green",
+    "text": "Cell Styles",
+    "highlighted": false,
+    "parent_text": "Styles",
+    "children_count": 0
+  },
+  {
+    "name": "Cells",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1653,
+      129
+    ],
+    "rect": [
+      1626,
+      81,
+      1681,
+      177
+    ],
+    "width": 55,
+    "height": 96,
+    "color": "dark-green",
+    "text": "Cells",
+    "highlighted": false,
+    "parent_text": "Cells",
+    "children_count": 0
+  },
+  {
+    "name": "Editing",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1708,
+      129
+    ],
+    "rect": [
+      1681,
+      81,
+      1736,
+      177
+    ],
+    "width": 55,
+    "height": 96,
+    "color": "black",
+    "text": "Editing",
+    "highlighted": false,
+    "parent_text": "Editing",
+    "children_count": 0
+  },
+  {
+    "name": "Sensitivity",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1773,
+      121
+    ],
+    "rect": [
+      1744,
+      83,
+      1802,
+      159
+    ],
+    "width": 58,
+    "height": 76,
+    "color": "black",
+    "text": "Sensitivity",
+    "highlighted": false,
+    "parent_text": "Sensitivity",
+    "children_count": 0
+  },
+  {
+    "name": "Add\u2011ins",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1841,
+      121
+    ],
+    "rect": [
+      1818,
+      83,
+      1865,
+      159
+    ],
+    "width": 47,
+    "height": 76,
+    "color": "black",
+    "text": "Add\u2011ins",
+    "highlighted": false,
+    "parent_text": "Add-ins",
+    "children_count": 0
+  },
+  {
+    "name": "Column right",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1871,
+      129
+    ],
+    "rect": [
+      1859,
+      79,
+      1883,
+      179
+    ],
+    "width": 24,
+    "height": 100,
+    "color": "black",
+    "text": "Column right",
+    "highlighted": false,
+    "parent_text": "Lower Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Ribbon Display Options",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1897,
+      165
+    ],
+    "rect": [
+      1887,
+      155,
+      1907,
+      175
+    ],
+    "width": 20,
+    "height": 20,
+    "color": "black",
+    "text": "Ribbon Display Options",
+    "highlighted": false,
+    "parent_text": "Ribbon",
+    "children_count": 0
+  },
+  {
+    "name": "Formula Bar",
+    "type": "text",
+    "control_type": "Edit",
+    "position": [
+      1758,
+      199
+    ],
+    "rect": [
+      1389,
+      179,
+      2127,
+      220
+    ],
+    "width": 738,
+    "height": 41,
+    "color": "black",
+    "text": "Formula Bar",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023.xlsx - Excel",
+    "children_count": 0
+  },
+  {
+    "name": "Name Box",
+    "type": "text",
+    "control_type": "ComboBox",
+    "position": [
+      1228,
+      200
+    ],
+    "rect": [
+      1178,
+      188,
+      1278,
+      213
+    ],
+    "width": 100,
+    "height": 25,
+    "color": "black",
+    "text": "Name Box",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 2
+  },
+  {
+    "name": "Name Box",
+    "type": "text",
+    "control_type": "Edit",
+    "position": [
+      1219,
+      200
+    ],
+    "rect": [
+      1181,
+      191,
+      1258,
+      210
+    ],
+    "width": 77,
+    "height": 19,
+    "color": "dark-green",
+    "text": "Name Box",
+    "highlighted": false,
+    "parent_text": "Name Box",
+    "children_count": 0
+  },
+  {
+    "name": "Open",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1269,
+      200
+    ],
+    "rect": [
+      1262,
+      189,
+      1277,
+      212
+    ],
+    "width": 15,
+    "height": 23,
+    "color": "black",
+    "text": "Open",
+    "highlighted": false,
+    "parent_text": "Name Box",
+    "children_count": 0
+  },
+  {
+    "name": "Line up",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1908,
+      228
+    ],
+    "rect": [
+      1900,
+      220,
+      1917,
+      237
+    ],
+    "width": 17,
+    "height": 17,
+    "color": "black",
+    "text": "Line up",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Page down",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1908,
+      771
+    ],
+    "rect": [
+      1900,
+      579,
+      1917,
+      963
+    ],
+    "width": 17,
+    "height": 384,
+    "color": "black",
+    "text": "Page down",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Line down",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1908,
+      971
+    ],
+    "rect": [
+      1900,
+      963,
+      1917,
+      980
+    ],
+    "width": 17,
+    "height": 17,
+    "color": "black",
+    "text": "Line down",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Column left",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1646,
+      992
+    ],
+    "rect": [
+      1638,
+      984,
+      1655,
+      1001
+    ],
+    "width": 17,
+    "height": 17,
+    "color": "black",
+    "text": "Column left",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Page right",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1797,
+      992
+    ],
+    "rect": [
+      1712,
+      984,
+      1883,
+      1001
+    ],
+    "width": 171,
+    "height": 17,
+    "color": "black",
+    "text": "Page right",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Column right",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1891,
+      992
+    ],
+    "rect": [
+      1883,
+      984,
+      1900,
+      1001
+    ],
+    "width": 17,
+    "height": 17,
+    "color": "black",
+    "text": "Column right",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "normalization-excel-tasks-v2_AAAI2023",
+    "type": "text",
+    "control_type": "Tab",
+    "position": [
+      1387,
+      993
+    ],
+    "rect": [
+      1169,
+      977,
+      1606,
+      1009
+    ],
+    "width": 437,
+    "height": 32,
+    "color": "dark-green",
+    "text": "normalization-excel-tasks-v2_AAAI2023",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 8
+  },
+  {
+    "name": "Scroll Left",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1201,
+      993
+    ],
+    "rect": [
+      1185,
+      977,
+      1217,
+      1009
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Scroll Left",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Scroll Right",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1233,
+      993
+    ],
+    "rect": [
+      1217,
+      977,
+      1249,
+      1009
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Scroll Right",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Add Sheet",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1590,
+      993
+    ],
+    "rect": [
+      1574,
+      977,
+      1606,
+      1009
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Add Sheet",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Blank",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1251,
+      993
+    ],
+    "rect": [
+      1221,
+      977,
+      1281,
+      1009
+    ],
+    "width": 60,
+    "height": 32,
+    "color": "black",
+    "text": "Blank",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Complete",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1324,
+      993
+    ],
+    "rect": [
+      1281,
+      977,
+      1367,
+      1009
+    ],
+    "width": 86,
+    "height": 32,
+    "color": "black",
+    "text": "Complete",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Tasks-detailed",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1425,
+      993
+    ],
+    "rect": [
+      1367,
+      977,
+      1484,
+      1009
+    ],
+    "width": 117,
+    "height": 32,
+    "color": "dark-gray",
+    "text": "Tasks-detailed",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Excel",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1512,
+      993
+    ],
+    "rect": [
+      1484,
+      977,
+      1541,
+      1009
+    ],
+    "width": 57,
+    "height": 32,
+    "color": "black",
+    "text": "Excel",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Notes",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      1572,
+      993
+    ],
+    "rect": [
+      1541,
+      977,
+      1604,
+      1009
+    ],
+    "width": 63,
+    "height": 32,
+    "color": "black",
+    "text": "Notes",
+    "highlighted": false,
+    "parent_text": "normalization-excel-tasks-v2_AAAI2023",
+    "children_count": 0
+  },
+  {
+    "name": "Select All",
+    "type": "text",
+    "control_type": "HeaderItem",
+    "position": [
+      1182,
+      230
+    ],
+    "rect": [
+      1169,
+      220,
+      1195,
+      240
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "Select All",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0
+  },
+  {
+    "name": "A",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      230
+    ],
+    "rect": [
+      1195,
+      220,
+      1540,
+      240
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "black",
+    "text": "A",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "B",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      230
+    ],
+    "rect": [
+      1540,
+      220,
+      2243,
+      240
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "black",
+    "text": "B",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "column"
+  },
+  {
+    "name": "1",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      250
+    ],
+    "rect": [
+      1169,
+      240,
+      1195,
+      260
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "1",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "Author: Farnaz, Date: 4/28/2019",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      250
+    ],
+    "rect": [
+      1195,
+      240,
+      1540,
+      260
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "Author: Farnaz, Date: 4/28/2019",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "B1",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      250
+    ],
+    "rect": [
+      1540,
+      240,
+      2243,
+      260
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B1",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B1"
+  },
+  {
+    "name": "2",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      270
+    ],
+    "rect": [
+      1169,
+      260,
+      1195,
+      280
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "2",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "Task",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      270
+    ],
+    "rect": [
+      1195,
+      260,
+      1540,
+      280
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "gray",
+    "text": "Task",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "All steps for Excel",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      270
+    ],
+    "rect": [
+      1540,
+      260,
+      2243,
+      280
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "dark-green",
+    "text": "All steps for Excel",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "3",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      290
+    ],
+    "rect": [
+      1169,
+      280,
+      1195,
+      300
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "3",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(1) OPEN FILE",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      290
+    ],
+    "rect": [
+      1195,
+      280,
+      1540,
+      300
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "(1) OPEN FILE",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Go to and select File",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      290
+    ],
+    "rect": [
+      1540,
+      280,
+      2243,
+      300
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to and select File",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "4",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      310
+    ],
+    "rect": [
+      1169,
+      300,
+      1195,
+      320
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "4",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A4",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      310
+    ],
+    "rect": [
+      1195,
+      300,
+      1540,
+      320
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A4",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A4"
+  },
+  {
+    "name": "Go to and select Open",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      310
+    ],
+    "rect": [
+      1540,
+      300,
+      2243,
+      320
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to and select Open",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "5",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      330
+    ],
+    "rect": [
+      1169,
+      320,
+      1195,
+      340
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "5",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A5",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      330
+    ],
+    "rect": [
+      1195,
+      320,
+      1540,
+      340
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A5",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A5"
+  },
+  {
+    "name": "Go to Under Workbook and select normalization.xlsx",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      330
+    ],
+    "rect": [
+      1540,
+      320,
+      2243,
+      340
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to Under Workbook and select normalization.xlsx",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "6",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      350
+    ],
+    "rect": [
+      1169,
+      340,
+      1195,
+      360
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "6",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A6",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      350
+    ],
+    "rect": [
+      1195,
+      340,
+      1540,
+      360
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A6",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A6"
+  },
+  {
+    "name": "B6",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      350
+    ],
+    "rect": [
+      1540,
+      340,
+      2243,
+      360
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B6",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B6"
+  },
+  {
+    "name": "7",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      370
+    ],
+    "rect": [
+      1169,
+      360,
+      1195,
+      380
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "7",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A7",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      370
+    ],
+    "rect": [
+      1195,
+      360,
+      1540,
+      380
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A7",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A7"
+  },
+  {
+    "name": "B7",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      370
+    ],
+    "rect": [
+      1540,
+      360,
+      2243,
+      380
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B7",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B7"
+  },
+  {
+    "name": "8",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      390
+    ],
+    "rect": [
+      1169,
+      380,
+      1195,
+      400
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "8",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(2) SAVE AS",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      390
+    ],
+    "rect": [
+      1195,
+      380,
+      1540,
+      400
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "(2) SAVE AS",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Go to and select File",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      390
+    ],
+    "rect": [
+      1540,
+      380,
+      2243,
+      400
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to and select File",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "9",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      410
+    ],
+    "rect": [
+      1169,
+      400,
+      1195,
+      420
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "9",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A9",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      410
+    ],
+    "rect": [
+      1195,
+      400,
+      1540,
+      420
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A9",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A9"
+  },
+  {
+    "name": "Go to and select Save as",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      410
+    ],
+    "rect": [
+      1540,
+      400,
+      2243,
+      420
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to and select Save as",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "10",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      430
+    ],
+    "rect": [
+      1169,
+      420,
+      1195,
+      440
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "10",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A10",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      430
+    ],
+    "rect": [
+      1195,
+      420,
+      1540,
+      440
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A10",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A10"
+  },
+  {
+    "name": "Go to file name area",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      430
+    ],
+    "rect": [
+      1540,
+      420,
+      2243,
+      440
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to file name area",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "11",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      450
+    ],
+    "rect": [
+      1169,
+      440,
+      1195,
+      460
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "11",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A11",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      450
+    ],
+    "rect": [
+      1195,
+      440,
+      1540,
+      460
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A11",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A11"
+  },
+  {
+    "name": "Type subject",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      450
+    ],
+    "rect": [
+      1540,
+      440,
+      2243,
+      460
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Type subject",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "12",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      470
+    ],
+    "rect": [
+      1169,
+      460,
+      1195,
+      480
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "12",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A12",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      470
+    ],
+    "rect": [
+      1195,
+      460,
+      1540,
+      480
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A12",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A12"
+  },
+  {
+    "name": "Go to and select Save",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      470
+    ],
+    "rect": [
+      1540,
+      460,
+      2243,
+      480
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Go to and select Save",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "13",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      490
+    ],
+    "rect": [
+      1169,
+      480,
+      1195,
+      500
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "13",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(3) CALCULATE FREQUENCY (B6 to B10)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      490
+    ],
+    "rect": [
+      1195,
+      480,
+      1540,
+      500
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "(3) CALCULATE FREQUENCY (B6 to B10)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Move and Select b7",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      490
+    ],
+    "rect": [
+      1540,
+      480,
+      2243,
+      500
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Move and Select b7",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "14",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      510
+    ],
+    "rect": [
+      1169,
+      500,
+      1195,
+      520
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "14",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A14",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      510
+    ],
+    "rect": [
+      1195,
+      500,
+      1540,
+      520
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A14",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A14"
+  },
+  {
+    "name": "Type in =(c7*b13)/100",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      510
+    ],
+    "rect": [
+      1540,
+      500,
+      2243,
+      520
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Type in =(c7*b13)/100",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "15",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      530
+    ],
+    "rect": [
+      1169,
+      520,
+      1195,
+      540
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "15",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A15",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      530
+    ],
+    "rect": [
+      1195,
+      520,
+      1540,
+      540
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A15",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A15"
+  },
+  {
+    "name": "Enter",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      530
+    ],
+    "rect": [
+      1540,
+      520,
+      2243,
+      540
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Enter",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "16",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      550
+    ],
+    "rect": [
+      1169,
+      540,
+      1195,
+      560
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "16",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A16",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      550
+    ],
+    "rect": [
+      1195,
+      540,
+      1540,
+      560
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A16",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A16"
+  },
+  {
+    "name": "[Repeat for b8 to b11]",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      550
+    ],
+    "rect": [
+      1540,
+      540,
+      2243,
+      560
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "[Repeat for b8 to b11]",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "17",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      570
+    ],
+    "rect": [
+      1169,
+      560,
+      1195,
+      580
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "17",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A17",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      570
+    ],
+    "rect": [
+      1195,
+      560,
+      1540,
+      580
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A17",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A17"
+  },
+  {
+    "name": "B17",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      570
+    ],
+    "rect": [
+      1540,
+      560,
+      2243,
+      580
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B17",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B17"
+  },
+  {
+    "name": "18",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      590
+    ],
+    "rect": [
+      1169,
+      580,
+      1195,
+      600
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "18",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A18",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      590
+    ],
+    "rect": [
+      1195,
+      580,
+      1540,
+      600
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A18",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A18"
+  },
+  {
+    "name": "B18",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      590
+    ],
+    "rect": [
+      1540,
+      580,
+      2243,
+      600
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B18",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B18"
+  },
+  {
+    "name": "19",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      610
+    ],
+    "rect": [
+      1169,
+      600,
+      1195,
+      620
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "19",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(4) CALCULATE TOTAL FREQUENCY (B13)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      610
+    ],
+    "rect": [
+      1195,
+      600,
+      1540,
+      620
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "(4) CALCULATE TOTAL FREQUENCY (B13)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Move and Select b14",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      610
+    ],
+    "rect": [
+      1540,
+      600,
+      2243,
+      620
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Move and Select b14",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "20",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      630
+    ],
+    "rect": [
+      1169,
+      620,
+      1195,
+      640
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "20",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A20",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      630
+    ],
+    "rect": [
+      1195,
+      620,
+      1540,
+      640
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A20",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A20"
+  },
+  {
+    "name": "Type in =sum(b2:b11)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      630
+    ],
+    "rect": [
+      1540,
+      620,
+      2243,
+      640
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Type in =sum(b2:b11)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "21",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      650
+    ],
+    "rect": [
+      1169,
+      640,
+      1195,
+      660
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "21",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A21",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      650
+    ],
+    "rect": [
+      1195,
+      640,
+      1540,
+      660
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A21",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A21"
+  },
+  {
+    "name": "Enter",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      650
+    ],
+    "rect": [
+      1540,
+      640,
+      2243,
+      660
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Enter",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "22",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      670
+    ],
+    "rect": [
+      1169,
+      660,
+      1195,
+      680
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "22",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A22",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      670
+    ],
+    "rect": [
+      1195,
+      660,
+      1540,
+      680
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A22",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A22"
+  },
+  {
+    "name": "B22",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      670
+    ],
+    "rect": [
+      1540,
+      660,
+      2243,
+      680
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B22",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B22"
+  },
+  {
+    "name": "23",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      690
+    ],
+    "rect": [
+      1169,
+      680,
+      1195,
+      700
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "23",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A23",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      690
+    ],
+    "rect": [
+      1195,
+      680,
+      1540,
+      700
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A23",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A23"
+  },
+  {
+    "name": "B23",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      690
+    ],
+    "rect": [
+      1540,
+      680,
+      2243,
+      700
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B23",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B23"
+  },
+  {
+    "name": "24",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      710
+    ],
+    "rect": [
+      1169,
+      700,
+      1195,
+      720
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "24",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(5) CALCULATE NORMALIZATION (C1 to C5)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      710
+    ],
+    "rect": [
+      1195,
+      700,
+      1540,
+      720
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "(5) CALCULATE NORMALIZATION (C1 to C5)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Move and Select c2",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      710
+    ],
+    "rect": [
+      1540,
+      700,
+      2243,
+      720
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Move and Select c2",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "25",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      730
+    ],
+    "rect": [
+      1169,
+      720,
+      1195,
+      740
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "25",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A25",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      730
+    ],
+    "rect": [
+      1195,
+      720,
+      1540,
+      740
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A25",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A25"
+  },
+  {
+    "name": "Type in =(B2*100)/b13",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      730
+    ],
+    "rect": [
+      1540,
+      720,
+      2243,
+      740
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Type in =(B2*100)/b13",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "26",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      750
+    ],
+    "rect": [
+      1169,
+      740,
+      1195,
+      760
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "26",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A26",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      750
+    ],
+    "rect": [
+      1195,
+      740,
+      1540,
+      760
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A26",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A26"
+  },
+  {
+    "name": "Enter",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      750
+    ],
+    "rect": [
+      1540,
+      740,
+      2243,
+      760
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Enter",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "27",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      770
+    ],
+    "rect": [
+      1169,
+      760,
+      1195,
+      780
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "27",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A27",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      770
+    ],
+    "rect": [
+      1195,
+      760,
+      1540,
+      780
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A27",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A27"
+  },
+  {
+    "name": "[Repeat for C3 to C6]",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      770
+    ],
+    "rect": [
+      1540,
+      760,
+      2243,
+      780
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "[Repeat for C3 to C6]",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "28",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      790
+    ],
+    "rect": [
+      1169,
+      780,
+      1195,
+      800
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "28",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A28",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      790
+    ],
+    "rect": [
+      1195,
+      780,
+      1540,
+      800
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A28",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A28"
+  },
+  {
+    "name": "B28",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      790
+    ],
+    "rect": [
+      1540,
+      780,
+      2243,
+      800
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B28",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B28"
+  },
+  {
+    "name": "29",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      810
+    ],
+    "rect": [
+      1169,
+      800,
+      1195,
+      820
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "29",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A29",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      810
+    ],
+    "rect": [
+      1195,
+      800,
+      1540,
+      820
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A29",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A29"
+  },
+  {
+    "name": "B29",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      810
+    ],
+    "rect": [
+      1540,
+      800,
+      2243,
+      820
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B29",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B29"
+  },
+  {
+    "name": "30",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      830
+    ],
+    "rect": [
+      1169,
+      820,
+      1195,
+      840
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "30",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(6) CALCULATE TOTAL NORMALIZATION (C13)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      830
+    ],
+    "rect": [
+      1195,
+      820,
+      1540,
+      840
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "(6) CALCULATE TOTAL NORMALIZATION (C13)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Move and Select c14",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      830
+    ],
+    "rect": [
+      1540,
+      820,
+      2243,
+      840
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Move and Select c14",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "31",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      850
+    ],
+    "rect": [
+      1169,
+      840,
+      1195,
+      860
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "31",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A31",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      850
+    ],
+    "rect": [
+      1195,
+      840,
+      1540,
+      860
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A31",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A31"
+  },
+  {
+    "name": "Type in =sum(c2:c11)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      850
+    ],
+    "rect": [
+      1540,
+      840,
+      2243,
+      860
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Type in =sum(c2:c11)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "32",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      870
+    ],
+    "rect": [
+      1169,
+      860,
+      1195,
+      880
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "32",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A32",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      870
+    ],
+    "rect": [
+      1195,
+      860,
+      1540,
+      880
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A32",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A32"
+  },
+  {
+    "name": "Enter",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      870
+    ],
+    "rect": [
+      1540,
+      860,
+      2243,
+      880
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Enter",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "33",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      890
+    ],
+    "rect": [
+      1169,
+      880,
+      1195,
+      900
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "33",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A33",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      890
+    ],
+    "rect": [
+      1195,
+      880,
+      1540,
+      900
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A33",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A33"
+  },
+  {
+    "name": "B33",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      890
+    ],
+    "rect": [
+      1540,
+      880,
+      2243,
+      900
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B33",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B33"
+  },
+  {
+    "name": "34",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      910
+    ],
+    "rect": [
+      1169,
+      900,
+      1195,
+      920
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "34",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A34",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      910
+    ],
+    "rect": [
+      1195,
+      900,
+      1540,
+      920
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A34",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A34"
+  },
+  {
+    "name": "B34",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      910
+    ],
+    "rect": [
+      1540,
+      900,
+      2243,
+      920
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "B34",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "B34"
+  },
+  {
+    "name": "35",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      930
+    ],
+    "rect": [
+      1169,
+      920,
+      1195,
+      940
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "35",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "(7) CALCULATE LENGTH (D1 to D10)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      930
+    ],
+    "rect": [
+      1195,
+      920,
+      1540,
+      940
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "(7) CALCULATE LENGTH (D1 to D10)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "Move and Select d2",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      930
+    ],
+    "rect": [
+      1540,
+      920,
+      2243,
+      940
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Move and Select d2",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "36",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      950
+    ],
+    "rect": [
+      1169,
+      940,
+      1195,
+      960
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "36",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A36",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      950
+    ],
+    "rect": [
+      1195,
+      940,
+      1540,
+      960
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "white",
+    "text": "A36",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A36"
+  },
+  {
+    "name": "Type in =len(a2)",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      950
+    ],
+    "rect": [
+      1540,
+      940,
+      2243,
+      960
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Type in =len(a2)",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "37",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1182,
+      970
+    ],
+    "rect": [
+      1169,
+      960,
+      1195,
+      980
+    ],
+    "width": 26,
+    "height": 20,
+    "color": "black",
+    "text": "37",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-type": "row"
+  },
+  {
+    "name": "A37",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1367,
+      970
+    ],
+    "rect": [
+      1195,
+      960,
+      1540,
+      980
+    ],
+    "width": 345,
+    "height": 20,
+    "color": "light-gray",
+    "text": "A37",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true,
+    "cell-address": "A37"
+  },
+  {
+    "name": "Enter",
+    "type": "cell",
+    "control_type": "DataItem",
+    "position": [
+      1891,
+      970
+    ],
+    "rect": [
+      1540,
+      960,
+      2243,
+      980
+    ],
+    "width": 703,
+    "height": 20,
+    "color": "gray",
+    "text": "Enter",
+    "highlighted": false,
+    "parent_text": "Grid",
+    "children_count": 0,
+    "cell": true
+  },
+  {
+    "name": "System",
+    "type": "text",
+    "control_type": "MenuBar",
+    "position": [
+      1180,
+      19
+    ],
+    "rect": [
+      1169,
+      8,
+      1191,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "System",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      1180,
+      19
+    ],
+    "rect": [
+      1169,
+      8,
+      1191,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "System",
+    "children_count": 0
+  },
+  {
+    "name": "Minimize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1803,
+      -11
+    ],
+    "rect": [
+      1780,
+      -23,
+      1827,
+      2
+    ],
+    "width": 47,
+    "height": 25,
+    "color": "black",
+    "text": "Minimize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Maximize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1850,
+      -11
+    ],
+    "rect": [
+      1827,
+      -23,
+      1873,
+      2
+    ],
+    "width": 46,
+    "height": 25,
+    "color": "black",
+    "text": "Maximize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1896,
+      -11
+    ],
+    "rect": [
+      1873,
+      -23,
+      1920,
+      2
+    ],
+    "width": 47,
+    "height": 25,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  }
+]

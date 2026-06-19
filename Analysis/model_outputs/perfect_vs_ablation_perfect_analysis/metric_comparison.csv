@@ -1,0 +1,17 @@
+metric_group,metric,model_label,value,absolute_value,lower_is_better,winner
+completion,overall_total_time_error_sec,Ablation Perfect,-237.22680790200008,237.22680790200008,True,Ablation Perfect
+completion,overall_total_time_error_pct,Ablation Perfect,-33.16079500882258,33.16079500882258,True,Ablation Perfect
+completion,mean_abs_task_pct_error,Ablation Perfect,39.59546211202066,39.59546211202066,True,Ablation Perfect
+completion,rmse_task_sec,Ablation Perfect,23.10027013638257,23.10027013638257,True,Ablation Perfect
+completion,overall_total_time_error_sec,Original Perfect,-352.21816504806264,352.21816504806264,True,Ablation Perfect
+completion,overall_total_time_error_pct,Original Perfect,-49.23488400336044,49.23488400336044,True,Ablation Perfect
+completion,mean_abs_task_pct_error,Original Perfect,51.73266802828334,51.73266802828334,True,Ablation Perfect
+completion,rmse_task_sec,Original Perfect,31.289512350009748,31.289512350009748,True,Ablation Perfect
+attention,total_count_error_pct,Original Perfect,-72.52467367080547,72.52467367080547,True,Ablation Perfect
+attention,overall_left_share_error_pp,Original Perfect,14.564133035877724,14.564133035877724,True,Original Perfect
+attention,step_left_share_mae_pp,Original Perfect,17.461560768150186,17.461560768150186,True,Original Perfect
+attention,step_count_rmse,Original Perfect,45.02053985001095,45.02053985001095,True,Ablation Perfect
+attention,total_count_error_pct,Ablation Perfect,-46.991404011461306,46.991404011461306,True,Ablation Perfect
+attention,overall_left_share_error_pp,Ablation Perfect,31.234645495034453,31.234645495034453,True,Original Perfect
+attention,step_left_share_mae_pp,Ablation Perfect,29.24528999689267,29.24528999689267,True,Original Perfect
+attention,step_count_rmse,Ablation Perfect,32.583465373459596,32.583465373459596,True,Ablation Perfect
