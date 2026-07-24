@@ -17,11 +17,11 @@ Gemini API.
 
 ## Important notes on the model names you asked for
 
-| You asked for | What actually exists | Default in this code |
-|---------------|----------------------|----------------------|
-| EGM | `nvidia/EGM-Qwen3-VL-8B`, `EGM-Qwen3-VL-4B`, `EGM-InternVL3-8B`, … | `nvidia/EGM-Qwen3-VL-8B` |
-| Gemma 4 8B | Doesn't exist. Available: E2B / **E4B** / 26B-A4B / 31B | `google/gemma-4-E4B-it` |
-| Qwen 3.6 27B | Exists but is **text-only** — can't see screenshots | `Qwen/Qwen3-VL-30B-A3B-Instruct` (real vision model from same generation) |
+| What actually exists | Default in this code |
+|----------------------|----------------------|
+| EGM-Qwen3-VL-8B | `nvidia/EGM-Qwen3-VL-8B` |
+| gemma-4-E4B-it |  `google/gemma-4-E4B-it` |
+| Qwen3-VL-30B-A3B-Instruct | `Qwen/Qwen3-VL-30B-A3B-Instruct` |
 
 You can override any default with `--model <hf-id>`.
 
