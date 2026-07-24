@@ -1,0 +1,266 @@
+{
+  "model": "gpt-5.5",
+  "provider": "openai",
+  "variant": "guide",
+  "condition": "per-step",
+  "per_task": {
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Type",
+          "notepad",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ]
+      ],
+      "targets": 0,
+      "resolved": 0
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Calculator",
+          2,
+          true
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Select",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 8,
+      "resolved": 8
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "Desktop",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Desktop",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "New",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "New",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Folder",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Folder",
+          3,
+          true
+        ],
+        [
+          "Type",
+          "Projects",
+          4,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 6,
+      "resolved": 6
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Rename",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Rename",
+          3,
+          true
+        ],
+        [
+          "Type",
+          "budget_2025.xlsx",
+          4,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 6,
+      "resolved": 6
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Goto",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "report.docx",
+          3,
+          true
+        ]
+      ],
+      "targets": 5,
+      "resolved": 5
+    }
+  }
+}

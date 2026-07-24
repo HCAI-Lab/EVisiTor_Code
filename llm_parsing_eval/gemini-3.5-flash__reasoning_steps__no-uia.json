@@ -1,0 +1,655 @@
+{
+  "model": "gemini-3.5-flash",
+  "provider": "gemini",
+  "variant": "reasoning_steps",
+  "condition": "no-uia",
+  "per_task": {
+    "W01": {
+      "prompt_chars": 2867,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 1,
+            "task_name": "run_notepad",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+r"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "notepad"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Close"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Close"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W02": {
+      "prompt_chars": 2939,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 2,
+            "task_name": "rename_budget_file",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "budget.xlsx"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "budget.xlsx"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Rename"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Rename"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "budget_2025.xlsx"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W03": {
+      "skipped": "no reasoning_steps in PSAI demo"
+    },
+    "W04": {
+      "skipped": "no reasoning_steps in PSAI demo"
+    },
+    "W05": {
+      "prompt_chars": 3034,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 5,
+            "task_name": "screen_resolution",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+i"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "System"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "System"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Display"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Display"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Display resolution"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Display resolution"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 5,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "1920 x 1080"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "1920 x 1080"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 6,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Close"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Close"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W06": {
+      "skipped": "no reasoning_steps in PSAI demo"
+    },
+    "W07": {
+      "skipped": "no reasoning_steps in PSAI demo"
+    },
+    "W08": {
+      "prompt_chars": 3016,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 8,
+            "task_name": "view_update_history",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Start"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Start"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Settings"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Settings"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Search box"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Search box"
+                  },
+                  {
+                    "action": "Type",
+                    "target": "updates"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Check for updates"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Check for updates"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 5,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Update history"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Update history"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 6,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Update history"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W09": {
+      "prompt_chars": 2975,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 9,
+            "task_name": "autohide_taskbar",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Taskbar"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Taskbar"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Taskbar settings"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Taskbar settings"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Taskbar behaviors"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Taskbar behaviors"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Automatically hide the taskbar"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Automatically hide the taskbar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W10": {
+      "skipped": "no reasoning_steps in PSAI demo"
+    }
+  },
+  "generated_spec_shape": [
+    {
+      "id": "W01",
+      "name": "run_notepad",
+      "unique_data_id": "cmaela4ed001gzr0xhfhqg921",
+      "app": "Run dialog",
+      "difficulty": "EASY",
+      "instruction": "Use the Run dialog (Win+R) to open Notepad on Windows.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+r"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "notepad"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Close"
+          ],
+          [
+            "Select",
+            "Close"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W02",
+      "name": "rename_budget_file",
+      "unique_data_id": "cmaela4el00dezr0xar3kk07l",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Rename the file 'budget.xlsx' to 'budget_2025.xlsx' using File Explorer.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "budget.xlsx"
+          ],
+          [
+            "Select",
+            "budget.xlsx"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Rename"
+          ],
+          [
+            "Select",
+            "Rename"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "budget_2025.xlsx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W05",
+      "name": "screen_resolution",
+      "unique_data_id": "cma092ib300e6wu0v1mk0doaw",
+      "app": "Windows Settings",
+      "difficulty": "EASY",
+      "instruction": "Adjust the screen resolution in Windows to 1920x1080 via Settings.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+i"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "System"
+          ],
+          [
+            "Select",
+            "System"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Display"
+          ],
+          [
+            "Select",
+            "Display"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Display resolution"
+          ],
+          [
+            "Select",
+            "Display resolution"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "1920 x 1080"
+          ],
+          [
+            "Select",
+            "1920 x 1080"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Close"
+          ],
+          [
+            "Select",
+            "Close"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W08",
+      "name": "view_update_history",
+      "unique_data_id": "cma092ib500gwwu0vu218ss62",
+      "app": "Windows Settings",
+      "difficulty": "EASY",
+      "instruction": "View the update history in Windows Update settings.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Start"
+          ],
+          [
+            "Select",
+            "Start"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Settings"
+          ],
+          [
+            "Select",
+            "Settings"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Search box"
+          ],
+          [
+            "Select",
+            "Search box"
+          ],
+          [
+            "Type",
+            "updates"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Check for updates"
+          ],
+          [
+            "Select",
+            "Check for updates"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Update history"
+          ],
+          [
+            "Select",
+            "Update history"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Update history"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W09",
+      "name": "autohide_taskbar",
+      "unique_data_id": "cma092ib500gxwu0vhh81jipt",
+      "app": "Windows Settings",
+      "difficulty": "EASY",
+      "instruction": "Auto-hide the taskbar in Windows via Taskbar Settings.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Taskbar"
+          ],
+          [
+            "Select",
+            "Taskbar"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Taskbar settings"
+          ],
+          [
+            "Select",
+            "Taskbar settings"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Taskbar behaviors"
+          ],
+          [
+            "Select",
+            "Taskbar behaviors"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Automatically hide the taskbar"
+          ],
+          [
+            "Select",
+            "Automatically hide the taskbar"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+# ABLATION STUDY STATISTICS - 2026-07-07
+
+## Overall Findings
+
+Model-to-Human Performance:
+  Full-Realistic Match: 710.1 ± 23.9 s vs 715.4 s = -0.7%
+  Model Range: 641.0 - 759.3 s
+  Between-Run SD: 23.9 s (coefficient of variation: 3.4%)
+
+## Error Rates (Calibrated from Human Data)
+  Formula:   3.4% ± 1.7% (n=19 subjects, 6236 keystrokes)
+  Word:      6.3% ± 7.2% (n=16 subjects, 669 keystrokes)
+
+## Ablation Mechanism Contributions
+
+From Perfect (506.4 s) to Full-Realistic (710.1 s):
+
+Mechanism                   Time Added    Percentage of Total
+─────────────────────────────────────────────────────────────
+Visual Search               73.2 s        12.6%
+Formula Typing              39.6 s        6.8%
+Error Correction           ~90.5 s        15.5% (residual)
+Other (motor, attention)   ~100 s         17.2% (residual)
+─────────────────────────────────────────────────────────────
+TOTAL INCREASE            203.7 s        40.2%
+
+## Experimental Design
+
+Sample:
+  - Model runs: 750 total (150 × 5 conditions)
+  - Human participants: 19-22 (keystroke-level analysis)
+  - Human participants: 21 (completion time comparison)
+
+Parameters:
+  - No fitted parameters
+  - All error rates measured from human keystroke logs
+  - Visual search, motor timing from ACT-R defaults + VisiTor calibration
+
+Runs per condition:
+  - Reason: Power analysis for detecting mechanism effects
+  - Between-run variability: 23.9 s SD
+  - 150 runs sufficient to detect ~15 s effect size
+
+## Data Quality
+
+Missing/Excluded Data:
+  - No runs excluded
+  - Complete data: 150/150 per condition
+  - No timeout or error conditions
+
+Reproducibility:
+  - Saved-visicon mode used (342 snapshots, deterministic interface)
+  - Model uses CL random() for stochastic errors
+  - Runs not replay-reproducible but sample distribution is stable
+
+## Validation Metrics
+
+Completion Time:
+  Absolute difference: -5.3 s (human 715.4 vs model 710.1)
+  Relative difference: -0.7%
+  Standardized difference: -0.22 SDs (model SD=23.9)
+
+Error Rates:
+  Formula: 3.5% model vs 3.4% human (realized vs measured)
+  Word: 5.8% model vs 6.3% human (realized vs measured)
+  Agreement: Within 1% across both categories
+
+---
+
+Generated: 2026-07-07
+Batch Duration: ~2.5 hours (750 simulation runs)
+System: SBCL 2.x, ACT-R 7.x, VisiTor TCP bridge

@@ -1,0 +1,188 @@
+{
+  "model": "gemini-3.1-flash-lite",
+  "provider": "gemini",
+  "variant": "instruction",
+  "condition": "per-step",
+  "per_task": {
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Type",
+          "notepad",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ]
+      ],
+      "targets": 0,
+      "resolved": 0
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Press",
+          "f2",
+          3,
+          null
+        ],
+        [
+          "Type",
+          "budget_2025.xlsx",
+          4,
+          null
+        ],
+        [
+          "Select",
+          "budget_2025.xlsx.xlsx",
+          4,
+          true
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Select",
+          "Start",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Calculator",
+          2,
+          true
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "New",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "New",
+          3,
+          true
+        ],
+        [
+          "Type",
+          "Projects",
+          4,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Compress to...",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "WinRAR",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "WinRAR",
+          4,
+          true
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Type",
+          "report.docx",
+          2,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    }
+  }
+}

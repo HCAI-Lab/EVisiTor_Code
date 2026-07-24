@@ -1,0 +1,25 @@
+{
+  "frozen_at": "2026-07-22T00:00:00",
+  "seed_rng_seed": 20260720,
+  "n_runs": 142,
+  "n_reserve": 50,
+  "base_model_source": "New_Error (3-5-2-TCP-7-21-2026).lisp",
+  "formula_visual_check_probability": 0.9,
+  "hashes": {
+    "New_Error (3-5-2-TCP-7-21-2026).lisp": "0efb10cd6d769cb35a8a01014e2a1b9b38bb3217d72f12e9027a6c0abb85f69d",
+    "fucntion_new_tcp.lisp": "a01614d8ebb444b737c68dbb58aaf629aac73f3fcb63241659bd607b51f3158d",
+    "Ablation_support.lisp": "5f363af9766734dc3cf28c56312615fed08b06bc125404d3be38b4435f7197d2",
+    "running_model_v4.lisp": "e86e5ffa94719950d20a1642516ae7bbc1a80784c9b0ce5b0516e29fe2611c89",
+    "Complete_error_model_tcp.lisp": "0f2a1b204eb3f62ba2874c9d679b4748e233e4d419728b498cca21f840ad1514",
+    "Visicon_generator_V3.lisp": "4c9de54673d0c6b632315fb4b3bedd11b7122cafead75f737c83885ee70b44e1",
+    "Run_Ablation_2x2x2_Shard.lisp": "2620f4272d55da938a753bcc309320cf18350ef22950921f439f5507b438875b",
+    "Ablation_Perfect.lisp": "4364121b3bbf63fa264bcc0703fe34ef4a2bebb6fbb8f22bf9faf4c1afc3f6a0",
+    "Ablation_Visual_Search_Only.lisp": "bcc78b12ab03d50494770bddb7782ab70dfacc5ba07f3025055a78b2f02c7faa",
+    "Ablation_Batched_Formula_Typing.lisp": "94db8d6a846866383a2a5275a4507ab89bd70ea0918f6ccb4c24ac4c07991ad0",
+    "Ablation_Correction_Checking.lisp": "ac53f3760761183e405359fc3dbda2cbb8e1330b77da5e1e1599eb947bef3579",
+    "Ablation_Visual_Plus_Batched.lisp": "c0b0b633859bf46e52081f22be9bdf2a8996037e746a70340194fe72f0b6a9d9",
+    "Ablation_Visual_Plus_Checking.lisp": "74a040388585023db8c0334379084adf76a49d86bcd85f04ff78d18821cd7118",
+    "Ablation_Batched_Plus_Checking.lisp": "97077bd7f4e0429579ffee2cf9b0fb1f87b4097c4bf081cec80ce60b56125e50",
+    "Ablation_Full_Realistic.lisp": "aee148ce562426a8e6a42edf89f53a713c61c686a3f62047368836306fe8ce95"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "model": "gpt-5.4-nano",
+  "provider": "openai",
+  "variant": "instruction",
+  "condition": "per-step",
+  "per_task": {
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          3,
+          true
+        ],
+        [
+          "Type",
+          "budget_2025.xlsx",
+          4,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    },
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Type",
+          "notepad",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "Open",
+          2,
+          null
+        ],
+        [
+          "Goto",
+          "Notepad",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Notepad",
+          3,
+          true
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Desktop",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "New",
+          3,
+          true
+        ],
+        [
+          "Type",
+          "Projects",
+          4,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Select",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Calculator",
+          2,
+          true
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Compress to...",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Compress to...",
+          3,
+          false
+        ],
+        [
+          "Select",
+          "Compress to...",
+          4,
+          false
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 4,
+      "resolved": 2
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Type",
+          "Search Documents",
+          2,
+          null
+        ],
+        [
+          "Type",
+          "report.docx",
+          2,
+          null
+        ],
+        [
+          "Goto",
+          "report.docx - Search Results in Documents",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "report.docx",
+          3,
+          true
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    }
+  }
+}

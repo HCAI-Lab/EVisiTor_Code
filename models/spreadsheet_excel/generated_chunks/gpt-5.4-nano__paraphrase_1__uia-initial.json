@@ -1,0 +1,1310 @@
+{
+  "tasks": [
+    {
+      "task_id": 1,
+      "task_name": "OPEN FILE",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "File Tab"
+            },
+            {
+              "action": "Select",
+              "target": "File Tab"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Open"
+            },
+            {
+              "action": "Select",
+              "target": "Open"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "normalization.xlsx"
+            },
+            {
+              "action": "Select",
+              "target": "normalization.xlsx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 2,
+      "task_name": "SAVE AS",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "File Tab"
+            },
+            {
+              "action": "Select",
+              "target": "File Tab"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Save as"
+            },
+            {
+              "action": "Select",
+              "target": "Save as"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "file name area"
+            },
+            {
+              "action": "Select",
+              "target": "file name area"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "subject"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 5,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Save"
+            },
+            {
+              "action": "Select",
+              "target": "Save"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 3,
+      "task_name": "FILL FREQUENCY COLUMN B7-B11",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "b7"
+            },
+            {
+              "action": "Select",
+              "target": "b7"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(c7*b13)/100"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "b8"
+            },
+            {
+              "action": "Select",
+              "target": "b8"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(c8*b13)/100"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 5,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "b9"
+            },
+            {
+              "action": "Select",
+              "target": "b9"
+            }
+          ]
+        },
+        {
+          "subtask_id": 6,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(c9*b13)/100"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 7,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "b10"
+            },
+            {
+              "action": "Select",
+              "target": "b10"
+            }
+          ]
+        },
+        {
+          "subtask_id": 8,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(c10*b13)/100"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 9,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "b11"
+            },
+            {
+              "action": "Select",
+              "target": "b11"
+            }
+          ]
+        },
+        {
+          "subtask_id": 10,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(c11*b13)/100"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 4,
+      "task_name": "TOTAL FREQUENCY IN B14",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "b14"
+            },
+            {
+              "action": "Select",
+              "target": "b14"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=sum(b2:b11)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 5,
+      "task_name": "FILL NORMALIZATION COLUMN C2-C6",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "c2"
+            },
+            {
+              "action": "Select",
+              "target": "c2"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(b2*100)/b13"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "c3"
+            },
+            {
+              "action": "Select",
+              "target": "c3"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(b3*100)/b13"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 5,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "c4"
+            },
+            {
+              "action": "Select",
+              "target": "c4"
+            }
+          ]
+        },
+        {
+          "subtask_id": 6,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(b4*100)/b13"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 7,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "c5"
+            },
+            {
+              "action": "Select",
+              "target": "c5"
+            }
+          ]
+        },
+        {
+          "subtask_id": 8,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(b5*100)/b13"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 9,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "c6"
+            },
+            {
+              "action": "Select",
+              "target": "c6"
+            }
+          ]
+        },
+        {
+          "subtask_id": 10,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=(b6*100)/b13"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 6,
+      "task_name": "TOTAL NORMALIZATION IN C14",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "c14"
+            },
+            {
+              "action": "Select",
+              "target": "c14"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=sum(c2:c11)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 7,
+      "task_name": "FILL LENGTH COLUMN D2-D11",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d2"
+            },
+            {
+              "action": "Select",
+              "target": "d2"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a2)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d3"
+            },
+            {
+              "action": "Select",
+              "target": "d3"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a3)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 5,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d4"
+            },
+            {
+              "action": "Select",
+              "target": "d4"
+            }
+          ]
+        },
+        {
+          "subtask_id": 6,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a4)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 7,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d5"
+            },
+            {
+              "action": "Select",
+              "target": "d5"
+            }
+          ]
+        },
+        {
+          "subtask_id": 8,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a5)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 9,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d6"
+            },
+            {
+              "action": "Select",
+              "target": "d6"
+            }
+          ]
+        },
+        {
+          "subtask_id": 10,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a6)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 11,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d7"
+            },
+            {
+              "action": "Select",
+              "target": "d7"
+            }
+          ]
+        },
+        {
+          "subtask_id": 12,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a7)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 13,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d8"
+            },
+            {
+              "action": "Select",
+              "target": "d8"
+            }
+          ]
+        },
+        {
+          "subtask_id": 14,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a8)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 15,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d9"
+            },
+            {
+              "action": "Select",
+              "target": "d9"
+            }
+          ]
+        },
+        {
+          "subtask_id": 16,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a9)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 17,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d10"
+            },
+            {
+              "action": "Select",
+              "target": "d10"
+            }
+          ]
+        },
+        {
+          "subtask_id": 18,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a10)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 19,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d11"
+            },
+            {
+              "action": "Select",
+              "target": "d11"
+            }
+          ]
+        },
+        {
+          "subtask_id": 20,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=len(a11)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 8,
+      "task_name": "TOTAL LENGTH IN D14",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "d14"
+            },
+            {
+              "action": "Select",
+              "target": "d14"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=sum(d2:d11)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 9,
+      "task_name": "FILL TYPED-CHARS COLUMN E2-E11",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e2"
+            },
+            {
+              "action": "Select",
+              "target": "e2"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d2*b2"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e3"
+            },
+            {
+              "action": "Select",
+              "target": "e3"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d3*b3"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 5,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e4"
+            },
+            {
+              "action": "Select",
+              "target": "e4"
+            }
+          ]
+        },
+        {
+          "subtask_id": 6,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d4*b4"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 7,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e5"
+            },
+            {
+              "action": "Select",
+              "target": "e5"
+            }
+          ]
+        },
+        {
+          "subtask_id": 8,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d5*b5"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 9,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e6"
+            },
+            {
+              "action": "Select",
+              "target": "e6"
+            }
+          ]
+        },
+        {
+          "subtask_id": 10,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d6*b6"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 11,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e7"
+            },
+            {
+              "action": "Select",
+              "target": "e7"
+            }
+          ]
+        },
+        {
+          "subtask_id": 12,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d7*b7"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 13,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e8"
+            },
+            {
+              "action": "Select",
+              "target": "e8"
+            }
+          ]
+        },
+        {
+          "subtask_id": 14,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d8*b8"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 15,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e9"
+            },
+            {
+              "action": "Select",
+              "target": "e9"
+            }
+          ]
+        },
+        {
+          "subtask_id": 16,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d9*b9"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 17,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e10"
+            },
+            {
+              "action": "Select",
+              "target": "e10"
+            }
+          ]
+        },
+        {
+          "subtask_id": 18,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d10*b10"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        },
+        {
+          "subtask_id": 19,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e11"
+            },
+            {
+              "action": "Select",
+              "target": "e11"
+            }
+          ]
+        },
+        {
+          "subtask_id": 20,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=d11*b11"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 10,
+      "task_name": "TOTAL TYPED-CHARS IN E14",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "e14"
+            },
+            {
+              "action": "Select",
+              "target": "e14"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=sum(e2:e11)"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 11,
+      "task_name": "INSERT TWO ROWS AT THE TOP",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Row 1"
+            },
+            {
+              "action": "Select",
+              "target": "Row 1"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Home"
+            },
+            {
+              "action": "Select",
+              "target": "Home"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Cells"
+            },
+            {
+              "action": "Select",
+              "target": "Cells"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Insert"
+            },
+            {
+              "action": "Select",
+              "target": "Insert"
+            }
+          ]
+        },
+        {
+          "subtask_id": 5,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Insert-cell"
+            },
+            {
+              "action": "Select",
+              "target": "Insert-cell"
+            }
+          ]
+        },
+        {
+          "subtask_id": 6,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Row 1"
+            },
+            {
+              "action": "Select",
+              "target": "Row 1"
+            }
+          ]
+        },
+        {
+          "subtask_id": 7,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Home"
+            },
+            {
+              "action": "Select",
+              "target": "Home"
+            }
+          ]
+        },
+        {
+          "subtask_id": 8,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Cells"
+            },
+            {
+              "action": "Select",
+              "target": "Cells"
+            }
+          ]
+        },
+        {
+          "subtask_id": 9,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Insert"
+            },
+            {
+              "action": "Select",
+              "target": "Insert"
+            }
+          ]
+        },
+        {
+          "subtask_id": 10,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Insert-cell"
+            },
+            {
+              "action": "Select",
+              "target": "Insert-cell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 12,
+      "task_name": "ENTER A NAME IN A1",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "A1"
+            },
+            {
+              "action": "Select",
+              "target": "A1"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "subject"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 13,
+      "task_name": "ENTER TODAY'S DATE IN A2",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "A2"
+            },
+            {
+              "action": "Select",
+              "target": "A2"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "=today()"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 14,
+      "task_name": "RESAVE WITH A NEW NAME",
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "File Tab"
+            },
+            {
+              "action": "Select",
+              "target": "File Tab"
+            }
+          ]
+        },
+        {
+          "subtask_id": 2,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "Save"
+            },
+            {
+              "action": "Select",
+              "target": "Save"
+            }
+          ]
+        },
+        {
+          "subtask_id": 3,
+          "actions": [
+            {
+              "action": "Goto",
+              "target": "file name area"
+            },
+            {
+              "action": "Select",
+              "target": "file name area"
+            }
+          ]
+        },
+        {
+          "subtask_id": 4,
+          "actions": [
+            {
+              "action": "Type",
+              "target": "normalization-subject"
+            },
+            {
+              "action": "Press",
+              "target": "enter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

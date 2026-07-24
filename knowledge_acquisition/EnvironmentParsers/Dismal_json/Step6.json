@@ -1,0 +1,818 @@
+{
+  "elements": [
+    {
+      "bbox": [
+        15,
+        10,
+        42,
+        28
+      ],
+      "name": "Emacs Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        15,
+        35,
+        42,
+        380
+      ],
+      "name": "Window Title",
+      "text": "normalization.dis - GNU Emacs at DESKTOP-ES5O498",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        15,
+        885,
+        42,
+        915
+      ],
+      "name": "Minimize Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        15,
+        930,
+        42,
+        960
+      ],
+      "name": "Maximize Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        15,
+        975,
+        42,
+        1000
+      ],
+      "name": "Close Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        60,
+        5,
+        90,
+        35
+      ],
+      "name": "File Menu",
+      "text": "File",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        40,
+        90,
+        95
+      ],
+      "name": "Options Menu",
+      "text": "Options",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        100,
+        90,
+        150
+      ],
+      "name": "Buffers Menu",
+      "text": "Buffers",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        155,
+        90,
+        195
+      ],
+      "name": "Tools Menu",
+      "text": "Tools",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        200,
+        90,
+        235
+      ],
+      "name": "dFile Menu",
+      "text": "dFile",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        240,
+        90,
+        280
+      ],
+      "name": "dEdit Menu",
+      "text": "dEdit",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        285,
+        90,
+        315
+      ],
+      "name": "dGo Menu",
+      "text": "dGo",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        320,
+        90,
+        380
+      ],
+      "name": "dComms Menu",
+      "text": "dComms",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        385,
+        90,
+        445
+      ],
+      "name": "dFormat Menu",
+      "text": "dFormat",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        450,
+        90,
+        490
+      ],
+      "name": "dDoc Menu",
+      "text": "dDoc",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        495,
+        90,
+        550
+      ],
+      "name": "dModel Menu",
+      "text": "dModel",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        60,
+        555,
+        90,
+        590
+      ],
+      "name": "Help Menu",
+      "text": "Help",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        105,
+        5,
+        145,
+        25
+      ],
+      "name": "New File Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        30,
+        145,
+        50
+      ],
+      "name": "Open File Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        55,
+        145,
+        75
+      ],
+      "name": "Save File Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        80,
+        145,
+        100
+      ],
+      "name": "Close Buffer Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        105,
+        145,
+        130
+      ],
+      "name": "Undo Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        145,
+        145,
+        165
+      ],
+      "name": "Search Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        180,
+        145,
+        200
+      ],
+      "name": "Cut Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        205,
+        145,
+        230
+      ],
+      "name": "Copy Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        235,
+        145,
+        255
+      ],
+      "name": "Paste Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        105,
+        270,
+        145,
+        295
+      ],
+      "name": "Print Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        150,
+        145,
+        175,
+        160
+      ],
+      "name": "Column Header A",
+      "text": "A",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        310,
+        175,
+        325
+      ],
+      "name": "Column Header B",
+      "text": "B",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        480,
+        175,
+        495
+      ],
+      "name": "Column Header C",
+      "text": "C",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        630,
+        175,
+        645
+      ],
+      "name": "Column Header D",
+      "text": "D",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        755,
+        175,
+        770
+      ],
+      "name": "Column Header E",
+      "text": "E",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        880,
+        175,
+        895
+      ],
+      "name": "Column Header F",
+      "text": "F",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        205,
+        10,
+        230,
+        25
+      ],
+      "name": "Row Header 0",
+      "text": "0",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        205,
+        70,
+        230,
+        175
+      ],
+      "name": "Cell A0",
+      "text": "Command Name",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        235,
+        230,
+        320
+      ],
+      "name": "Cell B0",
+      "text": "Frequency",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        405,
+        230,
+        520
+      ],
+      "name": "Cell C0",
+      "text": "Normalization",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        570,
+        230,
+        630
+      ],
+      "name": "Cell D0",
+      "text": "Length",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        695,
+        230,
+        745
+      ],
+      "name": "Cell E0",
+      "text": "Typed",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        820,
+        230,
+        915
+      ],
+      "name": "Cell F0",
+      "text": "Characters",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        235,
+        10,
+        260,
+        25
+      ],
+      "name": "Row Header 1",
+      "text": "1",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        235,
+        70,
+        260,
+        100
+      ],
+      "name": "Cell A1",
+      "text": "log",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        235,
+        385,
+        260,
+        410
+      ],
+      "name": "Cell C1",
+      "text": "20",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        265,
+        10,
+        290,
+        25
+      ],
+      "name": "Row Header 2",
+      "text": "2",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        265,
+        70,
+        290,
+        185
+      ],
+      "name": "Cell A2",
+      "text": "excise-chunks",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        265,
+        395,
+        290,
+        410
+      ],
+      "name": "Cell C2",
+      "text": "6",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        295,
+        10,
+        320,
+        25
+      ],
+      "name": "Row Header 3",
+      "text": "3",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        295,
+        70,
+        320,
+        165
+      ],
+      "name": "Cell A3",
+      "text": "excise-task",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        295,
+        385,
+        320,
+        410
+      ],
+      "name": "Cell C3",
+      "text": "12",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        325,
+        10,
+        350,
+        25
+      ],
+      "name": "Row Header 4",
+      "text": "4",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        325,
+        70,
+        350,
+        90
+      ],
+      "name": "Cell A4",
+      "text": "go",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        325,
+        395,
+        350,
+        410
+      ],
+      "name": "Cell C4",
+      "text": "5",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        355,
+        10,
+        380,
+        25
+      ],
+      "name": "Row Header 5",
+      "text": "5",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        355,
+        70,
+        380,
+        110
+      ],
+      "name": "Cell A5",
+      "text": "help",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        355,
+        385,
+        380,
+        410
+      ],
+      "name": "Cell C5",
+      "text": "23",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        385,
+        10,
+        410,
+        25
+      ],
+      "name": "Row Header 6",
+      "text": "6",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        385,
+        70,
+        410,
+        155
+      ],
+      "name": "Cell A6",
+      "text": "excise-all",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        385,
+        530,
+        410,
+        580
+      ],
+      "name": "Cell D6",
+      "text": "13.70",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        415,
+        10,
+        440,
+        25
+      ],
+      "name": "Row Header 7",
+      "text": "7",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        415,
+        70,
+        440,
+        110
+      ],
+      "name": "Cell A7",
+      "text": "load",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        415,
+        565,
+        440,
+        580
+      ],
+      "name": "Cell D7",
+      "text": "5",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        445,
+        10,
+        470,
+        25
+      ],
+      "name": "Row Header 8",
+      "text": "8",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        445,
+        70,
+        470,
+        125
+      ],
+      "name": "Cell A8",
+      "text": "excise",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        445,
+        540,
+        470,
+        580
+      ],
+      "name": "Cell D8",
+      "text": "6.50",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        475,
+        10,
+        500,
+        25
+      ],
+      "name": "Row Header 9",
+      "text": "9",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        475,
+        70,
+        500,
+        110
+      ],
+      "name": "Cell A9",
+      "text": "time",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        475,
+        530,
+        500,
+        580
+      ],
+      "name": "Cell D9",
+      "text": "10.10",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        505,
+        5,
+        530,
+        25
+      ],
+      "name": "Row Header 10",
+      "text": "10",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        505,
+        530,
+        530,
+        580
+      ],
+      "name": "Cell D10",
+      "text": "17.30",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        535,
+        5,
+        560,
+        25
+      ],
+      "name": "Row Header 11",
+      "text": "11",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        535,
+        70,
+        560,
+        115
+      ],
+      "name": "Cell A11",
+      "text": "Total",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        535,
+        380,
+        560,
+        410
+      ],
+      "name": "Cell C11",
+      "text": "139",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        565,
+        5,
+        590,
+        25
+      ],
+      "name": "Row Header 12",
+      "text": "12",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        565,
+        70,
+        590,
+        160
+      ],
+      "name": "Cell A12",
+      "text": "Your Total",
+      "type": "spreadsheet cell"
+    }
+  ]
+}

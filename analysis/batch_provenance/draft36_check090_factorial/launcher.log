@@ -1,0 +1,40 @@
+Source freeze verified.
+Warming ACT-R FASL cache...
+Launching 12 shards (check_prob 0.900), max 12 concurrent.
+[21:05:50] launched c001_1 (pid 59228) seeds 1..48
+[21:05:50] launched c001_2 (pid 58748) seeds 49..95
+[21:05:50] launched c001_3 (pid 45704) seeds 96..142
+[21:05:50] launched c101_1 (pid 49184) seeds 1..48
+[21:05:50] launched c101_2 (pid 62976) seeds 49..95
+[21:05:50] launched c101_3 (pid 55644) seeds 96..142
+[21:05:50] launched c011_1 (pid 50352) seeds 1..48
+[21:05:50] launched c011_2 (pid 62804) seeds 49..95
+[21:05:50] launched c011_3 (pid 24008) seeds 96..142
+[21:05:50] launched c111_1 (pid 56532) seeds 1..48
+[21:05:50] launched c111_2 (pid 53024) seeds 49..95
+[21:05:50] launched c111_3 (pid 46284) seeds 96..142
+[21:32:12] finished c001_2 exit= (26.4 min)
+[21:32:13] finished c001_3 exit= (26.4 min)
+[21:32:23] finished c101_2 exit= (26.5 min)
+[21:32:33] finished c001_1 exit= (26.7 min)
+[21:32:43] finished c101_3 exit= (26.9 min)
+[21:33:03] finished c101_1 exit= (27.2 min)
+[21:33:33] finished c011_2 exit= (27.7 min)
+[21:33:33] finished c011_3 exit= (27.7 min)
+[21:33:43] finished c111_2 exit= (27.9 min)
+[21:33:53] finished c011_1 exit= (28 min)
+[21:33:53] finished c111_1 exit= (28 min)
+[21:33:53] finished c111_3 exit= (28 min)
+All shards done. 0 ok, 12 failed.
+  FAILED: c001_2 (exit )
+  FAILED: c001_3 (exit )
+  FAILED: c101_2 (exit )
+  FAILED: c001_1 (exit )
+  FAILED: c101_3 (exit )
+  FAILED: c101_1 (exit )
+  FAILED: c011_2 (exit )
+  FAILED: c011_3 (exit )
+  FAILED: c111_2 (exit )
+  FAILED: c011_1 (exit )
+  FAILED: c111_1 (exit )
+  FAILED: c111_3 (exit )

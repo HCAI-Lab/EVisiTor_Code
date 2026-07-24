@@ -1,0 +1,314 @@
+visicon rewritten: 1 feature(s) ['Close']  (labels needing agent this pass: [])
+seq 1: asking agent to resolve ['Rename']
+seq 1: agent resolved {'Rename': 'Rename (F2)'}
+visicon rewritten: 2 feature(s) ['budget.xlsx', 'Rename']  (labels needing agent this pass: ['Rename'])
+repositioned foreground 'untitled - notepad' -> (0,0,900,1000)
+visicon rewritten: 1 feature(s) ['Close']  (labels needing agent this pass: [])
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+repositioned foreground 'run' -> (0,0,900,1000)
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+repositioned foreground 'program manager' -> (0,0,900,1000)
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+repositioned foreground 'run' -> (0,0,900,1000)
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+repositioned foreground '*initialize - notepad' -> (0,0,900,1000)
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+visicon rewritten: 1 feature(s) ['Close']  (labels needing agent this pass: [])
+repositioned foreground 'run' -> (0,0,900,1000)
+visicon rewritten: 1 feature(s) ['Close']  (labels needing agent this pass: [])
+repositioned foreground '*initialize - notepad' -> (0,0,900,1000)
+visicon rewritten: 1 feature(s) ['Close']  (labels needing agent this pass: [])
+seq 1: asking agent to resolve ['Search', 'Calculator']
+seq 1: agent resolved {'Search': 'Search'}
+visicon rewritten: 1 feature(s) ['Search']  (labels needing agent this pass: ['Search', 'Calculator'])
+repositioned foreground 'calculator' -> (0,0,900,1000)
+seq 2: asking agent to resolve ['Search', 'Calculator']
+seq 2: agent resolved {'Calculator': 'Calculator'}
+visicon rewritten: 1 feature(s) ['Calculator']  (labels needing agent this pass: ['Search', 'Calculator'])
+seq 1: asking agent to resolve ['budget.xlsx', 'Rename']
+reposition_title 'W02fix - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'W02fix - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 2 feature(s) ['budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+reposition_title 'W02fix - File Explorer' -> (0,0,900,1000) topmost=True
+seq 1: asking agent to resolve ['budget.xlsx']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['Rename']  (labels needing agent this pass: ['budget.xlsx'])
+reposition_title 'Documents - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'Documents - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'Documents - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 3 feature(s) ['File Explorer', 'Documents', 'Search Documents']  (labels needing agent this pass: [])
+reposition_title 'report.docx - Search Results in Document' -> (0,0,900,1000) topmost=True
+seq 1: asking agent to resolve ['Search Documents']
+reposition_title 'report.docx - Search Results in Document' -> (0,0,900,1000) topmost=True
+reposition_title 'Documents - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 3 feature(s) ['File Explorer', 'Documents', 'Search Documents']  (labels needing agent this pass: [])
+reposition_title 'report.docx - Search Results in Document' -> (0,0,900,1000) topmost=True
+seq 1: asking agent to resolve ['Documents', 'Search Documents']
+seq 1: agent resolved {}
+visicon rewritten: 2 feature(s) ['File Explorer', 'report.docx']  (labels needing agent this pass: ['Documents', 'Search Documents'])
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+appended 24 popup-menu feature(s) from 1 popup(s)
+appended 24 popup-menu feature(s) from 2 popup(s)
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+seq 1: asking agent to resolve ['Show more options', 'Send to', 'Compressed (zipped) folder']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: ['Show more options', 'Send to', 'Compressed (zipped) folder'])
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+seq 2: asking agent to resolve ['Send to', 'Compressed (zipped) folder']
+seq 2: agent resolved {}
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: ['Send to', 'Compressed (zipped) folder'])
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: [])
+reposition_title 'W04fix - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: [])
+appended 24 popup-menu feature(s) from 1 popup(s)
+appended 24 popup-menu feature(s) from 1 popup(s)
+appended 24 popup-menu feature(s) from 1 popup(s)
+appended 24 popup-menu feature(s) from 1 popup(s)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: [])
+reposition_title 'W04run - File Explorer' -> (0,0,900,1000) topmost=True
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: [])
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: [])
+appended 24 popup-menu feature(s) from 1 popup(s)
+visicon rewritten: 2 feature(s) ['Logs', 'Send to']  (labels needing agent this pass: [])
+appended 24 popup-menu feature(s) from 2 popup(s)
+visicon rewritten: 3 feature(s) ['Logs', 'Send to', 'Compressed (zipped) folder']  (labels needing agent this pass: [])
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['Desktop', 'New', 'Folder']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['Desktop', 'New', 'Folder']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['Desktop', 'New', 'Folder']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 3 feature(s) ['Desktop', 'New', 'Folder']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+visicon rewritten: 2 feature(s) ['Desktop', 'New']  (labels needing agent this pass: [])
+reposition_title: no visible window matching 'Calculator'
+captured full scan -> live_runs/W09_20260714_134243/visicon_snapshots/visicons_001.json (25 elements)
+visicon rewritten: 1 feature(s) ['Search']  (labels needing agent this pass: [])
+reposition_title: no visible window matching 'Calculator'
+captured full scan -> live_runs/W09_20260714_134243/visicon_snapshots/visicons_002.json (24 elements)
+visicon rewritten: 1 feature(s) ['Search']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W09_20260714_134243/visicon_snapshots/visicons_003.json (85 elements)
+visicon rewritten: 2 feature(s) ['Search', 'Calculator']  (labels needing agent this pass: [])
+reposition_title 'W04run - File Explorer' -> (0,0,900,1000) topmost=True
+captured full scan -> live_runs/W04_20260714_134406/visicon_snapshots/visicons_001.json (110 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W04_20260714_134406/visicon_snapshots/visicons_002.json (110 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+reposition_title 'W04run - File Explorer' -> (0,0,900,1000) topmost=True
+captured full scan -> live_runs/W04_20260714_134837/visicon_snapshots/visicons_001.json (110 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W04_20260714_134837/visicon_snapshots/visicons_002.json (110 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+reposition_title 'W04run - File Explorer' -> (0,0,900,1000) topmost=True
+reposition_title 'W04run - File Explorer' -> (0,0,900,1000) topmost=True
+captured full scan -> live_runs/W04_20260714_162647/visicon_snapshots/visicons_001.json (110 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W04_20260714_162647/visicon_snapshots/visicons_002.json (127 elements)
+visicon rewritten: 2 feature(s) ['Logs', 'Show more options']  (labels needing agent this pass: [])
+appended 24 popup-menu feature(s) from 1 popup(s)
+captured full scan -> live_runs/W04_20260714_162647/visicon_snapshots/visicons_003.json (135 elements)
+visicon rewritten: 2 feature(s) ['Logs', 'Send to']  (labels needing agent this pass: [])
+appended 24 popup-menu feature(s) from 2 popup(s)
+captured full scan -> live_runs/W04_20260714_162647/visicon_snapshots/visicons_004.json (144 elements)
+visicon rewritten: 3 feature(s) ['Logs', 'Send to', 'Compressed (zipped) folder']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W04_20260714_162647/visicon_snapshots/visicons_005.json (116 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W04_20260714_162647/visicon_snapshots/visicons_006.json (116 elements)
+visicon rewritten: 1 feature(s) ['Logs']  (labels needing agent this pass: [])
+reposition_title 'W03run - File Explorer' -> (0,0,900,1000) topmost=True
+captured full scan -> live_runs/W03_20260714_162917/visicon_snapshots/visicons_001.json (109 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_162917/visicon_snapshots/visicons_002.json (109 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_162917/visicon_snapshots/visicons_003.json (109 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+reposition_title 'W03run - File Explorer' -> (0,0,900,1000) topmost=True
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_001.json (110 elements)
+visicon rewritten: 4 feature(s) ['File Explorer', 'Desktop', 'Desktop background', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_002.json (110 elements)
+visicon rewritten: 4 feature(s) ['File Explorer', 'Desktop', 'Desktop background', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_003.json (110 elements)
+visicon rewritten: 4 feature(s) ['File Explorer', 'Desktop', 'Desktop background', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_004.json (119 elements)
+visicon rewritten: 4 feature(s) ['File Explorer', 'Desktop', 'Desktop background', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_005.json (141 elements)
+visicon rewritten: 5 feature(s) ['File Explorer', 'Desktop', 'Desktop background', 'New', 'Folder']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_006.json (111 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W03_20260714_163225/visicon_snapshots/visicons_007.json (111 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'Desktop', 'New']  (labels needing agent this pass: [])
+repositioned foreground 'visitoreye' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_180545/visicon_snapshots/visicons_001.json (26 elements)
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: [])
+repositioned foreground 'home - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_180545/visicon_snapshots/visicons_002.json (154 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+repositioned foreground 'home - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_180545/visicon_snapshots/visicons_003.json (154 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+repositioned foreground 'home - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_180545/visicon_snapshots/visicons_004.json (154 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+repositioned foreground 'home - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_180545/visicon_snapshots/visicons_005.json (154 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+captured full scan -> live_runs/W02_20260716_181407/visicon_snapshots/visicons_001.json (25 elements)
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_181407/visicon_snapshots/visicons_002.json (188 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_181407/visicon_snapshots/visicons_003.json (189 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_181407/visicon_snapshots/visicons_004.json (189 elements)
+visicon rewritten: 3 feature(s) ['File Explorer', 'budget.xlsx', 'Rename']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W02_20260716_181407/visicon_snapshots/visicons_005.json (187 elements)
+seq 1: asking agent to resolve ['budget.xlsx']
+seq 1: agent resolved {}
+visicon rewritten: 2 feature(s) ['File Explorer', 'Rename']  (labels needing agent this pass: ['budget.xlsx'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W10_20260716_181945/visicon_snapshots/visicons_001.json (189 elements)
+seq 1: asking agent to resolve ['Search Documents', 'report.docx']
+seq 1: agent resolved {}
+visicon rewritten: 0 feature(s) []  (labels needing agent this pass: ['Search Documents', 'report.docx'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W10_20260716_182427/visicon_snapshots/visicons_001.json (188 elements)
+seq 1: asking agent to resolve ['Search Documents', 'report.docx']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['Documents']  (labels needing agent this pass: ['Search Documents', 'report.docx'])
+repositioned foreground 'documents - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W10_20260716_182427/visicon_snapshots/visicons_002.json (187 elements)
+visicon rewritten: 2 feature(s) ['Documents', 'Search Documents']  (labels needing agent this pass: [])
+repositioned foreground 'documents - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W10_20260716_182427/visicon_snapshots/visicons_003.json (187 elements)
+visicon rewritten: 2 feature(s) ['Documents', 'Search Documents']  (labels needing agent this pass: [])
+repositioned foreground 'report.docx - search results in document' -> (0,0,900,1000)
+captured full scan -> live_runs/W10_20260716_182427/visicon_snapshots/visicons_004.json (94 elements)
+seq 2: asking agent to resolve ['Search Documents']
+seq 2: agent resolved {}
+visicon rewritten: 2 feature(s) ['Documents', 'report.docx']  (labels needing agent this pass: ['Search Documents'])
+repositioned foreground 'program manager' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_183824/visicon_snapshots/visicons_001.json (137 elements)
+seq 1: asking agent to resolve ['Desktop']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_183824/visicon_snapshots/visicons_002.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_183824/visicon_snapshots/visicons_003.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_183824/visicon_snapshots/visicons_004.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_183824/visicon_snapshots/visicons_005.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'program manager' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_231342/visicon_snapshots/visicons_001.json (137 elements)
+seq 1: asking agent to resolve ['Desktop']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_231342/visicon_snapshots/visicons_002.json (185 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'desktop - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_231342/visicon_snapshots/visicons_003.json (40 elements)
+visicon rewritten: 1 feature(s) ['Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'desktop - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_231342/visicon_snapshots/visicons_004.json (182 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'desktop - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_231342/visicon_snapshots/visicons_005.json (182 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'visitoreye' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232335/visicon_snapshots/visicons_001.json (25 elements)
+seq 1: asking agent to resolve ['Desktop']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232335/visicon_snapshots/visicons_002.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232335/visicon_snapshots/visicons_003.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232335/visicon_snapshots/visicons_004.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232335/visicon_snapshots/visicons_005.json (188 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'visitoreye' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232804/visicon_snapshots/visicons_001.json (25 elements)
+seq 1: asking agent to resolve ['Desktop']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_232804/visicon_snapshots/visicons_002.json (186 elements)
+seq 2: asking agent to resolve ['Desktop']
+seq 2: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+captured full scan -> live_runs/W03_20260716_233458/visicon_snapshots/visicons_001.json (302 elements)
+seq 1: asking agent to resolve ['Desktop']
+seq 1: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_233458/visicon_snapshots/visicons_002.json (188 elements)
+seq 2: asking agent to resolve ['Desktop']
+seq 2: agent resolved {}
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: ['Desktop'])
+repositioned foreground 'visitoreye' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234025/visicon_snapshots/visicons_001.json (25 elements)
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234025/visicon_snapshots/visicons_002.json (188 elements)
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: [])
+repositioned foreground 'visitoreye' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234759/visicon_snapshots/visicons_001.json (25 elements)
+visicon rewritten: 1 feature(s) ['File Explorer']  (labels needing agent this pass: [])
+repositioned foreground 'downloads - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234759/visicon_snapshots/visicons_002.json (186 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'desktop - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234759/visicon_snapshots/visicons_003.json (182 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'desktop - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234759/visicon_snapshots/visicons_004.json (180 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])
+repositioned foreground 'desktop - file explorer' -> (0,0,900,1000)
+captured full scan -> live_runs/W03_20260716_234759/visicon_snapshots/visicons_005.json (181 elements)
+visicon rewritten: 2 feature(s) ['File Explorer', 'Desktop']  (labels needing agent this pass: [])

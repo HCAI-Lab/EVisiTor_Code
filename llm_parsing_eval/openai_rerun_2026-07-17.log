@@ -1,0 +1,324 @@
+=== OpenAI re-runs Fri Jul 17 13:35:27 EDT 2026 ===
+--- 1: single-shot W03 guide no-uia ---
+gold subtask lists: 21 over 6 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260716_181407 snapshots=5 initial=25(+0 truncated) union=125(+0 truncated)
+  W03: run=W03_20260716_234759 snapshots=5 initial=25(+0 truncated) union=221(+0 truncated)
+  W04: run=W04_20260714_162647 snapshots=6 initial=107(+0 truncated) union=153(+0 truncated)
+  W09: run=W09_20260714_134243 snapshots=3 initial=25(+0 truncated) union=86(+0 truncated)
+  W10: run=W10_20260716_182427 snapshots=4 initial=124(+0 truncated) union=171(+0 truncated)
+gold resolvability: initial=36.0% union=100.0%
+filtered to 3 model(s): gpt-5.5, gpt-5.4-mini, gpt-5.4-nano
+retaining 8 previously-run model(s); cell-merging 3 re-run model(s)
+
+=== model: gpt-5.5 (openai) ===
+
+--- variant=guide condition=no-uia ---
+  W03: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=50.0%  resolv_union=100.0%
+
+=== model: gpt-5.4-mini (openai) ===
+
+--- variant=guide condition=no-uia ---
+  W03: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=50.0%  resolv_union=100.0%
+
+=== model: gpt-5.4-nano (openai) ===
+
+--- variant=guide condition=no-uia ---
+  W03: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=50.0%  resolv_union=100.0%
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+--- 2: single-shot W02,W03,W10 initial-uia,full-uia ---
+gold subtask lists: 21 over 6 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260716_181407 snapshots=5 initial=25(+0 truncated) union=125(+0 truncated)
+  W03: run=W03_20260716_234759 snapshots=5 initial=25(+0 truncated) union=221(+0 truncated)
+  W04: run=W04_20260714_162647 snapshots=6 initial=107(+0 truncated) union=153(+0 truncated)
+  W09: run=W09_20260714_134243 snapshots=3 initial=25(+0 truncated) union=86(+0 truncated)
+  W10: run=W10_20260716_182427 snapshots=4 initial=124(+0 truncated) union=171(+0 truncated)
+gold resolvability: initial=36.0% union=100.0%
+filtered to 3 model(s): gpt-5.5, gpt-5.4-mini, gpt-5.4-nano
+retaining 8 previously-run model(s); cell-merging 3 re-run model(s)
+
+=== model: gpt-5.5 (openai) ===
+
+--- variant=instruction condition=initial-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=3
+  => coverage=91.67%  action=90.48%  target=90.48%  exact=90.48%  resolv_init=50.0%  resolv_union=100.0%
+
+--- variant=instruction condition=full-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=91.67%  action=80.95%  target=71.43%  exact=71.43%  resolv_init=30.77%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=40.0%  resolv_union=100.0%
+
+--- variant=guide condition=full-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=40.0%  resolv_union=100.0%
+
+=== model: gpt-5.4-mini (openai) ===
+
+--- variant=instruction condition=initial-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=2
+  => coverage=75.0%  action=65.0%  target=60.0%  exact=55.0%  resolv_init=72.73%  resolv_union=100.0%
+
+--- variant=instruction condition=full-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=2
+  => coverage=83.33%  action=90.48%  target=90.48%  exact=90.48%  resolv_init=42.86%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=40.0%  resolv_union=100.0%
+
+--- variant=guide condition=full-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=40.0%  resolv_union=100.0%
+
+=== model: gpt-5.4-nano (openai) ===
+
+--- variant=instruction condition=initial-uia ---
+  W02: schema_valid=True subtasks=5
+  W03: schema_valid=True subtasks=5
+  W10: schema_valid=True subtasks=2
+  => coverage=83.33%  action=52.38%  target=33.33%  exact=33.33%  resolv_init=80.0%  resolv_union=100.0%
+
+--- variant=instruction condition=full-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=5
+  W10: schema_valid=True subtasks=2
+  => coverage=83.33%  action=72.73%  target=72.73%  exact=72.73%  resolv_init=37.5%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=40.0%  resolv_union=100.0%
+
+--- variant=guide condition=full-uia ---
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=100.0%  target=100.0%  exact=100.0%  resolv_init=40.0%  resolv_union=100.0%
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+--- 3: per-step instruction W02,W10 ---
+variant: instruction
+models: gpt-5.5, gpt-5.4-mini, gpt-5.4-nano
+tasks: W02, W10
+  gpt-5.4-mini                       W10: scans=3 acts=4 resolv=2/2
+  gpt-5.4-mini                       W02: scans=4 acts=5 resolv=3/3
+  gpt-5.4-nano                       W02: scans=4 acts=6 resolv=4/4
+  gpt-5.4-nano                       W10: scans=3 acts=5 resolv=3/3
+  gpt-5.5                            W10: scans=3 acts=4 resolv=4/4
+  gpt-5.5                            W02: scans=4 acts=7 resolv=4/4
+
+wrote 3 per-step artifacts (variant=instruction)
+--- 4: per-step guide W02,W10 ---
+variant: guide
+models: gpt-5.5, gpt-5.4-mini, gpt-5.4-nano
+tasks: W02, W10
+  gpt-5.4-mini                       W10: scans=3 acts=3 resolv=2/2
+  gpt-5.4-mini                       W02: scans=4 acts=5 resolv=3/3
+  gpt-5.4-nano                       W10: scans=3 acts=4 resolv=4/4
+  gpt-5.4-nano                       W02: scans=4 acts=5 resolv=2/2
+  gpt-5.5                            W10: scans=3 acts=5 resolv=5/5
+  gpt-5.5                            W02: scans=4 acts=8 resolv=6/6
+
+wrote 3 per-step artifacts (variant=guide)
+--- 5: rescore all ---
+gold subtask lists: 21 over 6 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260716_181407 snapshots=5 initial=25(+0 truncated) union=125(+0 truncated)
+  W03: run=W03_20260716_234759 snapshots=5 initial=25(+0 truncated) union=221(+0 truncated)
+  W04: run=W04_20260714_162647 snapshots=6 initial=107(+0 truncated) union=153(+0 truncated)
+  W09: run=W09_20260714_134243 snapshots=3 initial=25(+0 truncated) union=86(+0 truncated)
+  W10: run=W10_20260716_182427 snapshots=4 initial=124(+0 truncated) union=171(+0 truncated)
+gold resolvability: initial=36.0% union=100.0%
+
+=== model: gpt-5.5 (openai) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+=== model: gpt-5.4-mini (openai) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+=== model: gpt-5.4-nano (openai) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+=== model: gemini-3.5-flash (gemini) ===
+  rescored instruction x no-uia: 0/6 tasks
+  rescored instruction x initial-uia: 0/6 tasks
+  no artifact for instruction x full-uia; skipped
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  no artifact for guide x no-uia; skipped
+  no artifact for guide x initial-uia; skipped
+  no artifact for guide x full-uia; skipped
+
+=== model: gemini-3.1-flash-lite (gemini) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+=== model: openai/gpt-oss-120b:free (openrouter) ===
+  no artifact for instruction x no-uia; skipped
+  no artifact for instruction x initial-uia; skipped
+  no artifact for instruction x full-uia; skipped
+  no artifact for paraphrase x no-uia; skipped
+  no artifact for paraphrase x initial-uia; skipped
+  no artifact for paraphrase x full-uia; skipped
+  no artifact for reasoning_steps x no-uia; skipped
+  no artifact for reasoning_steps x initial-uia; skipped
+  no artifact for reasoning_steps x full-uia; skipped
+  no artifact for guide x no-uia; skipped
+  no artifact for guide x initial-uia; skipped
+  no artifact for guide x full-uia; skipped
+
+=== model: deepseek/deepseek-v4-flash:free (openrouter) ===
+  no artifact for instruction x no-uia; skipped
+  no artifact for instruction x initial-uia; skipped
+  no artifact for instruction x full-uia; skipped
+  no artifact for paraphrase x no-uia; skipped
+  no artifact for paraphrase x initial-uia; skipped
+  no artifact for paraphrase x full-uia; skipped
+  no artifact for reasoning_steps x no-uia; skipped
+  no artifact for reasoning_steps x initial-uia; skipped
+  no artifact for reasoning_steps x full-uia; skipped
+  no artifact for guide x no-uia; skipped
+  no artifact for guide x initial-uia; skipped
+  no artifact for guide x full-uia; skipped
+
+=== model: nvidia/nemotron-3-super-120b-a12b:free (openrouter) ===
+  no artifact for instruction x no-uia; skipped
+  no artifact for instruction x initial-uia; skipped
+  no artifact for instruction x full-uia; skipped
+  no artifact for paraphrase x no-uia; skipped
+  no artifact for paraphrase x initial-uia; skipped
+  no artifact for paraphrase x full-uia; skipped
+  no artifact for reasoning_steps x no-uia; skipped
+  no artifact for reasoning_steps x initial-uia; skipped
+  no artifact for reasoning_steps x full-uia; skipped
+  no artifact for guide x no-uia; skipped
+  no artifact for guide x initial-uia; skipped
+  no artifact for guide x full-uia; skipped
+
+=== model: openai/gpt-oss-120b (openrouter) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+=== model: deepseek/deepseek-v4-flash (openrouter) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+=== model: nvidia/nemotron-3-super-120b-a12b (openrouter) ===
+  rescored instruction x no-uia: 6/6 tasks
+  rescored instruction x initial-uia: 6/6 tasks
+  rescored instruction x full-uia: 6/6 tasks
+  rescored paraphrase x no-uia: 6/6 tasks
+  rescored paraphrase x initial-uia: 6/6 tasks
+  no artifact for paraphrase x full-uia; skipped
+  rescored reasoning_steps x no-uia: 3/3 tasks
+  rescored reasoning_steps x initial-uia: 3/3 tasks
+  no artifact for reasoning_steps x full-uia; skipped
+  rescored guide x no-uia: 6/6 tasks
+  rescored guide x initial-uia: 6/6 tasks
+  rescored guide x full-uia: 6/6 tasks
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+--- 6: rebuild workbook ---
+canonical workbook locked (open in Excel); saved fallback
+wrote G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\W6_model_IO_and_gold_2026-07-16_live.xlsx
+sheets: README, Gold, Guides, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_noUIA guide, Out_fullUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_perstep guide, Functional, Summary
+models with output columns: 7
+=== ALL DONE ===

@@ -1,0 +1,35 @@
+{
+    "created_at":  "2026-07-22T23:02:53",
+    "model_source":  "New_Error (3-5-2-TCP-7-21-2026).lisp",
+    "cell_code":  "011",
+    "visual_search":  false,
+    "formula_lookback":  true,
+    "error_correction":  true,
+    "runs_per_condition":  142,
+    "power":  0.99,
+    "alpha":  0.05,
+    "sidedness":  "two-tailed",
+    "cohens_d":  0.5,
+    "rates_pct":  [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5
+                  ],
+    "formula_sweep_fixed_word_rate":  0.063,
+    "word_sweep_fixed_formula_rate":  0.034,
+    "source_sha256":  {
+                          "New_Error (3-5-2-TCP-7-21-2026).lisp":  "0efb10cd6d769cb35a8a01014e2a1b9b38bb3217d72f12e9027a6c0abb85f69d",
+                          "fucntion_new_tcp.lisp":  "a01614d8ebb444b737c68dbb58aaf629aac73f3fcb63241659bd607b51f3158d",
+                          "Ablation_support.lisp":  "5f363af9766734dc3cf28c56312615fed08b06bc125404d3be38b4435f7197d2",
+                          "running_model_v4.lisp":  "e86e5ffa94719950d20a1642516ae7bbc1a80784c9b0ce5b0516e29fe2611c89",
+                          "Complete_error_model_tcp.lisp":  "0f2a1b204eb3f62ba2874c9d679b4748e233e4d419728b498cca21f840ad1514",
+                          "Visicon_generator_V3.lisp":  "4c9de54673d0c6b632315fb4b3bedd11b7122cafead75f737c83885ee70b44e1",
+                          "Run_Ablation_2x2x2_Shard.lisp":  "2620f4272d55da938a753bcc309320cf18350ef22950921f439f5507b438875b",
+                          "Ablation_NoVisual_Rates.lisp":  "75fff9c74017fa0c87e3726ad8a1b8c03fe93bd436563d3c30fae8be4ecedbf3",
+                          "run_draft34_novisual_rate_sweeps.ps1":  "8e2b031298a780aa5bd05a0e4176bb0bcb5453990b4220043940937db4f283d8",
+                          "seed_list.txt":  "052bc648a38eb19f36512b844ccdd0e805f9192b92a7422159e276bf62223790"
+                      }
+}

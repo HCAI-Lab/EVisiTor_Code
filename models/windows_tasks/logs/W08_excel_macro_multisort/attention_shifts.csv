@@ -1,0 +1,337 @@
+run_id,model_time,task,subtask,location_name,screen_x,screen_y,source
+2026-07-07_10-15-04,0.1,1,1,task1,1159,290,direct-eye-move
+2026-07-07_10-15-04,0.1,1,1,task1,1159,290,move-vision-to-task
+2026-07-07_10-15-04,0.616,1,1,subtask1_1_list,1683,290,direct-eye-move
+2026-07-07_10-15-04,0.616,1,1,subtask1_1_list,1683,290,move-attention-to-subtask
+2026-07-07_10-15-04,1.266,1,1,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,1.266,1,1,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,1.789,1,1,,720,260,direct-eye-move
+2026-07-07_10-15-04,1.889,1,1,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,1.889,1,1,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,2.001,1,1,,720,190,direct-eye-move
+2026-07-07_10-15-04,2.101,1,1,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,2.101,1,1,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,2.211,1,1,,720,120,direct-eye-move
+2026-07-07_10-15-04,2.311,1,1,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,2.311,1,1,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,2.566,1,1,,520,120,direct-eye-move
+2026-07-07_10-15-04,2.666,1,1,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,2.666,1,1,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,2.767,1,1,,520,190,direct-eye-move
+2026-07-07_10-15-04,2.867,1,1,Add Level,520,260,direct-eye-move
+2026-07-07_10-15-04,2.867,1,1,Add Level,520,260,visual-search-request-succeeded
+2026-07-07_10-15-04,2.998,1,1,,520,260,direct-eye-move
+2026-07-07_10-15-04,3.098,1,1,Department,320,260,direct-eye-move
+2026-07-07_10-15-04,3.098,1,1,Department,320,260,visual-search-request-succeeded
+2026-07-07_10-15-04,3.277,1,1,,320,260,direct-eye-move
+2026-07-07_10-15-04,3.377,1,1,Stop Recording,320,330,direct-eye-move
+2026-07-07_10-15-04,3.377,1,1,Stop Recording,320,330,visual-search-request-succeeded
+2026-07-07_10-15-04,3.471,1,1,,320,330,direct-eye-move
+2026-07-07_10-15-04,3.571,1,1,A1,320,190,direct-eye-move
+2026-07-07_10-15-04,3.571,1,1,A1,320,190,visual-search-request-succeeded
+2026-07-07_10-15-04,3.813,1,1,,320,190,direct-eye-move
+2026-07-07_10-15-04,3.913,1,1,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,3.913,1,1,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,4.043,1,1,,320,120,direct-eye-move
+2026-07-07_10-15-04,4.143,1,1,View,120,120,direct-eye-move
+2026-07-07_10-15-04,4.143,1,1,View,120,120,visual-search-request-succeeded
+2026-07-07_10-15-04,5.38,1,2,subtask1_2_list,1683,310,direct-eye-move
+2026-07-07_10-15-04,5.38,1,2,subtask1_2_list,1683,310,move-attention-to-subtask
+2026-07-07_10-15-04,6.03,1,2,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,6.03,1,2,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,6.372,1,2,,720,260,direct-eye-move
+2026-07-07_10-15-04,6.472,1,2,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,6.472,1,2,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,6.576,1,2,,720,190,direct-eye-move
+2026-07-07_10-15-04,6.676,1,2,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,6.676,1,2,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,6.806,1,2,,720,120,direct-eye-move
+2026-07-07_10-15-04,6.906,1,2,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,6.906,1,2,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,7.082,1,2,,520,120,direct-eye-move
+2026-07-07_10-15-04,7.182,1,2,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,7.182,1,2,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,7.286,1,2,,520,190,direct-eye-move
+2026-07-07_10-15-04,7.386,1,2,Employee Name,120,330,direct-eye-move
+2026-07-07_10-15-04,7.386,1,2,Employee Name,120,330,visual-search-request-succeeded
+2026-07-07_10-15-04,7.673,1,2,,120,330,direct-eye-move
+2026-07-07_10-15-04,7.773,1,2,Sort by,120,260,direct-eye-move
+2026-07-07_10-15-04,7.773,1,2,Sort by,120,260,visual-search-request-succeeded
+2026-07-07_10-15-04,7.877,1,2,,120,260,direct-eye-move
+2026-07-07_10-15-04,7.977,1,2,OK,120,190,direct-eye-move
+2026-07-07_10-15-04,7.977,1,2,OK,120,190,visual-search-request-succeeded
+2026-07-07_10-15-04,8.102,1,2,,120,190,direct-eye-move
+2026-07-07_10-15-04,8.202,1,2,View,120,120,direct-eye-move
+2026-07-07_10-15-04,8.202,1,2,View,120,120,visual-search-request-succeeded
+2026-07-07_10-15-04,8.326,1,2,,120,120,direct-eye-move
+2026-07-07_10-15-04,8.426,1,2,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,8.426,1,2,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,9.635,1,3,subtask1_3_list,1683,330,direct-eye-move
+2026-07-07_10-15-04,9.635,1,3,subtask1_3_list,1683,330,move-attention-to-subtask
+2026-07-07_10-15-04,10.285,1,3,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,10.285,1,3,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,10.673,1,3,,720,260,direct-eye-move
+2026-07-07_10-15-04,10.773,1,3,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,10.773,1,3,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,10.889,1,3,,720,190,direct-eye-move
+2026-07-07_10-15-04,10.989,1,3,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,10.989,1,3,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,11.094,1,3,,720,120,direct-eye-move
+2026-07-07_10-15-04,11.194,1,3,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,11.194,1,3,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,12.396,1,4,subtask1_4_list,1683,350,direct-eye-move
+2026-07-07_10-15-04,12.396,1,4,subtask1_4_list,1683,350,move-attention-to-subtask
+2026-07-07_10-15-04,13.046,1,4,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,13.046,1,4,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,13.486,1,4,,720,260,direct-eye-move
+2026-07-07_10-15-04,13.586,1,4,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,13.586,1,4,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,13.704,1,4,,720,190,direct-eye-move
+2026-07-07_10-15-04,13.804,1,4,OK,120,190,direct-eye-move
+2026-07-07_10-15-04,13.804,1,4,OK,120,190,visual-search-request-succeeded
+2026-07-07_10-15-04,14.152,1,4,,120,190,direct-eye-move
+2026-07-07_10-15-04,14.252,1,4,Sort by,120,260,direct-eye-move
+2026-07-07_10-15-04,14.252,1,4,Sort by,120,260,visual-search-request-succeeded
+2026-07-07_10-15-04,14.354,1,4,,120,260,direct-eye-move
+2026-07-07_10-15-04,14.454,1,4,Employee Name,120,330,direct-eye-move
+2026-07-07_10-15-04,14.454,1,4,Employee Name,120,330,visual-search-request-succeeded
+2026-07-07_10-15-04,14.561,1,4,,120,330,direct-eye-move
+2026-07-07_10-15-04,14.661,1,4,Stop Recording,320,330,direct-eye-move
+2026-07-07_10-15-04,14.661,1,4,Stop Recording,320,330,visual-search-request-succeeded
+2026-07-07_10-15-04,14.932,1,4,,320,330,direct-eye-move
+2026-07-07_10-15-04,15.032,1,4,Department,320,260,direct-eye-move
+2026-07-07_10-15-04,15.032,1,4,Department,320,260,visual-search-request-succeeded
+2026-07-07_10-15-04,15.156,1,4,,320,260,direct-eye-move
+2026-07-07_10-15-04,15.256,1,4,A1,320,190,direct-eye-move
+2026-07-07_10-15-04,15.256,1,4,A1,320,190,visual-search-request-succeeded
+2026-07-07_10-15-04,15.356,1,4,,320,190,direct-eye-move
+2026-07-07_10-15-04,15.456,1,4,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,15.456,1,4,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,15.572,1,4,,320,120,direct-eye-move
+2026-07-07_10-15-04,15.672,1,4,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,15.672,1,4,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,15.926,1,4,,520,120,direct-eye-move
+2026-07-07_10-15-04,16.026,1,4,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,16.026,1,4,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,16.129,1,4,,520,190,direct-eye-move
+2026-07-07_10-15-04,16.229,1,4,Add Level,520,260,direct-eye-move
+2026-07-07_10-15-04,16.229,1,4,Add Level,520,260,visual-search-request-succeeded
+2026-07-07_10-15-04,16.341,1,4,,520,260,direct-eye-move
+2026-07-07_10-15-04,16.441,1,4,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,16.441,1,4,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,17.659,1,5,subtask1_5_list,1683,370,direct-eye-move
+2026-07-07_10-15-04,17.659,1,5,subtask1_5_list,1683,370,move-attention-to-subtask
+2026-07-07_10-15-04,18.109,1,5,Macro name,720,120,start-typing
+2026-07-07_10-15-04,28.059,1,6,subtask1_6_list,1683,390,direct-eye-move
+2026-07-07_10-15-04,28.059,1,6,subtask1_6_list,1683,390,move-attention-to-subtask
+2026-07-07_10-15-04,28.709,1,6,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,28.709,1,6,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,29.182,1,6,,720,260,direct-eye-move
+2026-07-07_10-15-04,29.282,1,6,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,29.282,1,6,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,29.388,1,6,,720,190,direct-eye-move
+2026-07-07_10-15-04,29.488,1,6,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,29.488,1,6,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,29.77,1,6,,520,190,direct-eye-move
+2026-07-07_10-15-04,29.87,1,6,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,29.87,1,6,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,29.998,1,6,,520,120,direct-eye-move
+2026-07-07_10-15-04,30.098,1,6,Add Level,520,260,direct-eye-move
+2026-07-07_10-15-04,30.098,1,6,Add Level,520,260,visual-search-request-succeeded
+2026-07-07_10-15-04,30.346,1,6,,520,260,direct-eye-move
+2026-07-07_10-15-04,30.446,1,6,Department,320,260,direct-eye-move
+2026-07-07_10-15-04,30.446,1,6,Department,320,260,visual-search-request-succeeded
+2026-07-07_10-15-04,30.615,1,6,,320,260,direct-eye-move
+2026-07-07_10-15-04,30.715,1,6,Stop Recording,320,330,direct-eye-move
+2026-07-07_10-15-04,30.715,1,6,Stop Recording,320,330,visual-search-request-succeeded
+2026-07-07_10-15-04,30.826,1,6,,320,330,direct-eye-move
+2026-07-07_10-15-04,30.926,1,6,A1,320,190,direct-eye-move
+2026-07-07_10-15-04,30.926,1,6,A1,320,190,visual-search-request-succeeded
+2026-07-07_10-15-04,31.166,1,6,,320,190,direct-eye-move
+2026-07-07_10-15-04,31.266,1,6,Sort by,120,260,direct-eye-move
+2026-07-07_10-15-04,31.266,1,6,Sort by,120,260,visual-search-request-succeeded
+2026-07-07_10-15-04,31.441,1,6,,120,260,direct-eye-move
+2026-07-07_10-15-04,31.541,1,6,Employee Name,120,330,direct-eye-move
+2026-07-07_10-15-04,31.541,1,6,Employee Name,120,330,visual-search-request-succeeded
+2026-07-07_10-15-04,31.656,1,6,,120,330,direct-eye-move
+2026-07-07_10-15-04,31.756,1,6,OK,120,190,direct-eye-move
+2026-07-07_10-15-04,31.756,1,6,OK,120,190,visual-search-request-succeeded
+2026-07-07_10-15-04,33.061,1,7,subtask1_7_list,1683,410,direct-eye-move
+2026-07-07_10-15-04,33.061,1,7,subtask1_7_list,1683,410,move-attention-to-subtask
+2026-07-07_10-15-04,33.711,1,7,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,33.711,1,7,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,34.147,1,7,,720,260,direct-eye-move
+2026-07-07_10-15-04,34.247,1,7,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,34.247,1,7,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,34.345,1,7,,720,190,direct-eye-move
+2026-07-07_10-15-04,34.445,1,7,Sort by,120,260,direct-eye-move
+2026-07-07_10-15-04,34.445,1,7,Sort by,120,260,visual-search-request-succeeded
+2026-07-07_10-15-04,34.749,1,7,,120,260,direct-eye-move
+2026-07-07_10-15-04,34.849,1,7,Employee Name,120,330,direct-eye-move
+2026-07-07_10-15-04,34.849,1,7,Employee Name,120,330,visual-search-request-succeeded
+2026-07-07_10-15-04,34.956,1,7,,120,330,direct-eye-move
+2026-07-07_10-15-04,35.056,1,7,OK,120,190,direct-eye-move
+2026-07-07_10-15-04,35.056,1,7,OK,120,190,visual-search-request-succeeded
+2026-07-07_10-15-04,35.229,1,7,,120,190,direct-eye-move
+2026-07-07_10-15-04,35.329,1,7,View,120,120,direct-eye-move
+2026-07-07_10-15-04,35.329,1,7,View,120,120,visual-search-request-succeeded
+2026-07-07_10-15-04,35.468,1,7,,120,120,direct-eye-move
+2026-07-07_10-15-04,35.568,1,7,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,35.568,1,7,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,35.742,1,7,,320,120,direct-eye-move
+2026-07-07_10-15-04,35.842,1,7,A1,320,190,direct-eye-move
+2026-07-07_10-15-04,35.842,1,7,A1,320,190,visual-search-request-succeeded
+2026-07-07_10-15-04,36.891,1,8,subtask1_8_list,1683,430,direct-eye-move
+2026-07-07_10-15-04,36.891,1,8,subtask1_8_list,1683,430,move-attention-to-subtask
+2026-07-07_10-15-04,37.641,1,9,subtask1_9_list,1683,450,direct-eye-move
+2026-07-07_10-15-04,37.641,1,9,subtask1_9_list,1683,450,move-attention-to-subtask
+2026-07-07_10-15-04,38.291,1,9,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,38.291,1,9,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,38.818,1,9,,720,260,direct-eye-move
+2026-07-07_10-15-04,38.918,1,9,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,38.918,1,9,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,39.032,1,9,,720,190,direct-eye-move
+2026-07-07_10-15-04,39.132,1,9,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,39.132,1,9,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,39.24,1,9,,720,120,direct-eye-move
+2026-07-07_10-15-04,39.34,1,9,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,39.34,1,9,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,39.6,1,9,,520,120,direct-eye-move
+2026-07-07_10-15-04,39.7,1,9,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,39.7,1,9,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,40.749,1,10,subtask1_10_list,1683,470,direct-eye-move
+2026-07-07_10-15-04,40.749,1,10,subtask1_10_list,1683,470,move-attention-to-subtask
+2026-07-07_10-15-04,41.399,1,10,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,41.399,1,10,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,41.883,1,10,,720,260,direct-eye-move
+2026-07-07_10-15-04,41.983,1,10,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,41.983,1,10,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,43.04,1,11,subtask1_11_list,1683,490,direct-eye-move
+2026-07-07_10-15-04,43.04,1,11,subtask1_11_list,1683,490,move-attention-to-subtask
+2026-07-07_10-15-04,43.69,1,11,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,43.69,1,11,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,44.079,1,11,,720,260,direct-eye-move
+2026-07-07_10-15-04,44.179,1,11,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,44.179,1,11,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,44.305,1,11,,720,190,direct-eye-move
+2026-07-07_10-15-04,44.405,1,11,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,44.405,1,11,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,44.509,1,11,,720,120,direct-eye-move
+2026-07-07_10-15-04,44.609,1,11,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,44.609,1,11,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,44.865,1,11,,520,120,direct-eye-move
+2026-07-07_10-15-04,44.965,1,11,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,44.965,1,11,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,45.22,1,11,,320,120,direct-eye-move
+2026-07-07_10-15-04,45.32,1,11,A1,320,190,direct-eye-move
+2026-07-07_10-15-04,45.32,1,11,A1,320,190,visual-search-request-succeeded
+2026-07-07_10-15-04,45.445,1,11,,320,190,direct-eye-move
+2026-07-07_10-15-04,45.545,1,11,Department,320,260,direct-eye-move
+2026-07-07_10-15-04,45.545,1,11,Department,320,260,visual-search-request-succeeded
+2026-07-07_10-15-04,45.657,1,11,,320,260,direct-eye-move
+2026-07-07_10-15-04,45.757,1,11,Stop Recording,320,330,direct-eye-move
+2026-07-07_10-15-04,45.757,1,11,Stop Recording,320,330,visual-search-request-succeeded
+2026-07-07_10-15-04,45.865,1,11,,320,330,direct-eye-move
+2026-07-07_10-15-04,45.965,1,11,Employee Name,120,330,direct-eye-move
+2026-07-07_10-15-04,45.965,1,11,Employee Name,120,330,visual-search-request-succeeded
+2026-07-07_10-15-04,46.235,1,11,,120,330,direct-eye-move
+2026-07-07_10-15-04,46.335,1,11,Sort by,120,260,direct-eye-move
+2026-07-07_10-15-04,46.335,1,11,Sort by,120,260,visual-search-request-succeeded
+2026-07-07_10-15-04,47.529,1,12,subtask1_12_list,1683,510,direct-eye-move
+2026-07-07_10-15-04,47.529,1,12,subtask1_12_list,1683,510,move-attention-to-subtask
+2026-07-07_10-15-04,48.179,1,12,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,48.179,1,12,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,48.531,1,12,,720,260,direct-eye-move
+2026-07-07_10-15-04,48.631,1,12,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,48.631,1,12,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,48.732,1,12,,720,190,direct-eye-move
+2026-07-07_10-15-04,48.832,1,12,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,48.832,1,12,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,49.101,1,12,,520,120,direct-eye-move
+2026-07-07_10-15-04,49.201,1,12,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,49.201,1,12,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,49.411,1,12,,720,120,direct-eye-move
+2026-07-07_10-15-04,49.511,1,12,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,49.511,1,12,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,49.689,1,12,,520,190,direct-eye-move
+2026-07-07_10-15-04,49.789,1,12,Add Level,520,260,direct-eye-move
+2026-07-07_10-15-04,49.789,1,12,Add Level,520,260,visual-search-request-succeeded
+2026-07-07_10-15-04,49.897,1,12,,520,260,direct-eye-move
+2026-07-07_10-15-04,49.997,1,12,Department,320,260,direct-eye-move
+2026-07-07_10-15-04,49.997,1,12,Department,320,260,visual-search-request-succeeded
+2026-07-07_10-15-04,51.208,1,13,subtask1_13_list,1683,530,direct-eye-move
+2026-07-07_10-15-04,51.208,1,13,subtask1_13_list,1683,530,move-attention-to-subtask
+2026-07-07_10-15-04,51.858,1,13,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,51.858,1,13,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,52.155,1,13,,720,260,direct-eye-move
+2026-07-07_10-15-04,52.255,1,13,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,52.255,1,13,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,52.377,1,13,,720,190,direct-eye-move
+2026-07-07_10-15-04,52.477,1,13,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,52.477,1,13,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,52.595,1,13,,720,120,direct-eye-move
+2026-07-07_10-15-04,52.695,1,13,Record Macro,520,120,direct-eye-move
+2026-07-07_10-15-04,52.695,1,13,Record Macro,520,120,visual-search-request-succeeded
+2026-07-07_10-15-04,52.949,1,13,,520,120,direct-eye-move
+2026-07-07_10-15-04,53.049,1,13,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,53.049,1,13,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,53.159,1,13,,520,190,direct-eye-move
+2026-07-07_10-15-04,53.259,1,13,Add Level,520,260,direct-eye-move
+2026-07-07_10-15-04,53.259,1,13,Add Level,520,260,visual-search-request-succeeded
+2026-07-07_10-15-04,54.327,1,14,subtask1_14_list,1683,550,direct-eye-move
+2026-07-07_10-15-04,54.327,1,14,subtask1_14_list,1683,550,move-attention-to-subtask
+2026-07-07_10-15-04,54.977,1,14,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,54.977,1,14,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,56.391,1,15,subtask1_15_list,1683,570,direct-eye-move
+2026-07-07_10-15-04,56.391,1,15,subtask1_15_list,1683,570,move-attention-to-subtask
+2026-07-07_10-15-04,57.041,1,15,Sort,720,190,direct-eye-move
+2026-07-07_10-15-04,57.041,1,15,Sort,720,190,visual-search-request-succeeded
+2026-07-07_10-15-04,57.435,1,15,,720,190,direct-eye-move
+2026-07-07_10-15-04,57.535,1,15,Then by,720,260,direct-eye-move
+2026-07-07_10-15-04,57.535,1,15,Then by,720,260,visual-search-request-succeeded
+2026-07-07_10-15-04,57.641,1,15,,720,260,direct-eye-move
+2026-07-07_10-15-04,57.741,1,15,Macro name,720,120,direct-eye-move
+2026-07-07_10-15-04,57.741,1,15,Macro name,720,120,visual-search-request-succeeded
+2026-07-07_10-15-04,57.977,1,15,,720,120,direct-eye-move
+2026-07-07_10-15-04,58.077,1,15,Department,320,260,direct-eye-move
+2026-07-07_10-15-04,58.077,1,15,Department,320,260,visual-search-request-succeeded
+2026-07-07_10-15-04,58.289,1,15,,320,260,direct-eye-move
+2026-07-07_10-15-04,58.389,1,15,Stop Recording,320,330,direct-eye-move
+2026-07-07_10-15-04,58.389,1,15,Stop Recording,320,330,visual-search-request-succeeded
+2026-07-07_10-15-04,58.504,1,15,,320,330,direct-eye-move
+2026-07-07_10-15-04,58.604,1,15,A1,320,190,direct-eye-move
+2026-07-07_10-15-04,58.604,1,15,A1,320,190,visual-search-request-succeeded
+2026-07-07_10-15-04,58.848,1,15,,320,190,direct-eye-move
+2026-07-07_10-15-04,58.948,1,15,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,58.948,1,15,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,59.072,1,15,,320,120,direct-eye-move
+2026-07-07_10-15-04,59.172,1,15,View,120,120,direct-eye-move
+2026-07-07_10-15-04,59.172,1,15,View,120,120,visual-search-request-succeeded
+2026-07-07_10-15-04,59.424,1,15,,120,120,direct-eye-move
+2026-07-07_10-15-04,59.524,1,15,OK,120,190,direct-eye-move
+2026-07-07_10-15-04,59.524,1,15,OK,120,190,visual-search-request-succeeded
+2026-07-07_10-15-04,59.651,1,15,,120,190,direct-eye-move
+2026-07-07_10-15-04,59.751,1,15,Sort by,120,260,direct-eye-move
+2026-07-07_10-15-04,59.751,1,15,Sort by,120,260,visual-search-request-succeeded
+2026-07-07_10-15-04,59.858,1,15,,120,260,direct-eye-move
+2026-07-07_10-15-04,59.958,1,15,Data,520,190,direct-eye-move
+2026-07-07_10-15-04,59.958,1,15,Data,520,190,visual-search-request-succeeded
+2026-07-07_10-15-04,60.278,1,15,,520,190,direct-eye-move
+2026-07-07_10-15-04,60.378,1,15,Employee Name,120,330,direct-eye-move
+2026-07-07_10-15-04,60.378,1,15,Employee Name,120,330,visual-search-request-succeeded
+2026-07-07_10-15-04,61.74,1,16,subtask1_16_list,1683,590,direct-eye-move
+2026-07-07_10-15-04,61.74,1,16,subtask1_16_list,1683,590,move-attention-to-subtask
+2026-07-07_10-15-04,62.29,1,16,OK,120,190,direct-eye-move
+2026-07-07_10-15-04,62.29,1,16,OK,120,190,visual-search-request-succeeded
+2026-07-07_10-15-04,63.676,1,17,subtask1_17_list,1683,610,direct-eye-move
+2026-07-07_10-15-04,63.676,1,17,subtask1_17_list,1683,610,move-attention-to-subtask
+2026-07-07_10-15-04,64.226,1,17,View,120,120,direct-eye-move
+2026-07-07_10-15-04,64.226,1,17,View,120,120,visual-search-request-succeeded
+2026-07-07_10-15-04,65.608,1,18,subtask1_18_list,1683,630,direct-eye-move
+2026-07-07_10-15-04,65.608,1,18,subtask1_18_list,1683,630,move-attention-to-subtask
+2026-07-07_10-15-04,66.176,1,18,Macros,320,120,direct-eye-move
+2026-07-07_10-15-04,66.176,1,18,Macros,320,120,visual-search-request-succeeded
+2026-07-07_10-15-04,67.648,1,19,subtask1_19_list,1683,650,direct-eye-move
+2026-07-07_10-15-04,67.648,1,19,subtask1_19_list,1683,650,move-attention-to-subtask
+2026-07-07_10-15-04,68.298,1,19,Stop Recording,320,330,direct-eye-move
+2026-07-07_10-15-04,68.298,1,19,Stop Recording,320,330,visual-search-request-succeeded

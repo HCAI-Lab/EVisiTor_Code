@@ -1,0 +1,74 @@
+{
+  "W01": {
+    "unique_data_id": "cmaela4ed001gzr0xhfhqg921",
+    "source": "candidate_tasks_full.json",
+    "reasoning_steps": [
+      "Press Windows + R.",
+      "Type \"notepad\" and press enter.",
+      "Close the window once done."
+    ]
+  },
+  "W02": {
+    "unique_data_id": "cmaela4el00dezr0xar3kk07l",
+    "source": "candidate_tasks_full.json",
+    "reasoning_steps": [
+      "Click on the budget.xlsx file in File Explorer.",
+      "Click on the rename icon on the top bar.",
+      "Change the name to \"budget_2025.xlsx\" and press Enter."
+    ]
+  },
+  "W03": {
+    "unique_data_id": "cm9egbfne005d0e0v3a0rw2pb",
+    "source": "train-00008-of-00016.parquet",
+    "reasoning_steps": []
+  },
+  "W04": {
+    "unique_data_id": "cm9egbfne005e0e0vmlosbfjd",
+    "source": "train-00008-of-00016.parquet",
+    "reasoning_steps": []
+  },
+  "W05": {
+    "unique_data_id": "cma092ib300e6wu0v1mk0doaw",
+    "source": "candidate_tasks_full.json",
+    "reasoning_steps": [
+      "Press Windows + I to open Settings.",
+      "Click on System in the left-hand menu and select Display from the right pane.",
+      "Under \"Scale & layout,\" select the resolution of 1920 x 1080 from \"Display Resolution.\"",
+      "Close the settings window."
+    ]
+  },
+  "W06": {
+    "unique_data_id": "cm9egbfne005b0e0v82oqry0i",
+    "source": "train-00008-of-00016.parquet",
+    "reasoning_steps": []
+  },
+  "W07": {
+    "unique_data_id": "cm9egbfne005h0e0v77munre4",
+    "source": "train-00008-of-00016.parquet",
+    "reasoning_steps": []
+  },
+  "W08": {
+    "unique_data_id": "cma092ib500gwwu0vu218ss62",
+    "source": "train-00006-of-00016.parquet",
+    "reasoning_steps": [
+      "Click the Start menu and select \"Settings.\"",
+      "Type \"updates\" in the search box and select \"Check for Updates\" from the suggestions.",
+      "Click on \"Update history\" in the right-hand menu.",
+      "View the update history."
+    ]
+  },
+  "W09": {
+    "unique_data_id": "cma092ib500gxwu0vhh81jipt",
+    "source": "train-00006-of-00016.parquet",
+    "reasoning_steps": [
+      "Right-click on the taskbar and select \"Taskbar settings\" from the dropdown.",
+      "Scroll down to Taskbar behaviors and check \"Automatically hide the taskbar.\"",
+      "The taskbar is now hidden."
+    ]
+  },
+  "W10": {
+    "unique_data_id": "cm9egbkl7005j0e0v774e8iqr",
+    "source": "train-00008-of-00016.parquet",
+    "reasoning_steps": []
+  }
+}

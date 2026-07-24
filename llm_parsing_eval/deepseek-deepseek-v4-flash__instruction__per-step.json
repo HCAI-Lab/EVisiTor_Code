@@ -1,0 +1,242 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "openrouter",
+  "variant": "instruction",
+  "condition": "per-step",
+  "per_task": {
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Compress to...",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Goto",
+          "Logs.zip",
+          5,
+          true
+        ],
+        [
+          "Select",
+          "Logs.zip",
+          5,
+          true
+        ]
+      ],
+      "targets": 8,
+      "resolved": 8
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Goto",
+          "Start",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Type",
+          "calculator",
+          2,
+          null
+        ],
+        [
+          "Select",
+          "Calculator",
+          2,
+          true
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "budget_2025.xlsx.xlsx",
+          4,
+          true
+        ]
+      ],
+      "targets": 6,
+      "resolved": 6
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "New",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "New folder",
+          4,
+          true
+        ],
+        [
+          "Goto",
+          "New folder",
+          5,
+          false
+        ],
+        [
+          "Select",
+          "New folder",
+          5,
+          false
+        ]
+      ],
+      "targets": 8,
+      "resolved": 6
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Type",
+          "Search Documents",
+          2,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Goto",
+          "Open: Edit",
+          2,
+          false
+        ],
+        [
+          "Select",
+          "Open: Edit",
+          2,
+          false
+        ]
+      ],
+      "targets": 2,
+      "resolved": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+run_id,model_time,task,subtask,location_name,screen_x,screen_y,source
+2026-07-08_01-33-18,0.1,1,1,task1,1159,290,direct-eye-move
+2026-07-08_01-33-18,0.1,1,1,task1,1159,290,move-vision-to-task
+2026-07-08_01-33-18,0.679,1,1,subtask1_1_list,1683,290,direct-eye-move
+2026-07-08_01-33-18,0.679,1,1,subtask1_1_list,1683,290,move-attention-to-subtask
+2026-07-08_01-33-18,1.329,1,1,Local Disk (C:),320,120,direct-eye-move
+2026-07-08_01-33-18,1.329,1,1,Local Disk (C:),320,120,visual-search-request-succeeded
+2026-07-08_01-33-18,1.803,1,1,,320,120,direct-eye-move
+2026-07-08_01-33-18,1.903,1,1,This PC,120,120,direct-eye-move
+2026-07-08_01-33-18,1.903,1,1,This PC,120,120,visual-search-request-succeeded
+2026-07-08_01-33-18,3.037,1,2,subtask1_2_list,1683,310,direct-eye-move
+2026-07-08_01-33-18,3.037,1,2,subtask1_2_list,1683,310,move-attention-to-subtask
+2026-07-08_01-33-18,3.687,1,2,Local Disk (C:),320,120,direct-eye-move
+2026-07-08_01-33-18,3.687,1,2,Local Disk (C:),320,120,visual-search-request-succeeded
+2026-07-08_01-36-23,0.1,1,1,task1,1159,290,direct-eye-move
+2026-07-08_01-36-23,0.1,1,1,task1,1159,290,move-vision-to-task
+2026-07-08_01-36-23,0.676,1,1,subtask1_1_list,1683,290,direct-eye-move
+2026-07-08_01-36-23,0.676,1,1,subtask1_1_list,1683,290,move-attention-to-subtask
+2026-07-08_01-36-23,1.326,1,1,Local Disk (C:),320,120,direct-eye-move
+2026-07-08_01-36-23,1.326,1,1,Local Disk (C:),320,120,visual-search-request-succeeded
+2026-07-08_01-36-23,1.846,1,1,,320,120,direct-eye-move
+2026-07-08_01-36-23,1.946,1,1,This PC,120,120,direct-eye-move
+2026-07-08_01-36-23,1.946,1,1,This PC,120,120,visual-search-request-succeeded
+2026-07-08_01-36-23,3.176,1,2,subtask1_2_list,1683,310,direct-eye-move
+2026-07-08_01-36-23,3.176,1,2,subtask1_2_list,1683,310,move-attention-to-subtask
+2026-07-08_01-36-23,3.826,1,2,Local Disk (C:),320,120,direct-eye-move
+2026-07-08_01-36-23,3.826,1,2,Local Disk (C:),320,120,visual-search-request-succeeded

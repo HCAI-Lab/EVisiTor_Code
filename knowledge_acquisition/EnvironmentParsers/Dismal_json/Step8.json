@@ -1,0 +1,1093 @@
+{
+  "elements": [
+    {
+      "bbox": [
+        18,
+        8,
+        42,
+        24
+      ],
+      "name": "Emacs Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        20,
+        29,
+        40,
+        324
+      ],
+      "name": "Window Title",
+      "text": "normalization.dis - GNU Emacs at DESKTOP-ES5O498",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        18,
+        861,
+        42,
+        891
+      ],
+      "name": "Minimize Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        18,
+        909,
+        42,
+        939
+      ],
+      "name": "Maximize Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        18,
+        957,
+        42,
+        987
+      ],
+      "name": "Close Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        68,
+        7,
+        88,
+        26
+      ],
+      "name": "File Menu",
+      "text": "File",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        40,
+        88,
+        86
+      ],
+      "name": "Options Menu",
+      "text": "Options",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        100,
+        88,
+        139
+      ],
+      "name": "Buffers Menu",
+      "text": "Buffers",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        153,
+        88,
+        183
+      ],
+      "name": "Tools Menu",
+      "text": "Tools",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        197,
+        88,
+        225
+      ],
+      "name": "dFile Menu",
+      "text": "dFile",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        239,
+        88,
+        269
+      ],
+      "name": "dEdit Menu",
+      "text": "dEdit",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        283,
+        88,
+        308
+      ],
+      "name": "dGo Menu",
+      "text": "dGo",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        322,
+        88,
+        374
+      ],
+      "name": "dComms Menu",
+      "text": "dComms",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        388,
+        88,
+        437
+      ],
+      "name": "dFormat Menu",
+      "text": "dFormat",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        451,
+        88,
+        482
+      ],
+      "name": "dDoc Menu",
+      "text": "dDoc",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        496,
+        88,
+        541
+      ],
+      "name": "dModel Menu",
+      "text": "dModel",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        68,
+        555,
+        88,
+        581
+      ],
+      "name": "Help Menu",
+      "text": "Help",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        106,
+        5,
+        142,
+        24
+      ],
+      "name": "New File Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        31,
+        142,
+        50
+      ],
+      "name": "Open File Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        57,
+        142,
+        76
+      ],
+      "name": "Save File Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        83,
+        142,
+        102
+      ],
+      "name": "Close Buffer Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        109,
+        142,
+        128
+      ],
+      "name": "Undo Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        145,
+        142,
+        164
+      ],
+      "name": "Search Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        181,
+        142,
+        200
+      ],
+      "name": "Cut Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        207,
+        142,
+        226
+      ],
+      "name": "Copy Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        153,
+        146,
+        173,
+        156
+      ],
+      "name": "Column Header A",
+      "text": "A",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        153,
+        261,
+        173,
+        271
+      ],
+      "name": "Column Header B",
+      "text": "B",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        153,
+        386,
+        173,
+        396
+      ],
+      "name": "Column Header C",
+      "text": "C",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        153,
+        632,
+        173,
+        642
+      ],
+      "name": "Column Header D",
+      "text": "D",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        153,
+        758,
+        173,
+        768
+      ],
+      "name": "Column Header E",
+      "text": "E",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        153,
+        883,
+        173,
+        893
+      ],
+      "name": "Column Header F",
+      "text": "F",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        210,
+        14,
+        230,
+        22
+      ],
+      "name": "Row Header 0",
+      "text": "0",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        238,
+        14,
+        258,
+        22
+      ],
+      "name": "Row Header 1",
+      "text": "1",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        267,
+        14,
+        287,
+        22
+      ],
+      "name": "Row Header 2",
+      "text": "2",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        295,
+        14,
+        315,
+        22
+      ],
+      "name": "Row Header 3",
+      "text": "3",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        324,
+        14,
+        344,
+        22
+      ],
+      "name": "Row Header 4",
+      "text": "4",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        352,
+        14,
+        372,
+        22
+      ],
+      "name": "Row Header 5",
+      "text": "5",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        381,
+        14,
+        401,
+        22
+      ],
+      "name": "Row Header 6",
+      "text": "6",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        409,
+        14,
+        429,
+        22
+      ],
+      "name": "Row Header 7",
+      "text": "7",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        438,
+        14,
+        458,
+        22
+      ],
+      "name": "Row Header 8",
+      "text": "8",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        466,
+        14,
+        486,
+        22
+      ],
+      "name": "Row Header 9",
+      "text": "9",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        495,
+        5,
+        515,
+        22
+      ],
+      "name": "Row Header 10",
+      "text": "10",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        523,
+        5,
+        543,
+        22
+      ],
+      "name": "Row Header 11",
+      "text": "11",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        552,
+        5,
+        572,
+        22
+      ],
+      "name": "Row Header 12",
+      "text": "12",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        210,
+        71,
+        230,
+        172
+      ],
+      "name": "Cell A0",
+      "text": "Command Name",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        238,
+        71,
+        258,
+        96
+      ],
+      "name": "Cell A1",
+      "text": "log",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        267,
+        71,
+        287,
+        180
+      ],
+      "name": "Cell A2",
+      "text": "excise-chunks",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        295,
+        71,
+        315,
+        164
+      ],
+      "name": "Cell A3",
+      "text": "excise-task",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        324,
+        71,
+        344,
+        88
+      ],
+      "name": "Cell A4",
+      "text": "go",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        352,
+        71,
+        372,
+        105
+      ],
+      "name": "Cell A5",
+      "text": "help",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        381,
+        71,
+        401,
+        155
+      ],
+      "name": "Cell A6",
+      "text": "excise-all",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        409,
+        71,
+        429,
+        105
+      ],
+      "name": "Cell A7",
+      "text": "load",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        438,
+        71,
+        458,
+        122
+      ],
+      "name": "Cell A8",
+      "text": "excise",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        466,
+        71,
+        486,
+        105
+      ],
+      "name": "Cell A9",
+      "text": "time",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        523,
+        71,
+        543,
+        113
+      ],
+      "name": "Cell A11",
+      "text": "Total",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        552,
+        71,
+        572,
+        155
+      ],
+      "name": "Cell A12",
+      "text": "Your Total",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        210,
+        230,
+        230,
+        297
+      ],
+      "name": "Cell B0",
+      "text": "Keystrokes",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        238,
+        280,
+        258,
+        297
+      ],
+      "name": "Cell B1",
+      "text": "10",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        267,
+        280,
+        287,
+        297
+      ],
+      "name": "Cell B2",
+      "text": "16",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        295,
+        280,
+        315,
+        297
+      ],
+      "name": "Cell B3",
+      "text": "14",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        324,
+        288,
+        344,
+        297
+      ],
+      "name": "Cell B4",
+      "text": "5",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        352,
+        288,
+        372,
+        297
+      ],
+      "name": "Cell B5",
+      "text": "7",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        381,
+        280,
+        401,
+        297
+      ],
+      "name": "Cell B6",
+      "text": "13",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        409,
+        288,
+        429,
+        297
+      ],
+      "name": "Cell B7",
+      "text": "7",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        438,
+        288,
+        458,
+        297
+      ],
+      "name": "Cell B8",
+      "text": "9",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        466,
+        288,
+        486,
+        297
+      ],
+      "name": "Cell B9",
+      "text": "7",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        523,
+        381,
+        543,
+        406
+      ],
+      "name": "Cell C11",
+      "text": "139",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        210,
+        439,
+        230,
+        515
+      ],
+      "name": "Cell D0",
+      "text": "Description",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        210,
+        574,
+        230,
+        624
+      ],
+      "name": "Cell E0",
+      "text": "Length",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        210,
+        699,
+        230,
+        741
+      ],
+      "name": "Cell F0",
+      "text": "Typed",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        210,
+        825,
+        230,
+        909
+      ],
+      "name": "Cell G0",
+      "text": "Characters",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        100,
+        232,
+        468,
+        491
+      ],
+      "name": "Context Menu",
+      "text": null,
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        110,
+        270,
+        136,
+        321
+      ],
+      "name": "Kill range Menu Item",
+      "text": "Kill range",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        110,
+        446,
+        136,
+        468
+      ],
+      "name": "Kill range Shortcut",
+      "text": "C-w",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        154,
+        270,
+        180,
+        335
+      ],
+      "name": "Copy range Menu Item",
+      "text": "Copy range",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        154,
+        461,
+        180,
+        468
+      ],
+      "name": "Copy range Shortcut",
+      "text": "c",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        198,
+        270,
+        224,
+        296
+      ],
+      "name": "Yank Menu Item",
+      "text": "Yank",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        198,
+        446,
+        224,
+        468
+      ],
+      "name": "Yank Shortcut",
+      "text": "C-y",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        242,
+        270,
+        268,
+        334
+      ],
+      "name": "Erase range Menu Item",
+      "text": "Erase range",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        242,
+        432,
+        268,
+        468
+      ],
+      "name": "Erase range Shortcut",
+      "text": "C-M-e",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        286,
+        270,
+        312,
+        312
+      ],
+      "name": "Edit cell Menu Item",
+      "text": "Edit cell",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        286,
+        461,
+        312,
+        468
+      ],
+      "name": "Edit cell Shortcut",
+      "text": "e",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        330,
+        270,
+        356,
+        301
+      ],
+      "name": "Insert Menu Item",
+      "text": "Insert",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        330,
+        471,
+        356,
+        477
+      ],
+      "name": "Insert Submenu Indicator",
+      "text": ">",
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        374,
+        270,
+        400,
+        306
+      ],
+      "name": "Delete Menu Item",
+      "text": "Delete",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        374,
+        471,
+        400,
+        477
+      ],
+      "name": "Delete Submenu Indicator",
+      "text": ">",
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        418,
+        270,
+        444,
+        398
+      ],
+      "name": "Modify cell justification Menu Item",
+      "text": "Modify cell justification",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        418,
+        471,
+        444,
+        477
+      ],
+      "name": "Modify cell justification Submenu Indicator",
+      "text": ">",
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        320,
+        489,
+        568,
+        691
+      ],
+      "name": "Insert Submenu",
+      "text": null,
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        330,
+        527,
+        356,
+        551
+      ],
+      "name": "Row Menu Item",
+      "text": "Row",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        330,
+        655,
+        356,
+        668
+      ],
+      "name": "Row Shortcut",
+      "text": "i r",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        374,
+        527,
+        400,
+        570
+      ],
+      "name": "Column Menu Item",
+      "text": "Column",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        374,
+        655,
+        400,
+        668
+      ],
+      "name": "Column Shortcut",
+      "text": "i c",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        418,
+        527,
+        444,
+        553
+      ],
+      "name": "Cells Menu Item",
+      "text": "Cells",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        418,
+        655,
+        444,
+        668
+      ],
+      "name": "Cells Shortcut",
+      "text": "i .",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        462,
+        527,
+        488,
+        609
+      ],
+      "name": "Marked-Range Menu Item",
+      "text": "Marked-Range",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        462,
+        644,
+        488,
+        668
+      ],
+      "name": "Marked-Range Shortcut",
+      "text": "M-o",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        506,
+        527,
+        532,
+        560
+      ],
+      "name": "Z-Box Menu Item",
+      "text": "Z-Box",
+      "type": "menu item"
+    },
+    {
+      "bbox": [
+        506,
+        655,
+        532,
+        668
+      ],
+      "name": "Z-Box Shortcut",
+      "text": "i z",
+      "type": "text"
+    }
+  ]
+}

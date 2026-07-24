@@ -1,0 +1,653 @@
+{
+  "model": "gpt-5.4-nano",
+  "provider": "openai",
+  "variant": "instruction",
+  "condition": "full-uia",
+  "per_task": {
+    "W02": {
+      "prompt_chars": 12850,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 2,
+            "task_name": "rename_budget_file",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "File Explorer"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "File Explorer"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "budget.xlsx"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "budget.xlsx"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Rename"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Rename"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "budget_2025.xlsx"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W03": {
+      "prompt_chars": 20645,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 3,
+            "task_name": "new_folder_projects",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "File Explorer"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "File Explorer"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Desktop"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Desktop"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "New"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "New"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "ctrl+shift+n"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 5,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "Projects"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W10": {
+      "prompt_chars": 16241,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 10,
+            "task_name": "search_report_docx",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Documents"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Documents"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Search Documents"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Search Documents"
+                  },
+                  {
+                    "action": "Type",
+                    "target": "report.docx"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W01": {
+      "prompt_chars": 16584,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 1,
+            "task_name": "run_notepad",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+r"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Open:"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Open:"
+                  },
+                  {
+                    "action": "Type",
+                    "target": "notepad"
+                  },
+                  {
+                    "action": "Goto",
+                    "target": "OK"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "OK"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W04": {
+      "prompt_chars": 14470,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 4,
+            "task_name": "zip_logs_folder",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Logs.zip"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Logs.zip"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "RightClick",
+                    "target": "Logs.zip"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Show more options"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Show more options"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Compress to..."
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Compress to..."
+                  }
+                ]
+              },
+              {
+                "subtask_id": 5,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W09": {
+      "prompt_chars": 10002,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 9,
+            "task_name": "open_calculator_start_search",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Search"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Select",
+                    "target": "Search"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "Calculator"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    }
+  },
+  "generated_spec_shape": [
+    {
+      "id": "W01",
+      "name": "run_notepad",
+      "unique_data_id": "cmaela4ed001gzr0xhfhqg921",
+      "app": "Run dialog",
+      "difficulty": "EASY",
+      "instruction": "Use the Run dialog (Win+R) to open Notepad on Windows.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+r"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Open:"
+          ],
+          [
+            "Select",
+            "Open:"
+          ],
+          [
+            "Type",
+            "notepad"
+          ],
+          [
+            "Goto",
+            "OK"
+          ],
+          [
+            "Select",
+            "OK"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W02",
+      "name": "rename_budget_file",
+      "unique_data_id": "cmaela4el00dezr0xar3kk07l",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Open File Explorer and rename the file 'budget.xlsx' to 'budget_2025.xlsx'.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "File Explorer"
+          ],
+          [
+            "Select",
+            "File Explorer"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "budget.xlsx"
+          ],
+          [
+            "Select",
+            "budget.xlsx"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Rename"
+          ],
+          [
+            "Select",
+            "Rename"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "budget_2025.xlsx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W03",
+      "name": "new_folder_projects",
+      "unique_data_id": "cm9egbfne005d0e0v3a0rw2pb",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Create a new folder named 'Projects' on the Desktop using File Explorer.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "File Explorer"
+          ],
+          [
+            "Select",
+            "File Explorer"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Desktop"
+          ],
+          [
+            "Select",
+            "Desktop"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "New"
+          ],
+          [
+            "Select",
+            "New"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "ctrl+shift+n"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "Projects"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W04",
+      "name": "zip_logs_folder",
+      "unique_data_id": "cmaela4el00dgzr0xvj1od7q9",
+      "app": "File Explorer",
+      "difficulty": "MEDIUM",
+      "instruction": "Compress the folder 'Logs' into a ZIP archive.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Logs.zip"
+          ],
+          [
+            "Select",
+            "Logs.zip"
+          ]
+        ],
+        [
+          [
+            "RightClick",
+            "Logs.zip"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Show more options"
+          ],
+          [
+            "Select",
+            "Show more options"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Compress to..."
+          ],
+          [
+            "Select",
+            "Compress to..."
+          ]
+        ],
+        [
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W09",
+      "name": "open_calculator_start_search",
+      "unique_data_id": "cma092ib400ghwu0v52t3qxia",
+      "app": "Start menu",
+      "difficulty": "EASY",
+      "instruction": "Open the Calculator via the Windows Start menu search bar.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Search"
+          ]
+        ],
+        [
+          [
+            "Select",
+            "Search"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "Calculator"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W10",
+      "name": "search_report_docx",
+      "unique_data_id": "cm9egbkl7005j0e0v774e8iqr",
+      "app": "File Explorer (Windows search)",
+      "difficulty": "EASY",
+      "instruction": "File Explorer is already open. Search for a file named 'report.docx' in the Documents folder using Windows search.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Documents"
+          ],
+          [
+            "Select",
+            "Documents"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Search Documents"
+          ],
+          [
+            "Select",
+            "Search Documents"
+          ],
+          [
+            "Type",
+            "report.docx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    }
+  ]
+}

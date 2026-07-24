@@ -1,0 +1,576 @@
+{
+  "elements": [
+    {
+      "bbox": [
+        14,
+        8,
+        38,
+        23
+      ],
+      "name": "Emacs Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        14,
+        28,
+        38,
+        388
+      ],
+      "name": "Window Title",
+      "text": "normalization.dis - GNU Emacs at DESKTOP-ES5O498",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        14,
+        861,
+        38,
+        893
+      ],
+      "name": "Minimize Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        14,
+        909,
+        38,
+        941
+      ],
+      "name": "Maximize Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        14,
+        957,
+        38,
+        989
+      ],
+      "name": "Close Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        58,
+        6,
+        82,
+        26
+      ],
+      "name": "File Menu",
+      "text": "File",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        34,
+        82,
+        84
+      ],
+      "name": "Options Menu",
+      "text": "Options",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        92,
+        82,
+        138
+      ],
+      "name": "Buffers Menu",
+      "text": "Buffers",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        146,
+        82,
+        182
+      ],
+      "name": "Tools Menu",
+      "text": "Tools",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        190,
+        82,
+        222
+      ],
+      "name": "dFile Menu",
+      "text": "dFile",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        230,
+        82,
+        266
+      ],
+      "name": "dEdit Menu",
+      "text": "dEdit",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        274,
+        82,
+        306
+      ],
+      "name": "dGo Menu",
+      "text": "dGo",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        314,
+        82,
+        374
+      ],
+      "name": "dComms Menu",
+      "text": "dComms",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        382,
+        82,
+        438
+      ],
+      "name": "dFormat Menu",
+      "text": "dFormat",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        446,
+        82,
+        482
+      ],
+      "name": "dDoc Menu",
+      "text": "dDoc",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        490,
+        82,
+        546
+      ],
+      "name": "dModel Menu",
+      "text": "dModel",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        58,
+        554,
+        82,
+        582
+      ],
+      "name": "Help Menu",
+      "text": "Help",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        102,
+        4,
+        126,
+        20
+      ],
+      "name": "Find File Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        102,
+        24,
+        126,
+        76
+      ],
+      "name": "Find File Text",
+      "text": "Find file:",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        102,
+        556,
+        126,
+        572
+      ],
+      "name": "Close Dialog Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        158,
+        58,
+        182,
+        98
+      ],
+      "name": "Look in Label",
+      "text": "Look in:",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        154,
+        106,
+        186,
+        378
+      ],
+      "name": "Look in Dropdown",
+      "text": "Experiment",
+      "type": "dropdown"
+    },
+    {
+      "bbox": [
+        158,
+        390,
+        182,
+        406
+      ],
+      "name": "Up One Level Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        158,
+        406,
+        182,
+        422
+      ],
+      "name": "Create New Folder Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        158,
+        422,
+        182,
+        438
+      ],
+      "name": "View Menu Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        158,
+        438,
+        182,
+        466
+      ],
+      "name": "More Options Button",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        214,
+        36,
+        286,
+        70
+      ],
+      "name": "Home Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        286,
+        36,
+        310,
+        70
+      ],
+      "name": "Home Text",
+      "text": "Home",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        326,
+        36,
+        398,
+        70
+      ],
+      "name": "Desktop Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        398,
+        30,
+        422,
+        76
+      ],
+      "name": "Desktop Text",
+      "text": "Desktop",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        438,
+        36,
+        510,
+        70
+      ],
+      "name": "Libraries Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        510,
+        30,
+        534,
+        76
+      ],
+      "name": "Libraries Text",
+      "text": "Libraries",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        550,
+        36,
+        622,
+        70
+      ],
+      "name": "This PC Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        622,
+        32,
+        646,
+        74
+      ],
+      "name": "This PC Text",
+      "text": "This PC",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        662,
+        36,
+        734,
+        70
+      ],
+      "name": "Network Icon",
+      "text": null,
+      "type": "icon"
+    },
+    {
+      "bbox": [
+        734,
+        28,
+        758,
+        78
+      ],
+      "name": "Network Text",
+      "text": "Network",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        214,
+        108,
+        246,
+        428
+      ],
+      "name": "Name Column Header",
+      "text": "Name",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        214,
+        428,
+        246,
+        576
+      ],
+      "name": "Date Modified Column Header",
+      "text": "Date modified",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        254,
+        110,
+        286,
+        428
+      ],
+      "name": "Experiment Folder Row",
+      "text": "Experiment",
+      "type": "row"
+    },
+    {
+      "bbox": [
+        254,
+        428,
+        286,
+        576
+      ],
+      "name": "Experiment Folder Date",
+      "text": "5/4/2026 4:12 PM",
+      "type": "row"
+    },
+    {
+      "bbox": [
+        802,
+        106,
+        826,
+        158
+      ],
+      "name": "File Name Label",
+      "text": "File name:",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        794,
+        206,
+        834,
+        462
+      ],
+      "name": "File Name Input",
+      "text": null,
+      "type": "input"
+    },
+    {
+      "bbox": [
+        850,
+        106,
+        874,
+        170
+      ],
+      "name": "Files of Type Label",
+      "text": "Files of type:",
+      "type": "text"
+    },
+    {
+      "bbox": [
+        846,
+        206,
+        882,
+        462
+      ],
+      "name": "Files of Type Dropdown",
+      "text": "All Files (*.*)",
+      "type": "dropdown"
+    },
+    {
+      "bbox": [
+        794,
+        498,
+        834,
+        574
+      ],
+      "name": "Open Button",
+      "text": "Open",
+      "type": "button"
+    },
+    {
+      "bbox": [
+        846,
+        498,
+        882,
+        574
+      ],
+      "name": "Cancel Button",
+      "text": "Cancel",
+      "type": "button"
+    },
+    {
+      "bbox": [
+        146,
+        634,
+        170,
+        642
+      ],
+      "name": "Column D Header",
+      "text": "D",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        146,
+        758,
+        170,
+        766
+      ],
+      "name": "Column E Header",
+      "text": "E",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        146,
+        882,
+        170,
+        890
+      ],
+      "name": "Column F Header",
+      "text": "F",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        202,
+        582,
+        226,
+        622
+      ],
+      "name": "Length Cell",
+      "text": "ength",
+      "type": "cell"
+    },
+    {
+      "bbox": [
+        202,
+        698,
+        226,
+        742
+      ],
+      "name": "Typed Cell",
+      "text": "Typed",
+      "type": "cell"
+    },
+    {
+      "bbox": [
+        202,
+        826,
+        226,
+        906
+      ],
+      "name": "Characters Cell",
+      "text": "Characters",
+      "type": "cell"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+run_id,model_time,expected_key,typed_key,delivered_key
+2026-07-08_01-33-18,6.55,ctrl+x,ctrl+x,ctrl+x
+2026-07-08_01-36-23,6.49,ctrl+x,ctrl+x,ctrl+x
+2026-07-08_01-36-23,9.355,ctrl+v,ctrl+v,ctrl+v

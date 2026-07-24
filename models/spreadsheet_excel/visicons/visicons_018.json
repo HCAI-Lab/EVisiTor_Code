@@ -1,0 +1,574 @@
+[
+  {
+    "name": "Widgets 77\u00b0F Sunny",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      82,
+      1056
+    ],
+    "rect": [
+      6,
+      1032,
+      158,
+      1080
+    ],
+    "width": 152,
+    "height": 48,
+    "color": "black",
+    "text": "Widgets 77\u00b0F Sunny",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 8
+  },
+  {
+    "name": "Tomorrow's high",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      96,
+      1047
+    ],
+    "rect": [
+      51,
+      1039,
+      141,
+      1055
+    ],
+    "width": 90,
+    "height": 16,
+    "color": "black",
+    "text": "Tomorrow's high",
+    "highlighted": false,
+    "parent_text": "Widgets 77\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "Near record",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      82,
+      1063
+    ],
+    "rect": [
+      51,
+      1055,
+      114,
+      1071
+    ],
+    "width": 63,
+    "height": 16,
+    "color": "black",
+    "text": "Near record",
+    "highlighted": false,
+    "parent_text": "Widgets 77\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "1",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      38,
+      1045
+    ],
+    "rect": [
+      37,
+      1038,
+      40,
+      1053
+    ],
+    "width": 3,
+    "height": 15,
+    "color": "dark-gray",
+    "text": "1",
+    "highlighted": false,
+    "parent_text": "Widgets 77\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "77\u00b0F",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      62,
+      1047
+    ],
+    "rect": [
+      51,
+      1039,
+      74,
+      1055
+    ],
+    "width": 23,
+    "height": 16,
+    "color": "dark-green",
+    "text": "77\u00b0F",
+    "highlighted": false,
+    "parent_text": "Widgets 77\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "Sunny",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      67,
+      1063
+    ],
+    "rect": [
+      51,
+      1055,
+      84,
+      1071
+    ],
+    "width": 33,
+    "height": 16,
+    "color": "dark-green",
+    "text": "Sunny",
+    "highlighted": false,
+    "parent_text": "Widgets 77\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "Start",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      649,
+      1056
+    ],
+    "rect": [
+      627,
+      1032,
+      672,
+      1080
+    ],
+    "width": 45,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Start",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Search",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      785,
+      1056
+    ],
+    "rect": [
+      675,
+      1040,
+      895,
+      1072
+    ],
+    "width": 220,
+    "height": 32,
+    "color": "dark-green",
+    "text": "Search",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Search",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      732,
+      1055
+    ],
+    "rect": [
+      712,
+      1046,
+      753,
+      1064
+    ],
+    "width": 41,
+    "height": 18,
+    "color": "gray",
+    "text": "Search",
+    "highlighted": false,
+    "parent_text": "Search",
+    "children_count": 0
+  },
+  {
+    "name": "Task View",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      919,
+      1056
+    ],
+    "rect": [
+      897,
+      1032,
+      941,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Task View",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Copilot",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      963,
+      1056
+    ],
+    "rect": [
+      941,
+      1032,
+      985,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "black",
+    "text": "Copilot",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "File Explorer",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1007,
+      1056
+    ],
+    "rect": [
+      985,
+      1032,
+      1029,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "File Explorer",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Microsoft Edge",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1051,
+      1056
+    ],
+    "rect": [
+      1029,
+      1032,
+      1073,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Microsoft Edge",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Microsoft Store",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1095,
+      1056
+    ],
+    "rect": [
+      1073,
+      1032,
+      1117,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "gray",
+    "text": "Microsoft Store",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Task Manager",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1139,
+      1056
+    ],
+    "rect": [
+      1117,
+      1032,
+      1161,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Task Manager",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Google Chrome",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1183,
+      1056
+    ],
+    "rect": [
+      1161,
+      1032,
+      1205,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Google Chrome",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Visual Studio Code",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1227,
+      1056
+    ],
+    "rect": [
+      1205,
+      1032,
+      1249,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Visual Studio Code",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Word",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1271,
+      1056
+    ],
+    "rect": [
+      1249,
+      1032,
+      1293,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "gray",
+    "text": "Word",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Show Hidden Icons",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1665,
+      1056
+    ],
+    "rect": [
+      1649,
+      1032,
+      1681,
+      1080
+    ],
+    "width": 32,
+    "height": 48,
+    "color": "black",
+    "text": "Show Hidden Icons",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "OneDrive - The Pennsylvania State University\r\nA file or folder name contains characters that aren't allowed",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1697,
+      1056
+    ],
+    "rect": [
+      1681,
+      1032,
+      1713,
+      1080
+    ],
+    "width": 32,
+    "height": 48,
+    "color": "black",
+    "text": "OneDrive - The Pennsylvania State University\r\nA file or folder name contains characters that aren't allowed",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Tray Input Indicator English (United States)\r\nUS\r\n\r\nTo switch input methods, press Windows key + space.",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1735,
+      1056
+    ],
+    "rect": [
+      1713,
+      1032,
+      1757,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "black",
+    "text": "Tray Input Indicator English (United States)\r\nUS\r\n\r\nTo switch input methods, press Windows key + space.",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Network Apt Store Dojo\nInternet access\n\nTailscale\nNo internet access",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1771,
+      1056
+    ],
+    "rect": [
+      1757,
+      1032,
+      1785,
+      1080
+    ],
+    "width": 28,
+    "height": 48,
+    "color": "black",
+    "text": "Network Apt Store Dojo\nInternet access\n\nTailscale\nNo internet access",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Volume LG HDR 4K (NVIDIA High Definition Audio): 98%",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1799,
+      1056
+    ],
+    "rect": [
+      1785,
+      1032,
+      1813,
+      1080
+    ],
+    "width": 28,
+    "height": 48,
+    "color": "black",
+    "text": "Volume LG HDR 4K (NVIDIA High Definition Audio): 98%",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Clock 11:29 AM\n\u200e7/\u200e13/\u200e2026",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1846,
+      1056
+    ],
+    "rect": [
+      1813,
+      1032,
+      1880,
+      1080
+    ],
+    "width": 67,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Clock 11:29 AM\n\u200e7/\u200e13/\u200e2026",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Notifications 6 new notifications (Do not disturb on)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1894,
+      1056
+    ],
+    "rect": [
+      1880,
+      1032,
+      1908,
+      1080
+    ],
+    "width": 28,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Notifications 6 new notifications (Do not disturb on)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Show Desktop",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1914,
+      1056
+    ],
+    "rect": [
+      1908,
+      1032,
+      1920,
+      1080
+    ],
+    "width": 12,
+    "height": 48,
+    "color": "black",
+    "text": "Show Desktop",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  }
+]

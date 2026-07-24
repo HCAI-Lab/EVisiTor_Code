@@ -1,0 +1,122 @@
+gold subtasks parsed: 93
+uia context: 224 pruned elements in prompt, 210 distinct names for scoring; gold resolvability 50.0%
+filtered to 8 model(s): gpt-5.5, gpt-5.4-mini, gpt-5.4-nano, gemini-3.5-flash, gemini-3.1-flash-lite, openai/gpt-oss-120b, deepseek/deepseek-v4-flash, nvidia/nemotron-3-super-120b-a12b
+retaining 0 previously-run model(s)
+
+=== model: gpt-5.5 (openai) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=92.47%  exact_match=92.47%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=90.32%  exact_match=90.32%
+
+--- variant=paraphrase_2 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=92.47%  exact_match=92.47%
+
+=== model: gpt-5.4-mini (openai) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=90.32%  exact_match=90.32%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=92.47%  exact_match=92.47%
+
+--- variant=paraphrase_2 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=89.78%  exact_match=89.78%
+
+=== model: gpt-5.4-nano (openai) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=90.32%  exact_match=90.32%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=100.0%  target_acc=93.01%  exact_match=93.01%
+
+--- variant=paraphrase_2 ---
+  schema_valid=True  errors=0
+  coverage=50.54%  action_acc=31.91%  target_acc=10.64%  exact_match=10.64%
+
+=== model: gemini-3.5-flash (gemini) ===
+
+--- variant=original ---
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  call_failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+
+--- variant=paraphrase_1 ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 2/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 3/20)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  call_failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+
+--- variant=paraphrase_2 ---
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  call_failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+
+=== model: gemini-3.1-flash-lite (gemini) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=100.0%  target_acc=95.16%  exact_match=95.16%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=100.0%  target_acc=93.01%  exact_match=93.01%
+
+--- variant=paraphrase_2 ---
+  schema_valid=True  errors=0
+  coverage=97.85%  action_acc=97.85%  target_acc=90.86%  exact_match=90.86%
+
+=== model: openai/gpt-oss-120b (openrouter) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=98.39%  target_acc=90.32%  exact_match=90.32%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=90.32%  exact_match=90.32%
+
+--- variant=paraphrase_2 ---
+  schema_valid=True  errors=0
+  coverage=60.22%  action_acc=43.85%  target_acc=24.06%  exact_match=24.06%
+
+=== model: deepseek/deepseek-v4-flash (openrouter) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=96.77%  exact_match=96.77%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=96.77%  exact_match=96.77%
+
+--- variant=paraphrase_2 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=98.92%  target_acc=94.09%  exact_match=94.09%
+
+=== model: nvidia/nemotron-3-super-120b-a12b (openrouter) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=98.39%  target_acc=90.32%  exact_match=90.32%
+
+--- variant=paraphrase_1 ---
+  schema_valid=False  errors=2
+
+--- variant=paraphrase_2 ---
+  unparseable JSON; downgrading strategy -> {'type': 'json_object'}
+  schema_valid=True  errors=0
+  coverage=98.92%  action_acc=97.33%  target_acc=90.37%  exact_match=90.37%
+
+wrote JSON  -> Spreadsheet\generated_chunks\metrics_report_uia-initial.json
+wrote MD    -> Spreadsheet\generated_chunks\model_comparison_uia-initial.md

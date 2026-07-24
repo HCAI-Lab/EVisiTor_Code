@@ -1,0 +1,242 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "provider": "openrouter",
+  "variant": "guide",
+  "condition": "per-step",
+  "per_task": {
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Goto",
+          "Open:",
+          2,
+          true
+        ],
+        [
+          "Type",
+          "Open: | Edit | Run | Open: | the Edit box next to the label \"Open:\" in the Run dialog | name is Open: (Edit control) | the element you last looked at after Goto \"Open:\" is the Edit field | you can type directly into it | use the Type verb | you need to provide the string to type | that string is \"notepad\" | the model's description of the target must be exactly as listed in UI_ELEMENTS ( \"Open:\" ) | the focus is already on that element after a Goto, so just type the text. | you must include the \"text\" field with the string to type. | the UI element is the Edit box named \"Open:\". | you should not press Enter yet.)",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          3,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 1
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          2,
+          null
+        ]
+      ],
+      "targets": 3,
+      "resolved": 3
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Type",
+          "calculator",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Select",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 8,
+      "resolved": 8
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Rename",
+          3,
+          true
+        ],
+        [
+          "Press",
+          "enter",
+          3,
+          null
+        ],
+        [
+          "Select",
+          "Rename",
+          4,
+          true
+        ]
+      ],
+      "targets": 5,
+      "resolved": 5
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Goto",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "search box",
+          1,
+          false
+        ],
+        [
+          "Type",
+          "report.docx",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ],
+        [
+          "Goto",
+          "report.docx",
+          3,
+          true
+        ]
+      ],
+      "targets": 3,
+      "resolved": 2
+    }
+  }
+}

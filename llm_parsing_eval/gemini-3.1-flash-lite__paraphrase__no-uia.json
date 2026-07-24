@@ -1,0 +1,1000 @@
+{
+  "model": "gemini-3.1-flash-lite",
+  "provider": "gemini",
+  "variant": "paraphrase",
+  "condition": "no-uia",
+  "per_task": {
+    "W01": {
+      "prompt_chars": 2849,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 1,
+            "task_name": "run_notepad",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+r"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Open"
+                  },
+                  {
+                    "action": "Type",
+                    "target": "notepad"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W02": {
+      "prompt_chars": 2874,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 2,
+            "task_name": "rename_budget_file",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "budget.xlsx"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "budget.xlsx"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "f2"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "budget_2025.xlsx"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W03": {
+      "prompt_chars": 2854,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 3,
+            "task_name": "new_folder_projects",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+e"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Desktop"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Desktop"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "ctrl+shift+n"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Type",
+                    "target": "Projects"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W04": {
+      "prompt_chars": 2838,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 4,
+            "task_name": "delete_temp_file",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "temp.txt"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "temp.txt"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "delete"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W05": {
+      "prompt_chars": 2852,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 5,
+            "task_name": "screen_resolution",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+i"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "System"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "System"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Display"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Display"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Display resolution"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Display resolution"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 5,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "1920x1080"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "1920x1080"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W06": {
+      "prompt_chars": 2850,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 6,
+            "task_name": "check_c_free_space",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+e"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "This PC"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "This PC"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Local Disk (C:)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W07": {
+      "prompt_chars": 2880,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 7,
+            "task_name": "move_photo_downloads_to_pictures",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Downloads"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Downloads"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "photo.jpg"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "photo.jpg"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "ctrl+x"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Pictures"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Pictures"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "ctrl+v"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W08": {
+      "prompt_chars": 2856,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 8,
+            "task_name": "view_update_history",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+i"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Windows Update"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Windows Update"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Update history"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Update history"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W09": {
+      "prompt_chars": 2850,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 9,
+            "task_name": "autohide_taskbar",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Press",
+                    "target": "win+i"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Personalization"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Personalization"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 3,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Taskbar"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Taskbar"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 4,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Taskbar behaviors"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Taskbar behaviors"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 5,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Automatically hide the taskbar"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Automatically hide the taskbar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    },
+    "W10": {
+      "prompt_chars": 2869,
+      "call_error": null,
+      "raw": {
+        "tasks": [
+          {
+            "task_id": 10,
+            "task_name": "search_report_docx",
+            "subtasks": [
+              {
+                "subtask_id": 1,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Documents"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Documents"
+                  }
+                ]
+              },
+              {
+                "subtask_id": 2,
+                "actions": [
+                  {
+                    "action": "Goto",
+                    "target": "Search box"
+                  },
+                  {
+                    "action": "Select",
+                    "target": "Search box"
+                  },
+                  {
+                    "action": "Type",
+                    "target": "report.docx"
+                  },
+                  {
+                    "action": "Press",
+                    "target": "enter"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "schema_valid": true,
+      "semantic_errors": []
+    }
+  },
+  "generated_spec_shape": [
+    {
+      "id": "W01",
+      "name": "run_notepad",
+      "unique_data_id": "cmaela4ed001gzr0xhfhqg921",
+      "app": "Run dialog",
+      "difficulty": "EASY",
+      "instruction": "Use the Run dialog (Win+R) to open Notepad on Windows.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+r"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Open"
+          ],
+          [
+            "Type",
+            "notepad"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W02",
+      "name": "rename_budget_file",
+      "unique_data_id": "cmaela4el00dezr0xar3kk07l",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Rename the file 'budget.xlsx' to 'budget_2025.xlsx' using File Explorer.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "budget.xlsx"
+          ],
+          [
+            "Select",
+            "budget.xlsx"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "f2"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "budget_2025.xlsx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W03",
+      "name": "new_folder_projects",
+      "unique_data_id": "cm9egbfne005d0e0v3a0rw2pb",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Create a new folder named 'Projects' on the Desktop using File Explorer.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+e"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Desktop"
+          ],
+          [
+            "Select",
+            "Desktop"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "ctrl+shift+n"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "Projects"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W04",
+      "name": "delete_temp_file",
+      "unique_data_id": "cm9egbfne005e0e0vmlosbfjd",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Delete the file 'temp.txt' by moving it to the Recycle Bin.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "temp.txt"
+          ],
+          [
+            "Select",
+            "temp.txt"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "delete"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W05",
+      "name": "screen_resolution",
+      "unique_data_id": "cma092ib300e6wu0v1mk0doaw",
+      "app": "Windows Settings",
+      "difficulty": "EASY",
+      "instruction": "Adjust the screen resolution in Windows to 1920x1080 via Settings.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+i"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "System"
+          ],
+          [
+            "Select",
+            "System"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Display"
+          ],
+          [
+            "Select",
+            "Display"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Display resolution"
+          ],
+          [
+            "Select",
+            "Display resolution"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "1920x1080"
+          ],
+          [
+            "Select",
+            "1920x1080"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W06",
+      "name": "check_c_free_space",
+      "unique_data_id": "cm9egbfne005b0e0v82oqry0i",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Check how much free space is left on the C: drive using File Explorer.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+e"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "This PC"
+          ],
+          [
+            "Select",
+            "This PC"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Local Disk (C:)"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W07",
+      "name": "move_photo_downloads_to_pictures",
+      "unique_data_id": "cm9egbfne005h0e0v77munre4",
+      "app": "File Explorer",
+      "difficulty": "MEDIUM",
+      "instruction": "Move the file 'photo.jpg' from the Downloads folder to the Pictures folder.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Downloads"
+          ],
+          [
+            "Select",
+            "Downloads"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "photo.jpg"
+          ],
+          [
+            "Select",
+            "photo.jpg"
+          ],
+          [
+            "Press",
+            "ctrl+x"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Pictures"
+          ],
+          [
+            "Select",
+            "Pictures"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "ctrl+v"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W08",
+      "name": "view_update_history",
+      "unique_data_id": "cma092ib500gwwu0vu218ss62",
+      "app": "Windows Settings",
+      "difficulty": "EASY",
+      "instruction": "View the update history in Windows Update settings.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+i"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Windows Update"
+          ],
+          [
+            "Select",
+            "Windows Update"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Update history"
+          ],
+          [
+            "Select",
+            "Update history"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W09",
+      "name": "autohide_taskbar",
+      "unique_data_id": "cma092ib500gxwu0vhh81jipt",
+      "app": "Windows Settings",
+      "difficulty": "EASY",
+      "instruction": "Auto-hide the taskbar in Windows via Taskbar Settings.",
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+i"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Personalization"
+          ],
+          [
+            "Select",
+            "Personalization"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Taskbar"
+          ],
+          [
+            "Select",
+            "Taskbar"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Taskbar behaviors"
+          ],
+          [
+            "Select",
+            "Taskbar behaviors"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Automatically hide the taskbar"
+          ],
+          [
+            "Select",
+            "Automatically hide the taskbar"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    },
+    {
+      "id": "W10",
+      "name": "search_report_docx",
+      "unique_data_id": "cm9egbkl7005j0e0v774e8iqr",
+      "app": "File Explorer (Windows search)",
+      "difficulty": "EASY",
+      "instruction": "Search for a file named 'report.docx' in the Documents folder using Windows search.",
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Documents"
+          ],
+          [
+            "Select",
+            "Documents"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Search box"
+          ],
+          [
+            "Select",
+            "Search box"
+          ],
+          [
+            "Type",
+            "report.docx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "generated by UIAGroundedParser.py (LLM parse, not gold)"
+    }
+  ]
+}

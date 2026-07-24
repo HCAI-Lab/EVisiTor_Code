@@ -1,0 +1,320 @@
+{
+  "_comment": "Normalized GOLD task specifications for the generic-interface EVisiTor model. Source of truth for generate_task_models.py. Subtask terminators (end/endsub) are added by the generator. Action vocabulary: Goto, Move, Select, Type, Press, RightClick, Scroll, ClickDown, ClickUp. Decomposition rule (2026-07-11): one subtask per vendor reasoning step (or per event-stream step group when reasoning_steps are empty), following the DEMONSTRATED method — not the modeler's preferred method. RightClick acts at the current cursor position (like Select); Scroll's object is a direction (down/up); drag = ClickDown -> Move -> ClickUp. Labels in verify_uia must be checked against the live UIA tree before a live run. W05/W06/W08 were removed 2026-07-11: their reasoning steps under-specify the demonstration (see gold_task_chunks.lisp header). W07 (ipconfig_command_prompt) removed 2026-07-13: the Command Prompt / Windows Terminal output text (incl. 'IPv4 Address') is not exposed via UIA (0 text elements), so the UIA-based visicon cannot surface the target — the task is infeasible without OCR/terminal line-extraction.",
+  "schema_version": 2,
+  "dataset": "anaisleila/computer-use-data-psai (HuggingFace, MIT license, Paradigm Shift AI 2025)",
+  "tasks": [
+    {
+      "id": "W01",
+      "name": "run_notepad",
+      "unique_data_id": "cmaela4ed001gzr0xhfhqg921",
+      "app": "Run dialog",
+      "difficulty": "EASY",
+      "instruction": "Use the Run dialog (Win+R) to open Notepad on Windows.",
+      "reasoning_steps": [
+        "Press Windows + R.",
+        "Type \"notepad\" and press enter.",
+        "Close the window once done."
+      ],
+      "subtasks": [
+        [
+          [
+            "Press",
+            "win+r"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "notepad"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [],
+      "notes": "One subtask per reasoning step. Pure keyboard-command task; exercises the Press pathway with a modifier combo. 2026-07-15: the closing subtask (Goto/Select 'Close') was REMOVED from the gold — the task ends when Notepad is open; the vendor reasoning step 'Close the window once done' is post-task cleanup, not part of the instructed task."
+    },
+    {
+      "id": "W02",
+      "name": "rename_budget_file",
+      "unique_data_id": "cmaela4el00dezr0xar3kk07l",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Open File Explorer and rename the file 'budget.xlsx' to 'budget_2025.xlsx'.",
+      "reasoning_steps": [
+        "Click on the budget.xlsx file in File Explorer.",
+        "Click on the rename icon on the top bar.",
+        "Change the name to \"budget_2025.xlsx\" and press Enter."
+      ],
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "File Explorer"
+          ],
+          [
+            "Select",
+            "File Explorer"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "budget.xlsx"
+          ],
+          [
+            "Select",
+            "budget.xlsx"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Rename"
+          ],
+          [
+            "Select",
+            "Rename"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "budget_2025.xlsx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [
+        "File Explorer",
+        "budget.xlsx",
+        "Rename"
+      ],
+      "notes": "One subtask per reasoning step, plus an opening subtask (2026-07-15): the vendor demonstration started with File Explorer already open, but the instruction says to use File Explorer and our runtime starts at the desktop, so subtask 1 opens File Explorer from the taskbar. START STATE (revised 2026-07-16 after live testing): File Explorer closed; Explorer set to open to the Downloads folder (HKCU Advanced\\LaunchTo=3) with budget.xlsx present there, freshly modified so it sorts to the top. The original 2026-07-15 plan (budget.xlsx pinned to Quick access, visible on the Explorer Home page) does NOT work on current Windows 11 Explorer: Home shows Recent/Favorites/Shared TABS, a pinned file is hidden behind the Favorites tab, and the command-bar Rename button is DISABLED for Home tiles -- renaming needs a real folder view. Re-captured live as W02_20260716_181407. KNOWN STRATEGY GAP: the vendor edited the existing name (appended '_2025', 8 keypresses); the model's Type verb cannot express within-text editing and retypes the full name -- and because Windows inline rename pre-selects only the stem, the retyped 'budget_2025.xlsx' yields 'budget_2025.xlsx.xlsx' on disk (visible in the 2026-07-16 run)."
+    },
+    {
+      "id": "W03",
+      "name": "new_folder_projects",
+      "unique_data_id": "cm9egbfne005d0e0v3a0rw2pb",
+      "app": "File Explorer",
+      "difficulty": "EASY",
+      "instruction": "Create a new folder named 'Projects' on the Desktop using File Explorer.",
+      "reasoning_steps": [
+        "(reasoning_steps empty in the dataset; steps reconstructed from the event stream / video: open File Explorer, go to Desktop, right-click an empty area, choose New > Folder, type 'Projects', press Enter)"
+      ],
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "File Explorer"
+          ],
+          [
+            "Select",
+            "File Explorer"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Desktop"
+          ],
+          [
+            "Select",
+            "Desktop"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "ctrl+shift+n"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "Projects"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [
+        "File Explorer",
+        "Desktop"
+      ],
+      "notes": "2026-07-16: gold switched from the demonstrated right-click > New > Folder path back to the Ctrl+Shift+N chord (user decision). Rationale: the right-click target is the folder view's unoccupied background, which is NOT a UIA visual item (no scan exposes a 'Desktop background' element; the empty region's only UIA text is 'This folder is empty.'), so the gold step could never be grounded in the perceived interface. With an instruction that avoids the empty-space right-click (Ctrl+Shift+N, or clicking New > Folder in the command bar), the model performs the task perfectly. 'Projects' exercises the uppercase-shift typing path. Prior note (pre-2026-07-16) kept for history: 'Desktop background' stood for the folder view's empty region and had to be aliased to 'This folder is empty.' in scoring and the live agent-resolution map."
+    },
+    {
+      "id": "W04",
+      "name": "zip_logs_folder",
+      "unique_data_id": "cmaela4el00dgzr0xvj1od7q9",
+      "app": "File Explorer",
+      "difficulty": "MEDIUM",
+      "instruction": "Compress the folder 'Logs' into a ZIP archive.",
+      "reasoning_steps": [
+        "Right-click on the Logs folder.",
+        "Select \"Show more options\" from the dropdown.",
+        "Select \"Send to\" and then click \"Compressed (zipped) folder\" from the dropdown.",
+        "Name the .zip file created and press Enter."
+      ],
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Logs"
+          ],
+          [
+            "RightClick",
+            "Logs"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Show more options"
+          ],
+          [
+            "Select",
+            "Show more options"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Send to"
+          ],
+          [
+            "Select",
+            "Send to"
+          ],
+          [
+            "Goto",
+            "Compressed (zipped) folder"
+          ],
+          [
+            "Select",
+            "Compressed (zipped) folder"
+          ]
+        ],
+        [
+          [
+            "Press",
+            "enter"
+          ]
+        ]
+      ],
+      "verify_uia": [
+        "Show more options",
+        "Compressed (zipped) folder"
+      ],
+      "notes": "One subtask per reasoning step; right-click now expressed with the RightClick verb (previous spec used Press shift+f10). Step 4 says 'Name the .zip file' but the event stream shows a single keypress — the vendor accepted the default name 'Logs.zip' with Enter, which is what the chunk encodes."
+    },
+    {
+      "id": "W09",
+      "name": "open_calculator_start_search",
+      "unique_data_id": "cma092ib400ghwu0v52t3qxia",
+      "app": "Start menu",
+      "difficulty": "EASY",
+      "instruction": "Open the Calculator via the Windows Start menu search bar.",
+      "reasoning_steps": [
+        "Go to the start menu and navigate to the search bar.",
+        "Type \"calculator\" and press Enter.",
+        "The calculator window opens."
+      ],
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Search"
+          ],
+          [
+            "Select",
+            "Search"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "calculator"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Calculator"
+          ]
+        ]
+      ],
+      "verify_uia": [
+        "Search",
+        "Calculator"
+      ],
+      "notes": "One subtask per reasoning step; step 3 is attention-only verification that the Calculator window opened. KNOWN GAP: the event stream shows the vendor typed a shortened query (4 keypresses) and clicked the top result, while the reasoning text says 'press Enter' — the chunk follows the reasoning text."
+    },
+    {
+      "id": "W10",
+      "name": "search_report_docx",
+      "unique_data_id": "cm9egbkl7005j0e0v774e8iqr",
+      "app": "File Explorer (Windows search)",
+      "difficulty": "EASY",
+      "instruction": "File Explorer is already open. Search for a file named 'report.docx' in the Documents folder using Windows search.",
+      "reasoning_steps": [
+        "(reasoning_steps empty in the dataset; steps reconstructed from the event stream / video: with File Explorer already open, open Documents, click the search box, type 'report.docx', press Enter, locate the result)"
+      ],
+      "subtasks": [
+        [
+          [
+            "Goto",
+            "Documents"
+          ],
+          [
+            "Select",
+            "Documents"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "Search Documents"
+          ],
+          [
+            "Select",
+            "Search Documents"
+          ]
+        ],
+        [
+          [
+            "Type",
+            "report.docx"
+          ],
+          [
+            "Press",
+            "enter"
+          ]
+        ],
+        [
+          [
+            "Goto",
+            "report.docx"
+          ]
+        ]
+      ],
+      "verify_uia": [
+        "Documents",
+        "Search Documents"
+      ],
+      "notes": "The Explorer search box UIA name is 'Search Documents' when the Documents folder is open. Final subtask is attention-only: locate the result. 2026-07-15: the open-File-Explorer subtask was removed — the demonstration (and the runtime start state) has File Explorer ALREADY OPEN with the navigation pane showing Documents; the instruction now states this precondition (live re-capture required)."
+    }
+  ]
+}

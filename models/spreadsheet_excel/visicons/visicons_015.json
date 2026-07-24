@@ -1,0 +1,1256 @@
+[
+  {
+    "name": "Untitled. Unmodified.",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      173,
+      26
+    ],
+    "rect": [
+      50,
+      10,
+      296,
+      42
+    ],
+    "width": 246,
+    "height": 32,
+    "color": "black",
+    "text": "Untitled. Unmodified.",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 2
+  },
+  {
+    "name": "Untitled",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      85,
+      25
+    ],
+    "rect": [
+      63,
+      18,
+      107,
+      33
+    ],
+    "width": 44,
+    "height": 15,
+    "color": "gray",
+    "text": "Untitled",
+    "highlighted": false,
+    "parent_text": "Untitled. Unmodified.",
+    "children_count": 0
+  },
+  {
+    "name": "Close Tab",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      271,
+      26
+    ],
+    "rect": [
+      255,
+      14,
+      287,
+      38
+    ],
+    "width": 32,
+    "height": 24,
+    "color": "black",
+    "text": "Close Tab",
+    "highlighted": false,
+    "parent_text": "Untitled. Unmodified.",
+    "children_count": 0
+  },
+  {
+    "name": "Add New Tab",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      315,
+      28
+    ],
+    "rect": [
+      299,
+      16,
+      331,
+      40
+    ],
+    "width": 32,
+    "height": 24,
+    "color": "black",
+    "text": "Add New Tab",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "File",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      30,
+      58
+    ],
+    "rect": [
+      10,
+      42,
+      51,
+      74
+    ],
+    "width": 41,
+    "height": 32,
+    "color": "black",
+    "text": "File",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Edit",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      81,
+      58
+    ],
+    "rect": [
+      59,
+      42,
+      103,
+      74
+    ],
+    "width": 44,
+    "height": 32,
+    "color": "black",
+    "text": "Edit",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "View",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      136,
+      58
+    ],
+    "rect": [
+      111,
+      42,
+      161,
+      74
+    ],
+    "width": 50,
+    "height": 32,
+    "color": "black",
+    "text": "View",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Headings",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      314,
+      58
+    ],
+    "rect": [
+      286,
+      42,
+      342,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Headings",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Lists",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      370,
+      58
+    ],
+    "rect": [
+      342,
+      42,
+      398,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Lists",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Bold (Ctrl+B)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      414,
+      58
+    ],
+    "rect": [
+      398,
+      42,
+      430,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Bold (Ctrl+B)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Italic (Ctrl+I)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      446,
+      58
+    ],
+    "rect": [
+      430,
+      42,
+      462,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Italic (Ctrl+I)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Strikethrough (Ctrl+Shift+X)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      478,
+      58
+    ],
+    "rect": [
+      462,
+      42,
+      494,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Strikethrough (Ctrl+Shift+X)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Link (Ctrl+K)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      510,
+      58
+    ],
+    "rect": [
+      494,
+      42,
+      526,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Link (Ctrl+K)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Table",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      554,
+      58
+    ],
+    "rect": [
+      526,
+      42,
+      582,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Table",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Clear formatting (Ctrl+Space)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      598,
+      58
+    ],
+    "rect": [
+      582,
+      42,
+      614,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Clear formatting (Ctrl+Space)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Writing tools",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      756,
+      58
+    ],
+    "rect": [
+      728,
+      42,
+      784,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Writing tools",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "What's new",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      803,
+      58
+    ],
+    "rect": [
+      788,
+      43,
+      818,
+      73
+    ],
+    "width": 30,
+    "height": 30,
+    "color": "black",
+    "text": "What's new",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "User avatar",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      837,
+      58
+    ],
+    "rect": [
+      822,
+      42,
+      852,
+      74
+    ],
+    "width": 30,
+    "height": 32,
+    "color": "gray",
+    "text": "User avatar",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Settings",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      871,
+      58
+    ],
+    "rect": [
+      856,
+      42,
+      886,
+      74
+    ],
+    "width": 30,
+    "height": 32,
+    "color": "black",
+    "text": "Settings",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Ln 1, Col 1",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      51,
+      978
+    ],
+    "rect": [
+      22,
+      970,
+      81,
+      986
+    ],
+    "width": 59,
+    "height": 16,
+    "color": "dark-green",
+    "text": "Ln 1, Col 1",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "0 characters",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      144,
+      978
+    ],
+    "rect": [
+      111,
+      970,
+      177,
+      986
+    ],
+    "width": 66,
+    "height": 16,
+    "color": "dark-green",
+    "text": "0 characters",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Plain text",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      341,
+      978
+    ],
+    "rect": [
+      310,
+      962,
+      372,
+      994
+    ],
+    "width": 62,
+    "height": 32,
+    "color": "black",
+    "text": "Plain text",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "100%",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      539,
+      978
+    ],
+    "rect": [
+      523,
+      970,
+      555,
+      986
+    ],
+    "width": 32,
+    "height": 16,
+    "color": "dark-green",
+    "text": "100%",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Windows (CRLF)",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      636,
+      978
+    ],
+    "rect": [
+      591,
+      970,
+      682,
+      986
+    ],
+    "width": 91,
+    "height": 16,
+    "color": "dark-green",
+    "text": "Windows (CRLF)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "UTF-8",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      777,
+      978
+    ],
+    "rect": [
+      759,
+      970,
+      795,
+      986
+    ],
+    "width": 36,
+    "height": 16,
+    "color": "dark-green",
+    "text": "UTF-8",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "System",
+    "type": "text",
+    "control_type": "MenuBar",
+    "position": [
+      19,
+      19
+    ],
+    "rect": [
+      8,
+      8,
+      30,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "System",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      19,
+      19
+    ],
+    "rect": [
+      8,
+      8,
+      30,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "System",
+    "children_count": 0
+  },
+  {
+    "name": "Minimize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      778,
+      16
+    ],
+    "rect": [
+      755,
+      1,
+      802,
+      31
+    ],
+    "width": 47,
+    "height": 30,
+    "color": "black",
+    "text": "Minimize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Maximize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      825,
+      16
+    ],
+    "rect": [
+      802,
+      1,
+      848,
+      31
+    ],
+    "width": 46,
+    "height": 30,
+    "color": "black",
+    "text": "Maximize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      871,
+      16
+    ],
+    "rect": [
+      848,
+      1,
+      895,
+      31
+    ],
+    "width": 47,
+    "height": 30,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Widgets 76\u00b0F Sunny",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      82,
+      1056
+    ],
+    "rect": [
+      6,
+      1032,
+      158,
+      1080
+    ],
+    "width": 152,
+    "height": 48,
+    "color": "black",
+    "text": "Widgets 76\u00b0F Sunny",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 7
+  },
+  {
+    "name": "Heat advisory",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      87,
+      1046
+    ],
+    "rect": [
+      51,
+      1039,
+      124,
+      1054
+    ],
+    "width": 73,
+    "height": 15,
+    "color": "black",
+    "text": "Heat advisory",
+    "highlighted": false,
+    "parent_text": "Widgets 76\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "Just issued",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      79,
+      1062
+    ],
+    "rect": [
+      51,
+      1055,
+      108,
+      1070
+    ],
+    "width": 57,
+    "height": 15,
+    "color": "dark-green",
+    "text": "Just issued",
+    "highlighted": false,
+    "parent_text": "Widgets 76\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "76\u00b0F",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      62,
+      1046
+    ],
+    "rect": [
+      51,
+      1039,
+      73,
+      1054
+    ],
+    "width": 22,
+    "height": 15,
+    "color": "gray",
+    "text": "76\u00b0F",
+    "highlighted": false,
+    "parent_text": "Widgets 76\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "Sunny",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      67,
+      1062
+    ],
+    "rect": [
+      51,
+      1055,
+      84,
+      1070
+    ],
+    "width": 33,
+    "height": 15,
+    "color": "dark-green",
+    "text": "Sunny",
+    "highlighted": false,
+    "parent_text": "Widgets 76\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "1",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      38,
+      1045
+    ],
+    "rect": [
+      37,
+      1038,
+      40,
+      1052
+    ],
+    "width": 3,
+    "height": 14,
+    "color": "gray",
+    "text": "1",
+    "highlighted": false,
+    "parent_text": "Widgets 76\u00b0F Sunny",
+    "children_count": 0
+  },
+  {
+    "name": "Start",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      627,
+      1056
+    ],
+    "rect": [
+      605,
+      1032,
+      650,
+      1080
+    ],
+    "width": 45,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Start",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Search",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      763,
+      1056
+    ],
+    "rect": [
+      653,
+      1040,
+      873,
+      1072
+    ],
+    "width": 220,
+    "height": 32,
+    "color": "dark-green",
+    "text": "Search",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Search",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      710,
+      1055
+    ],
+    "rect": [
+      690,
+      1046,
+      731,
+      1064
+    ],
+    "width": 41,
+    "height": 18,
+    "color": "gray",
+    "text": "Search",
+    "highlighted": false,
+    "parent_text": "Search",
+    "children_count": 0
+  },
+  {
+    "name": "Task View",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      897,
+      1056
+    ],
+    "rect": [
+      875,
+      1032,
+      919,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Task View",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Copilot",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      941,
+      1056
+    ],
+    "rect": [
+      919,
+      1032,
+      963,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "black",
+    "text": "Copilot",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "File Explorer",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      985,
+      1056
+    ],
+    "rect": [
+      963,
+      1032,
+      1007,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "File Explorer",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Microsoft Edge",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1029,
+      1056
+    ],
+    "rect": [
+      1007,
+      1032,
+      1051,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Microsoft Edge",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Microsoft Store",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1073,
+      1056
+    ],
+    "rect": [
+      1051,
+      1032,
+      1095,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "gray",
+    "text": "Microsoft Store",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Task Manager",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1117,
+      1056
+    ],
+    "rect": [
+      1095,
+      1032,
+      1139,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Task Manager",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Notepad",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1161,
+      1056
+    ],
+    "rect": [
+      1139,
+      1032,
+      1183,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Notepad",
+    "highlighted": true,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Google Chrome",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1205,
+      1056
+    ],
+    "rect": [
+      1183,
+      1032,
+      1227,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Google Chrome",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Visual Studio Code",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1249,
+      1056
+    ],
+    "rect": [
+      1227,
+      1032,
+      1271,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Visual Studio Code",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Word",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1293,
+      1056
+    ],
+    "rect": [
+      1271,
+      1032,
+      1315,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "gray",
+    "text": "Word",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Show Hidden Icons",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1665,
+      1056
+    ],
+    "rect": [
+      1649,
+      1032,
+      1681,
+      1080
+    ],
+    "width": 32,
+    "height": 48,
+    "color": "black",
+    "text": "Show Hidden Icons",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "OneDrive - The Pennsylvania State University\r\nA file or folder name contains characters that aren't allowed",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1697,
+      1056
+    ],
+    "rect": [
+      1681,
+      1032,
+      1713,
+      1080
+    ],
+    "width": 32,
+    "height": 48,
+    "color": "black",
+    "text": "OneDrive - The Pennsylvania State University\r\nA file or folder name contains characters that aren't allowed",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Tray Input Indicator English (United States)\r\nUS\r\n\r\nTo switch input methods, press Windows key + space.",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1735,
+      1056
+    ],
+    "rect": [
+      1713,
+      1032,
+      1757,
+      1080
+    ],
+    "width": 44,
+    "height": 48,
+    "color": "black",
+    "text": "Tray Input Indicator English (United States)\r\nUS\r\n\r\nTo switch input methods, press Windows key + space.",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Network Apt Store Dojo\nInternet access\n\nTailscale\nNo internet access",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1771,
+      1056
+    ],
+    "rect": [
+      1757,
+      1032,
+      1785,
+      1080
+    ],
+    "width": 28,
+    "height": 48,
+    "color": "black",
+    "text": "Network Apt Store Dojo\nInternet access\n\nTailscale\nNo internet access",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Volume LG HDR 4K (NVIDIA High Definition Audio): 98%",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1799,
+      1056
+    ],
+    "rect": [
+      1785,
+      1032,
+      1813,
+      1080
+    ],
+    "width": 28,
+    "height": 48,
+    "color": "black",
+    "text": "Volume LG HDR 4K (NVIDIA High Definition Audio): 98%",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Clock 11:12 AM\n\u200e7/\u200e13/\u200e2026",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1846,
+      1056
+    ],
+    "rect": [
+      1813,
+      1032,
+      1880,
+      1080
+    ],
+    "width": 67,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Clock 11:12 AM\n\u200e7/\u200e13/\u200e2026",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Notifications 6 new notifications (Do not disturb on)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1894,
+      1056
+    ],
+    "rect": [
+      1880,
+      1032,
+      1908,
+      1080
+    ],
+    "width": 28,
+    "height": 48,
+    "color": "dark-green",
+    "text": "Notifications 6 new notifications (Do not disturb on)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Show Desktop",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      1914,
+      1056
+    ],
+    "rect": [
+      1908,
+      1032,
+      1920,
+      1080
+    ],
+    "width": 12,
+    "height": 48,
+    "color": "black",
+    "text": "Show Desktop",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  }
+]

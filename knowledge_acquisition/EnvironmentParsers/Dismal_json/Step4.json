@@ -1,0 +1,763 @@
+{
+  "elements": [
+    {
+      "bbox": [
+        61,
+        8,
+        88,
+        26
+      ],
+      "name": "File",
+      "text": "File",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        41,
+        88,
+        86
+      ],
+      "name": "Options",
+      "text": "Options",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        101,
+        88,
+        142
+      ],
+      "name": "Buffers",
+      "text": "Buffers",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        157,
+        88,
+        188
+      ],
+      "name": "Tools",
+      "text": "Tools",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        203,
+        88,
+        225
+      ],
+      "name": "dFile",
+      "text": "dFile",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        240,
+        88,
+        269
+      ],
+      "name": "dEdit",
+      "text": "dEdit",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        284,
+        88,
+        307
+      ],
+      "name": "dGo",
+      "text": "dGo",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        322,
+        88,
+        374
+      ],
+      "name": "dComms",
+      "text": "dComms",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        389,
+        88,
+        437
+      ],
+      "name": "dFormat",
+      "text": "dFormat",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        452,
+        88,
+        482
+      ],
+      "name": "dDoc",
+      "text": "dDoc",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        497,
+        88,
+        540
+      ],
+      "name": "dModel",
+      "text": "dModel",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        61,
+        555,
+        88,
+        581
+      ],
+      "name": "Help",
+      "text": "Help",
+      "type": "menu"
+    },
+    {
+      "bbox": [
+        106,
+        5,
+        138,
+        24
+      ],
+      "name": "Open File",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        31,
+        138,
+        50
+      ],
+      "name": "Open Directory",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        58,
+        138,
+        75
+      ],
+      "name": "Save File",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        83,
+        138,
+        100
+      ],
+      "name": "Close Buffer",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        109,
+        138,
+        128
+      ],
+      "name": "Undo",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        146,
+        138,
+        163
+      ],
+      "name": "Cut",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        182,
+        138,
+        199
+      ],
+      "name": "Copy",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        208,
+        138,
+        227
+      ],
+      "name": "Paste",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        235,
+        138,
+        254
+      ],
+      "name": "Search",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        106,
+        273,
+        138,
+        291
+      ],
+      "name": "Print",
+      "text": null,
+      "type": "button"
+    },
+    {
+      "bbox": [
+        150,
+        147,
+        169,
+        156
+      ],
+      "name": "A",
+      "text": "A",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        314,
+        169,
+        323
+      ],
+      "name": "B",
+      "text": "B",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        482,
+        169,
+        491
+      ],
+      "name": "C",
+      "text": "C",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        633,
+        169,
+        642
+      ],
+      "name": "D",
+      "text": "D",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        758,
+        169,
+        767
+      ],
+      "name": "E",
+      "text": "E",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        150,
+        884,
+        169,
+        893
+      ],
+      "name": "F",
+      "text": "F",
+      "type": "column header"
+    },
+    {
+      "bbox": [
+        205,
+        14,
+        224,
+        23
+      ],
+      "name": "0",
+      "text": "0",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        234,
+        14,
+        253,
+        23
+      ],
+      "name": "1",
+      "text": "1",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        263,
+        14,
+        282,
+        23
+      ],
+      "name": "2",
+      "text": "2",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        292,
+        14,
+        311,
+        23
+      ],
+      "name": "3",
+      "text": "3",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        321,
+        14,
+        340,
+        23
+      ],
+      "name": "4",
+      "text": "4",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        350,
+        14,
+        369,
+        23
+      ],
+      "name": "5",
+      "text": "5",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        379,
+        14,
+        398,
+        23
+      ],
+      "name": "6",
+      "text": "6",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        408,
+        14,
+        427,
+        23
+      ],
+      "name": "7",
+      "text": "7",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        437,
+        14,
+        456,
+        23
+      ],
+      "name": "8",
+      "text": "8",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        466,
+        14,
+        485,
+        23
+      ],
+      "name": "9",
+      "text": "9",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        495,
+        5,
+        514,
+        23
+      ],
+      "name": "10",
+      "text": "10",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        524,
+        5,
+        543,
+        23
+      ],
+      "name": "11",
+      "text": "11",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        553,
+        5,
+        572,
+        23
+      ],
+      "name": "12",
+      "text": "12",
+      "type": "row header"
+    },
+    {
+      "bbox": [
+        205,
+        72,
+        224,
+        173
+      ],
+      "name": "Command Name",
+      "text": "Command Name",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        239,
+        224,
+        315
+      ],
+      "name": "Frequency",
+      "text": "Frequency",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        406,
+        224,
+        515
+      ],
+      "name": "Normalization",
+      "text": "Normalization",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        574,
+        224,
+        624
+      ],
+      "name": "Length",
+      "text": "Length",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        699,
+        224,
+        741
+      ],
+      "name": "Typed",
+      "text": "Typed",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        205,
+        825,
+        224,
+        909
+      ],
+      "name": "Characters",
+      "text": "Characters",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        234,
+        72,
+        253,
+        97
+      ],
+      "name": "log",
+      "text": "log",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        234,
+        389,
+        253,
+        406
+      ],
+      "name": "20",
+      "text": "20",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        263,
+        72,
+        282,
+        181
+      ],
+      "name": "excise-chunks",
+      "text": "excise-chunks",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        263,
+        398,
+        282,
+        406
+      ],
+      "name": "6",
+      "text": "6",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        292,
+        72,
+        311,
+        164
+      ],
+      "name": "excise-task",
+      "text": "excise-task",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        292,
+        389,
+        311,
+        406
+      ],
+      "name": "12",
+      "text": "12",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        321,
+        72,
+        340,
+        89
+      ],
+      "name": "go",
+      "text": "go",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        321,
+        398,
+        340,
+        406
+      ],
+      "name": "5",
+      "text": "5",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        350,
+        72,
+        369,
+        106
+      ],
+      "name": "help",
+      "text": "help",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        350,
+        389,
+        369,
+        406
+      ],
+      "name": "23",
+      "text": "23",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        379,
+        72,
+        398,
+        156
+      ],
+      "name": "excise-all",
+      "text": "excise-all",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        379,
+        532,
+        398,
+        574
+      ],
+      "name": "13.70",
+      "text": "13.70",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        408,
+        72,
+        427,
+        106
+      ],
+      "name": "load",
+      "text": "load",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        408,
+        565,
+        427,
+        574
+      ],
+      "name": "5",
+      "text": "5",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        437,
+        72,
+        456,
+        122
+      ],
+      "name": "excise",
+      "text": "excise",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        437,
+        540,
+        456,
+        574
+      ],
+      "name": "6.50",
+      "text": "6.50",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        466,
+        72,
+        485,
+        106
+      ],
+      "name": "time",
+      "text": "time",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        466,
+        532,
+        485,
+        574
+      ],
+      "name": "10.10",
+      "text": "10.10",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        495,
+        532,
+        514,
+        574
+      ],
+      "name": "17.30",
+      "text": "17.30",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        524,
+        72,
+        543,
+        114
+      ],
+      "name": "Total",
+      "text": "Total",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        524,
+        381,
+        543,
+        406
+      ],
+      "name": "139",
+      "text": "139",
+      "type": "spreadsheet cell"
+    },
+    {
+      "bbox": [
+        553,
+        72,
+        572,
+        156
+      ],
+      "name": "Your Total",
+      "text": "Your Total",
+      "type": "spreadsheet cell"
+    }
+  ]
+}

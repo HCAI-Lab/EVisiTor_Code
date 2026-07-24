@@ -1,0 +1,7 @@
+"Mean","Min","Max","N","Description","PctDiff","StDev","Condition"
+"506.4","503.8","508.6","150","No errors, no visual search","-29.2","0.9","Ablation_Perfect"
+"579.6","533.1","618.8","150","+ Local/global visual search","-19","19.8","Ablation_Visual_Search_Only"
+"619.2","615.2","622.8","150","+ Tokenized formula entry","-13.4","1.3","Ablation_Batched_Formula_Typing"
+"524.6","513.1","540.5","150","Error detection/correction only","-26.7","5","Ablation_Correction_Checking"
+"710.1","641","759.3","150","All mechanisms integrated","-0.7","23.9","Ablation_Full_Realistic"
+"715.4","—","—","19-22","19-22 human participants","0","~20","Human_Baseline"

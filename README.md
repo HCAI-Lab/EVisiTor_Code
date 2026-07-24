@@ -1,28 +1,109 @@
-# Draft20 modeling and analysis code package
+# EVisiTor — code and materials
 
-This package accompanies `Draft20_Frontiers_Template_Final.docx`.
+Code and materials for *AI-augmented ACT-R modeling in real interfaces:
+Automating visual perception, knowledge acquisition, and motor misexecution*
+(Bagherzadeh & Tehranchi, 2026).
 
-## Included
+All model sources in `models/spreadsheet_excel/` are the exact builds that
+produced the reported results: their SHA-256 hashes match
+`analysis/batch_provenance/draft36_check090_factorial/source_hashes.json`
+(the freeze recorded when the reported batch was launched).
 
-- `Modeling/`: ACT-R spreadsheet models, model support functions, notes, and saved visicon artifacts.
-- `VisiTor/`: Python/Lisp bridge code for visual perception, external keyboard/mouse action, and instruction-to-knowledge conversion.
-- `Analysis/code/`: analysis scripts used for completion-time, keypress, fixation, perfect-vs-realistic, and ablation comparisons.
-- `Analysis/model_outputs/`: compact model-generated summaries and analysis tables retained as reproducibility evidence.
-- `actr7.x/`: the ACT-R runtime snapshot used by the project.
-- `manuscript/`: the paper associated with this code package.
+## Layout
 
-## Excluded
+- `models/spreadsheet_excel/` — ACT-R spreadsheet models. The reported
+  factorial batch loads `Complete_error_model_tcp.lisp`, which pulls in
+  `fucntion_new_tcp.lisp` (sic; literal filename), `Visicon_generator_V3.lisp`,
+  `running_model_v4.lisp`, and `Ablation_support.lisp`; each ablation cell
+  loads the base model named by the `SPREADSHEET_ABLATION_BASE_MODEL`
+  environment variable, which the reported batch set to
+  `New_Error (3-5-2-TCP-7-21-2026).lisp` (its default fallback,
+  `New_Error (3-5-2-TCP).lisp`, is the earlier build and is kept here only for
+  reference — it does **not** implement the per-token formula check reported in
+  the paper). Also included: all eight 2x2x2 factorial cells, the shard driver
+  `Run_Ablation_2x2x2_Shard.lisp`, the Appendix L sweep drivers
+  (`Ablation_NoVisual_Rates.lisp`, `Ablation_NoVisual_CheckProb.lisp`,
+  `Run_CheckProb_Shard.lisp`, `Ablation_Full_Realistic_Rates.lisp`), saved
+  visicon snapshots used for batch replay (`visicons_saved*/`), the generated
+  declarative chunks (`generated_chunks/`), and the KST starting workbook
+  (`task_environment/normalization.xlsx`).
 
-No participant-level or aggregate human-data files are included. In particular, the package excludes the repository's `Analysis/Human Data/`, `Analysis/HumanData_Video/`, `Analysis/HumanCompletionTime.csv`, and other participant-derived spreadsheets/CSVs.
+  The eight factorial cells (VBC coding, Supplementary Appendix K):
 
-The large per-run model log directories under the 150-run and 25-run ablation folders are also omitted; their compact `batch_summary.csv`, overall ablation summary, and generated analysis-output tables are included.
+  | cell | file | cell | file |
+  |------|------|------|------|
+  | 000 | `Ablation_Perfect.lisp` | 110 | `Ablation_Visual_Plus_Batched.lisp` |
+  | 100 | `Ablation_Visual_Search_Only.lisp` | 101 | `Ablation_Visual_Plus_Checking.lisp` |
+  | 010 | `Ablation_Batched_Formula_Typing.lisp` | 011 | `Ablation_Batched_Plus_Checking.lisp` |
+  | 001 | `Ablation_Correction_Checking.lisp` | 111 | `Ablation_Full_Realistic.lisp` |
 
-## Environment
+  Legacy drivers from the earlier 150-run design (`Run_Ablation_150.lisp`,
+  `Run_Ablation_25.lisp`, `Run_Typo_Sweep.lisp`, `Perfect_model.lisp`,
+  `Realistic_user.lisp`, `Ablation_Typing_Errors_Only.lisp`) are retained for
+  history; they are not the pipeline behind the reported numbers.
+- `models/windows_tasks/` — the six-task Windows generalization probe:
+  task-independent model (`generic_interface_model.lisp`,
+  `generic_helpers.lisp`), task specs and gold/generated chunks, live-run
+  driver files, resolver name maps and transcript (`agent_resolution/`),
+  per-task completion logs (`logs/<task>/task_times.csv`), and screen
+  recordings of the six live model runs (`model_run_recordings/`).
+- `bridge/VisiTor/` — the VisiTor/EVisiTor eyes-and-hands bridge (UIA
+  perception -> visicon, motor execution, `knowledge_descipherer.py` (sic)).
+- `knowledge_acquisition/EnvironmentParsers/` — instruction-to-chunk and
+  UIA-grounded parsers (prompt templates are embedded in the parser
+  sources), scoring (`functional_check.py`, `analyze_w6_uia.py`,
+  `build_w6_excel.py`, `run_perstep.py`), and vision-parser evaluations.
+  `Dismal_annotated/` and `Dismal_json/` hold the annotated Dismal interface
+  states behind Supplementary Figures S5-S7.
+- `llm_parsing_eval/` — complete raw LLM outputs (one JSON per model x
+  instruction variant x grounding condition), run logs, scoring workbook
+  (`W6_model_IO_and_gold_2026-07-16.xlsx`), and results report for the
+  generalization probe.
+- `analysis/` — the scripts behind the reported results:
+  `setup_2x2x2_batch.py` (seed list + source freeze), `assemble_2x2x2_shards.py`,
+  `analyze_ablation_2x2x2.py` + `ablation_2x2x2_common.py` (cell summaries,
+  saturated factorial fit, Wasserstein-1), `w1_per_task_check_rate.py`,
+  `analyze_draft34_error_rate_sweeps.py` and `analyze_checkprob_sweep.py`
+  (Supplementary Appendix L), `analyze_human_error_rates.py` (calibrated
+  0.034 / 0.063 typo rates), and `compare_model_human_times.py`.
+  - `analysis/batch_provenance/` — per-batch reproducibility configuration and
+    aggregate outputs: the 142-element seed list, the SHA-256 source freeze
+    (`source_hashes.json`), the `design_manifest.json` of each Appendix L sweep,
+    and the aggregates behind Tables 4 and 7-9 and S11-S16
+    (`cell_summary.csv`, `factorial_effects.{csv,json}`, `w1_results.json`,
+    `task_interactions.csv`, `mechanism_diagnostics.csv`,
+    `error_rate_fit_summary.*`, `checkprob_fit_summary.*`). The check-probability
+    sweep ran against a slightly earlier `Ablation_support.lisp` than the
+    factorial freeze, so that sweep's own `frozen_sources/` set is kept intact
+    alongside its manifest.
+  - `analysis/human_data_scripts/` and `analysis/regen_scripts/` — the scripts
+    that produced the human-side statistics (keystroke, transition, IKI, and
+    gaze analyses); scripts only, see below.
+  - `analysis/legacy_pre-revision_2026-07/` — superseded outputs and scripts
+    from the 7-14 July 2026 analysis of the earlier 150-run batch. **These do
+    not correspond to any number in the submitted manuscript** and are kept only
+    for revision history.
+- `tools/` — auxiliary utilities (UIA latency measurement, standalone
+  parsers).
 
-- ACT-R 7 (runtime snapshot included)
-- Python dependencies for VisiTor are listed in `VisiTor/requirements.txt`.
-- Some VisiTor functions interact with Microsoft Excel and Windows UI Automation, so reproducing live interface runs requires Windows, Excel, and the interface state expected by the model.
+## What is deliberately NOT here
 
-## Notes
+- **Human participant data** (keystroke logs, completion times, gaze
+  videos). The data are IRB-restricted (protocol STUDY00012835) and are
+  available upon request, per the paper's Data Availability statement.
+  `analysis/human_data_scripts/` documents exactly how the published
+  human-side statistics were computed, but ships no data. The analysis
+  scripts read the human CSVs from a local `G:\ExcelDataAnalysis` path; edit
+  the constants at the top of each script to point at your own copy.
+- **Raw per-run model batches** (the 1,136-run factorial plus the Appendix L
+  sweeps, several hundred MB of per-run CSVs). They are regenerable with the
+  run scripts and archived seed list above; the aggregate outputs are in
+  `analysis/batch_provenance/`.
+- **Paradigm Shift AI dataset content** (demonstration recordings and event
+  streams). Obtain the dataset from its publishers; tasks used here are
+  identified by their `unique_data_id` in `models/windows_tasks/` and
+  Supplementary Appendix M.
 
-Analysis scripts that compare models with humans still reference human-data inputs. Those private inputs are intentionally absent from this archive. The scripts, model outputs, and model-only summaries are included so the computational workflow can be inspected and rerun when authorized human data are supplied separately.
+API keys are read from environment variables (`OPENAI_API_KEY`,
+`GEMINI_API_KEY`, `OPENROUTER_API_KEY`); no credentials are stored in this
+repository.

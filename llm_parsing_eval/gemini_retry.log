@@ -1,0 +1,158 @@
+attempt 1: retrying Part A patch cells
+gold subtask lists: 39 over 10 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260708_013849 snapshots=4 initial=107(+0 truncated) union=111(+0 truncated)
+  W03: run=W03_20260708_013934 snapshots=4 initial=131(+0 truncated) union=165(+0 truncated)
+  W04: run=W04_20260708_014036 snapshots=2 initial=107(+0 truncated) union=109(+0 truncated)
+  W05: run=W05_20260708_150001 snapshots=9 initial=135(+0 truncated) union=290(+0 truncated)
+  W06: run=W06_20260708_014149 snapshots=3 initial=93(+0 truncated) union=161(+0 truncated)
+  W07: run=W07_20260708_133753 snapshots=6 initial=123(+0 truncated) union=132(+0 truncated)
+  W08: run=W08_20260708_014247 snapshots=4 initial=132(+0 truncated) union=252(+0 truncated)
+  W09: run=W09_20260708_154709 snapshots=9 initial=135(+0 truncated) union=254(+0 truncated)
+  W10: run=W10_20260708_102758 snapshots=5 initial=130(+0 truncated) union=228(+0 truncated)
+gold resolvability: initial=38.46% union=100.0%
+filtered to 1 model(s): gemini-3.5-flash
+retaining 10 previously-run model(s); cell-merging 1 re-run model(s)
+
+=== model: gemini-3.5-flash (gemini) ===
+
+--- variant=instruction condition=no-uia ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  W01: schema_valid=True subtasks=2
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W02: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W03: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W04: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  W05: schema_valid=True subtasks=6
+  W06: schema_valid=True subtasks=3
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  W07: schema_valid=True subtasks=5
+  W08: schema_valid=True subtasks=3
+  W09: schema_valid=True subtasks=4
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W10: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  => coverage=56.41%  action=94.74%  target=68.42%  exact=68.42%  resolv_init=31.03%  resolv_union=93.1%
+
+--- variant=instruction condition=initial-uia ---
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W01: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  W02: schema_valid=True subtasks=3
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  W03: schema_valid=True subtasks=3
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W04: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W05: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W06: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  W07: schema_valid=True subtasks=5
+  W08: schema_valid=True subtasks=3
+  W09: schema_valid=True subtasks=5
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  W10: call failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired befo)
+  => coverage=48.72%  action=79.41%  target=73.53%  exact=73.53%  resolv_init=45.45%  resolv_union=100.0%
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+attempt 1: retrying Part B
+gold subtasks parsed: 93
+uia context: 224 pruned elements in prompt, 210 distinct names for scoring; gold resolvability 52.63%
+filtered to 1 model(s): gemini-3.5-flash
+retaining 7 previously-run model(s)
+
+=== model: gemini-3.5-flash (gemini) ===
+
+--- variant=original ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 2/20)
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=95.16%  exact_match=95.16%
+
+--- variant=paraphrase_1 ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=95.16%  exact_match=95.16%
+
+--- variant=paraphrase_2 ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=93.01%  exact_match=93.01%
+
+wrote JSON  -> Spreadsheet\generated_chunks\metrics_report_uia-initial.json
+wrote MD    -> Spreadsheet\generated_chunks\model_comparison_uia-initial.md
+attempt 2: retrying Part A patch cells
+gold subtask lists: 39 over 10 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260708_013849 snapshots=4 initial=107(+0 truncated) union=111(+0 truncated)
+  W03: run=W03_20260708_013934 snapshots=4 initial=131(+0 truncated) union=165(+0 truncated)
+  W04: run=W04_20260708_014036 snapshots=2 initial=107(+0 truncated) union=109(+0 truncated)
+  W05: run=W05_20260708_150001 snapshots=9 initial=135(+0 truncated) union=290(+0 truncated)
+  W06: run=W06_20260708_014149 snapshots=3 initial=93(+0 truncated) union=161(+0 truncated)
+  W07: run=W07_20260708_133753 snapshots=6 initial=123(+0 truncated) union=132(+0 truncated)
+  W08: run=W08_20260708_014247 snapshots=4 initial=132(+0 truncated) union=252(+0 truncated)
+  W09: run=W09_20260708_154709 snapshots=9 initial=135(+0 truncated) union=254(+0 truncated)
+  W10: run=W10_20260708_102758 snapshots=5 initial=130(+0 truncated) union=228(+0 truncated)
+gold resolvability: initial=38.46% union=100.0%
+filtered to 1 model(s): gemini-3.5-flash
+retaining 10 previously-run model(s); cell-merging 1 re-run model(s)
+
+=== model: gemini-3.5-flash (gemini) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=2
+  W02: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=2
+  W05: schema_valid=True subtasks=6
+  W06: schema_valid=True subtasks=3
+  W07: schema_valid=True subtasks=5
+  W08: schema_valid=True subtasks=3
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  W09: schema_valid=True subtasks=4
+  W10: schema_valid=True subtasks=4
+  => coverage=87.18%  action=80.33%  target=63.93%  exact=63.93%  resolv_init=38.46%  resolv_union=94.87%
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=3
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  W03: schema_valid=True subtasks=3
+  W04: schema_valid=True subtasks=2
+  W05: schema_valid=True subtasks=5
+  W06: schema_valid=True subtasks=1
+  W07: schema_valid=True subtasks=5
+  W08: schema_valid=True subtasks=3
+  W09: schema_valid=True subtasks=5
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  W10: schema_valid=True subtasks=2
+  => coverage=82.05%  action=75.86%  target=51.72%  exact=51.72%  resolv_init=47.37%  resolv_union=94.74%
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+attempt 2: retrying Part B
+gold subtasks parsed: 93
+uia context: 224 pruned elements in prompt, 210 distinct names for scoring; gold resolvability 52.63%
+filtered to 1 model(s): gemini-3.5-flash
+retaining 7 previously-run model(s)
+
+=== model: gemini-3.5-flash (gemini) ===
+
+--- variant=original ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=90.86%  exact_match=90.86%
+
+--- variant=paraphrase_1 ---
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=93.01%  exact_match=93.01%
+
+--- variant=paraphrase_2 ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  schema_valid=True  errors=0
+  coverage=100.0%  action_acc=99.46%  target_acc=95.16%  exact_match=95.16%
+
+wrote JSON  -> Spreadsheet\generated_chunks\metrics_report_uia-initial.json
+wrote MD    -> Spreadsheet\generated_chunks\model_comparison_uia-initial.md

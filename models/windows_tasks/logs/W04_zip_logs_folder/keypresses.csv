@@ -1,0 +1,3 @@
+run_id,model_time,expected_key,typed_key,delivered_key
+2026-07-07_10-15-02,4.308,shift+f10,shift+f10,shift+f10
+2026-07-14_16-26-47,9.772,return,return,enter

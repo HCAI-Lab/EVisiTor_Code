@@ -1,0 +1,58 @@
+--- rebuild 16:14:50 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_initialUIA, Out_noUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:17:55 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:21:00 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_initialUIA, Out_noUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:24:05 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_initialUIA, Out_noUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:27:10 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:30:16 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:33:21 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:36:26 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:39:31 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:42:36 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:45:41 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:48:46 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:51:51 ---
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'G:\\ACT-RModels\\EVisiTor2026\\NewInterfaces_PSAI\\GenericInterface\\llm_parsing_eval\\W6_model_IO_and_gold_2026-07-15.xlsx'
+--- rebuild 16:54:56 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 16:58:01 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 17:01:06 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 17:04:11 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- rebuild 17:07:16 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+--- final rebuild 17:09:01 ---
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+rebuild loop done

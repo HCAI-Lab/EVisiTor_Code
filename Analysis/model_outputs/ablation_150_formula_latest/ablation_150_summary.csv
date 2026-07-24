@@ -1,6 +1,0 @@
-"condition","n","mean","sd","median","min","max","mean_keypresses","mean_attentions","mean_visual_search","mean_formula_lookback","total_learned_formula"
-"Ablation_Perfect","150","478.77","1.03","478.69","476","481.25","479","520","0","0","0"
-"Ablation_Correction_Checking","150","525.15","9.29","524.95","501.17","547.67","561","520","0","0","0"
-"Ablation_Visual_Search_Only","150","540.98","15.87","540.13","498.79","578.5","479","1333.9","285.6","0","0"
-"Ablation_Batched_Formula_Typing","150","591.78","1.47","591.59","587.68","595.71","479","1312","0","198","0"
-"Ablation_Full_Realistic","150","703.65","15.6","703.06","658.62","740.16","560.8","2174.8","301.9","198","0"

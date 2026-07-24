@@ -1,0 +1,368 @@
+=== RUN 1: instruction+guide x no-uia (all 6 tasks) ===
+gold subtask lists: 23 over 6 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260708_013849 snapshots=4 initial=107(+0 truncated) union=111(+0 truncated)
+  W03: run=W03_20260714_163225 snapshots=7 initial=107(+0 truncated) union=146(+0 truncated)
+  W04: run=W04_20260714_162647 snapshots=6 initial=107(+0 truncated) union=153(+0 truncated)
+  W09: run=W09_20260714_134243 snapshots=3 initial=25(+0 truncated) union=86(+0 truncated)
+  W10: run=W10_20260708_102758 snapshots=5 initial=130(+0 truncated) union=228(+0 truncated)
+gold resolvability: initial=46.88% union=96.88%
+filtered to 7 model(s): gpt-5.5, gpt-5.4-mini, gpt-5.4-nano, gemini-3.1-flash-lite, openai/gpt-oss-120b, deepseek/deepseek-v4-flash, nvidia/nemotron-3-super-120b-a12b
+retaining 3 previously-run model(s); cell-merging 7 re-run model(s)
+
+=== model: gpt-5.5 (openai) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=2
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=3
+  => coverage=78.26%  action=55.56%  target=50.0%  exact=50.0%  resolv_init=45.45%  resolv_union=81.82%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=82.98%  target=72.34%  exact=72.34%  resolv_init=40.62%  resolv_union=87.5%
+
+=== model: gpt-5.4-mini (openai) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=2
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=3
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=1
+  W10: schema_valid=True subtasks=3
+  => coverage=65.22%  action=77.42%  target=54.84%  exact=51.61%  resolv_init=62.5%  resolv_union=75.0%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=5
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=91.49%  target=80.85%  exact=80.85%  resolv_init=40.62%  resolv_union=87.5%
+
+=== model: gpt-5.4-nano (openai) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=4
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=2
+  => coverage=86.96%  action=37.78%  target=35.56%  exact=33.33%  resolv_init=50.0%  resolv_union=100.0%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=4
+  W02: schema_valid=True subtasks=7
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=63.83%  target=57.45%  exact=57.45%  resolv_init=46.88%  resolv_union=96.88%
+
+=== model: gemini-3.1-flash-lite (gemini) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=3
+  => coverage=82.61%  action=46.15%  target=38.46%  exact=35.9%  resolv_init=40.0%  resolv_union=60.0%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=5
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=91.49%  target=80.85%  exact=80.85%  resolv_init=40.62%  resolv_union=87.5%
+
+=== model: openai/gpt-oss-120b (openrouter) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=2
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=1
+  W04: schema_valid=True subtasks=3
+  W09: schema_valid=True subtasks=2
+  W10: schema_valid=True subtasks=3
+  => coverage=65.22%  action=65.62%  target=46.88%  exact=46.88%  resolv_init=35.71%  resolv_union=78.57%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=82.98%  target=78.72%  exact=78.72%  resolv_init=40.62%  resolv_union=90.62%
+
+=== model: deepseek/deepseek-v4-flash (openrouter) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=2
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=3
+  W09: schema_valid=True subtasks=2
+  W10: schema_valid=True subtasks=4
+  => coverage=82.61%  action=55.0%  target=40.0%  exact=40.0%  resolv_init=53.85%  resolv_union=100.0%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=82.98%  target=72.34%  exact=72.34%  resolv_init=40.62%  resolv_union=87.5%
+
+=== model: nvidia/nemotron-3-super-120b-a12b (openrouter) ===
+
+--- variant=instruction condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=5
+  W04: schema_valid=True subtasks=4
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=38.3%  target=34.04%  exact=31.91%  resolv_init=60.0%  resolv_union=100.0%
+
+--- variant=guide condition=no-uia ---
+  W01: schema_valid=True subtasks=3
+  W02: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  W10: schema_valid=True subtasks=4
+  => coverage=100.0%  action=82.98%  target=72.34%  exact=72.34%  resolv_init=40.62%  resolv_union=87.5%
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+RUN1 exit: 0
+=== RUN 2: instruction+guide x initial-uia (W01,W03,W04,W09) ===
+gold subtask lists: 23 over 6 tasks
+reasoning_steps available for: W01, W02, W05, W08, W09
+  W01: run=W01_20260708_013824 snapshots=4 initial=132(+0 truncated) union=172(+0 truncated)
+  W02: run=W02_20260708_013849 snapshots=4 initial=107(+0 truncated) union=111(+0 truncated)
+  W03: run=W03_20260714_163225 snapshots=7 initial=107(+0 truncated) union=146(+0 truncated)
+  W04: run=W04_20260714_162647 snapshots=6 initial=107(+0 truncated) union=153(+0 truncated)
+  W09: run=W09_20260714_134243 snapshots=3 initial=25(+0 truncated) union=86(+0 truncated)
+  W10: run=W10_20260708_102758 snapshots=5 initial=130(+0 truncated) union=228(+0 truncated)
+gold resolvability: initial=46.88% union=96.88%
+filtered to 7 model(s): gpt-5.5, gpt-5.4-mini, gpt-5.4-nano, gemini-3.1-flash-lite, openai/gpt-oss-120b, deepseek/deepseek-v4-flash, nvidia/nemotron-3-super-120b-a12b
+retaining 3 previously-run model(s); cell-merging 7 re-run model(s)
+
+=== model: gpt-5.5 (openai) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=2
+  W03: schema_valid=True subtasks=3
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=4
+  => coverage=66.67%  action=61.11%  target=33.33%  exact=27.78%  resolv_init=45.45%  resolv_union=63.64%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=75.0%  target=65.62%  exact=65.62%  resolv_init=42.86%  resolv_union=90.48%
+
+=== model: gpt-5.4-mini (openai) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=2
+  W03: schema_valid=True subtasks=3
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=3
+  => coverage=66.67%  action=57.89%  target=31.58%  exact=26.32%  resolv_init=77.78%  resolv_union=77.78%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=68.75%  target=65.62%  exact=65.62%  resolv_init=45.0%  resolv_union=95.0%
+
+=== model: gpt-5.4-nano (openai) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=4
+  W03: schema_valid=True subtasks=5
+  W04: schema_valid=True subtasks=4
+  W09: schema_valid=True subtasks=4
+  => coverage=100.0%  action=51.61%  target=19.35%  exact=12.9%  resolv_init=94.12%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=5
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=81.25%  target=68.75%  exact=68.75%  resolv_init=65.0%  resolv_union=100.0%
+
+=== model: gemini-3.1-flash-lite (gemini) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=3
+  => coverage=80.0%  action=54.17%  target=37.5%  exact=37.5%  resolv_init=77.78%  resolv_union=77.78%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=75.0%  target=68.75%  exact=68.75%  resolv_init=42.86%  resolv_union=95.24%
+
+=== model: openai/gpt-oss-120b (openrouter) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=2
+  W03: schema_valid=True subtasks=5
+  W04: schema_valid=True subtasks=2
+  W09: schema_valid=True subtasks=3
+  => coverage=80.0%  action=72.0%  target=44.0%  exact=44.0%  resolv_init=73.33%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=75.0%  target=71.88%  exact=71.88%  resolv_init=42.86%  resolv_union=90.48%
+
+=== model: deepseek/deepseek-v4-flash (openrouter) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=3
+  W04: schema_valid=True subtasks=3
+  W09: schema_valid=True subtasks=2
+  => coverage=73.33%  action=60.87%  target=26.09%  exact=26.09%  resolv_init=55.56%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=75.0%  target=68.75%  exact=68.75%  resolv_init=47.62%  resolv_union=100.0%
+
+=== model: nvidia/nemotron-3-super-120b-a12b (openrouter) ===
+
+--- variant=instruction condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=4
+  W04: schema_valid=True subtasks=4
+  W09: schema_valid=True subtasks=4
+  => coverage=93.33%  action=40.0%  target=23.33%  exact=16.67%  resolv_init=73.33%  resolv_union=100.0%
+
+--- variant=guide condition=initial-uia ---
+  W01: schema_valid=True subtasks=3
+  W03: schema_valid=True subtasks=6
+  W04: schema_valid=True subtasks=5
+  W09: schema_valid=True subtasks=3
+  => coverage=100.0%  action=75.0%  target=65.62%  exact=65.62%  resolv_init=42.86%  resolv_union=90.48%
+
+wrote JSON -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\metrics_report.json
+wrote MD   -> G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\model_comparison.md
+RUN2 exit: 0
+=== RUN 3: per-step instruction ===
+skipping stale captures (re-capture needed): W02, W10
+variant: instruction
+models: gpt-5.5, gpt-5.4-mini, gpt-5.4-nano, gemini-3.1-flash-lite, openai/gpt-oss-120b, deepseek/deepseek-v4-flash, nvidia/nemotron-3-super-120b-a12b
+tasks: W01, W03, W04, W09
+  gpt-5.4-mini                       W09: scans=2 acts=2 resolv=1/1
+  gpt-5.4-mini                       W01: scans=4 acts=3 resolv=0/0
+  gpt-5.4-mini                       W04: scans=5 acts=4 resolv=4/4
+  gpt-5.4-mini                       W03: scans=5 acts=4 resolv=3/3
+  gpt-5.4-nano                       W01: scans=4 acts=6 resolv=2/2
+  gpt-5.5                            W01: scans=4 acts=3 resolv=0/0
+  gpt-5.4-nano                       W09: scans=2 acts=3 resolv=3/3
+  gemini-3.1-flash-lite              W01: scans=4 acts=3 resolv=0/0
+  gpt-5.4-nano                       W03: scans=5 acts=5 resolv=3/3
+  gemini-3.1-flash-lite              W09: scans=2 acts=2 resolv=2/2
+  gpt-5.5                            W09: scans=2 acts=2 resolv=2/2
+  gemini-3.1-flash-lite              W04: scans=5 acts=4 resolv=4/4
+  gpt-5.4-nano                       W04: scans=5 acts=5 resolv=2/4
+  gemini-3.1-flash-lite              W03: scans=5 acts=7 resolv=3/4
+  gpt-5.5                            W03: scans=5 acts=8 resolv=6/6
+  gpt-5.5                            W04: scans=5 acts=9 resolv=8/8
+  deepseek/deepseek-v4-flash         W03: scans=5 acts=6 resolv=5/6
+  openai/gpt-oss-120b                W09: scans=2 acts=4 resolv=3/3
+  deepseek/deepseek-v4-flash         W01: scans=4 acts=3 resolv=0/2
+  deepseek/deepseek-v4-flash         W09: scans=2 acts=4 resolv=3/3
+  openai/gpt-oss-120b                W04: scans=5 acts=6 resolv=5/5
+  deepseek/deepseek-v4-flash         W04: scans=5 acts=8 resolv=8/8
+  openai/gpt-oss-120b                W03: scans=5 acts=7 resolv=5/5
+  nvidia/nemotron-3-super-120b-a12b  W04: scans=5 acts=7 resolv=6/6
+  openai/gpt-oss-120b                W01: scans=4 acts=3 resolv=0/0
+  unparseable JSON; downgrading strategy -> {'type': 'json_object'}
+  nvidia/nemotron-3-super-120b-a12b  W03: scans=5 acts=1 resolv=0/0
+  unparseable JSON; downgrading strategy -> {'type': 'json_object'}
+  unparseable JSON; downgrading strategy -> {'type': 'json_object'}
+  nvidia/nemotron-3-super-120b-a12b  W01: scans=4 acts=5 resolv=0/0
+  nvidia/nemotron-3-super-120b-a12b  W09: scans=2 acts=2 resolv=1/1
+
+wrote 7 per-step artifacts (variant=instruction)
+RUN3 exit: 0
+=== RUN 4: per-step guide ===
+skipping stale captures (re-capture needed): W02, W10
+variant: guide
+models: gpt-5.5, gpt-5.4-mini, gpt-5.4-nano, gemini-3.1-flash-lite, openai/gpt-oss-120b, deepseek/deepseek-v4-flash, nvidia/nemotron-3-super-120b-a12b
+tasks: W01, W03, W04, W09
+  gpt-5.4-mini                       W09: scans=2 acts=1 resolv=1/1
+  gpt-5.4-mini                       W01: scans=4 acts=3 resolv=0/0
+  gpt-5.4-mini                       W03: scans=5 acts=5 resolv=3/3
+  gpt-5.4-mini                       W04: scans=5 acts=5 resolv=4/4
+  gpt-5.4-nano                       W01: scans=4 acts=3 resolv=0/0
+  gpt-5.5                            W01: scans=4 acts=3 resolv=0/0
+  gpt-5.4-nano                       W09: scans=2 acts=4 resolv=2/2
+  gemini-3.1-flash-lite              W01: scans=4 acts=4 resolv=1/1
+  gpt-5.4-nano                       W03: scans=5 acts=6 resolv=4/4
+  gpt-5.4-nano                       W04: scans=5 acts=5 resolv=4/4
+  gemini-3.1-flash-lite              W09: scans=2 acts=3 resolv=1/1
+  gemini-3.1-flash-lite              W03: scans=5 acts=6 resolv=3/3
+  gemini-3.1-flash-lite              W04: scans=5 acts=5 resolv=4/4
+  gpt-5.5                            W09: scans=2 acts=3 resolv=3/3
+  gpt-5.5                            W04: scans=5 acts=9 resolv=8/8
+  gpt-5.5                            W03: scans=5 acts=8 resolv=6/6
+  openai/gpt-oss-120b                W01: scans=4 acts=4 resolv=1/1
+  deepseek/deepseek-v4-flash         W09: scans=2 acts=4 resolv=2/2
+  openai/gpt-oss-120b                W03: scans=5 acts=7 resolv=4/6
+  deepseek/deepseek-v4-flash         W03: scans=5 acts=7 resolv=5/5
+  deepseek/deepseek-v4-flash         W01: scans=4 acts=3 resolv=1/1
+  deepseek/deepseek-v4-flash         W04: scans=5 acts=9 resolv=8/9
+  openai/gpt-oss-120b                W09: scans=2 acts=4 resolv=2/2
+  nvidia/nemotron-3-super-120b-a12b  W09: scans=2 acts=4 resolv=4/4
+  nvidia/nemotron-3-super-120b-a12b  W03: scans=5 acts=9 resolv=7/8
+  openai/gpt-oss-120b                W04: scans=5 acts=9 resolv=8/8
+  unparseable JSON; downgrading strategy -> {'type': 'json_object'}
+  nvidia/nemotron-3-super-120b-a12b  W01: scans=4 acts=3 resolv=0/1
+  unparseable JSON; downgrading strategy -> {'type': 'json_object'}
+  nvidia/nemotron-3-super-120b-a12b  W04: scans=5 acts=8 resolv=6/7
+
+wrote 7 per-step artifacts (variant=guide)
+RUN4 exit: 0
+=== RUN 5: rebuild workbook ===
+canonical workbook locked (open in Excel); saved fallback
+wrote G:\ACT-RModels\EVisiTor2026\NewInterfaces_PSAI\GenericInterface\llm_parsing_eval\W6_model_IO_and_gold_2026-07-15_live.xlsx
+sheets: README, Gold, Inputs, UIA_Scans, Out_noUIA, Out_fullUIA, Out_initialUIA, Out_noUIA guide, Out_fullUIA guide, Out_initialUIA guide, Out_perstep, Out_perstep guide, Compare_noUIA, Compare_fullUIA, Compare_initialUIA, Compare_perstep, Compare_noUIA guide, Compare_fullUIA guide, Compare_initialUIA guide, Compare_perstep guide, Summary
+models with output columns: 8
+RUN5 exit: 0
+=== ALL DONE ===

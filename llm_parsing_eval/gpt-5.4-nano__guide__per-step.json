@@ -1,0 +1,212 @@
+{
+  "model": "gpt-5.4-nano",
+  "provider": "openai",
+  "variant": "guide",
+  "condition": "per-step",
+  "per_task": {
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Type",
+          "notepad",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ]
+      ],
+      "targets": 0,
+      "resolved": 0
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Type",
+          "calculator",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Desktop",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "RightClick",
+          "New",
+          3,
+          true
+        ],
+        [
+          "RightClick",
+          "New",
+          4,
+          true
+        ],
+        [
+          "Type",
+          "Projects",
+          5,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "Press",
+          "Rename",
+          3,
+          null
+        ],
+        [
+          "Type",
+          "budget_2025.xlsx",
+          4,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          4,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "report.docx",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "report.docx",
+          3,
+          true
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    }
+  }
+}

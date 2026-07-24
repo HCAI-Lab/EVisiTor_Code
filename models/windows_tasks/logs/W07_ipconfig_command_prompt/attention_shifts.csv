@@ -1,0 +1,15 @@
+run_id,model_time,task,subtask,location_name,screen_x,screen_y,source
+2026-07-07_10-15-03,0.1,1,1,task1,1159,290,direct-eye-move
+2026-07-07_10-15-03,0.1,1,1,task1,1159,290,move-vision-to-task
+2026-07-07_10-15-03,0.486,1,1,subtask1_1_list,1683,290,direct-eye-move
+2026-07-07_10-15-03,0.486,1,1,subtask1_1_list,1683,290,move-attention-to-subtask
+2026-07-07_10-15-03,1.236,1,2,subtask1_2_list,1683,310,direct-eye-move
+2026-07-07_10-15-03,1.236,1,2,subtask1_2_list,1683,310,move-attention-to-subtask
+2026-07-07_10-15-03,1.686,1,2,subtask1_2_list,1683,310,start-typing
+2026-07-07_10-15-03,4.036,1,3,subtask1_3_list,1683,330,direct-eye-move
+2026-07-07_10-15-03,4.036,1,3,subtask1_3_list,1683,330,move-attention-to-subtask
+2026-07-07_10-15-03,4.486,1,3,subtask1_3_list,1683,330,start-typing
+2026-07-07_10-15-03,9.736,1,4,subtask1_4_list,1683,350,direct-eye-move
+2026-07-07_10-15-03,9.736,1,4,subtask1_4_list,1683,350,move-attention-to-subtask
+2026-07-07_10-15-03,10.386,1,4,IPv4 Address,120,120,direct-eye-move
+2026-07-07_10-15-03,10.386,1,4,IPv4 Address,120,120,visual-search-request-succeeded

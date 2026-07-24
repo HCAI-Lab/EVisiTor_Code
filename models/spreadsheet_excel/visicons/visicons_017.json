@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Initialize. Modified.",
+    "type": "ribbon",
+    "control_type": "TabItem",
+    "position": [
+      173,
+      26
+    ],
+    "rect": [
+      50,
+      10,
+      296,
+      42
+    ],
+    "width": 246,
+    "height": 32,
+    "color": "black",
+    "text": "Initialize. Modified.",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Initialize",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      86,
+      25
+    ],
+    "rect": [
+      63,
+      18,
+      109,
+      33
+    ],
+    "width": 46,
+    "height": 15,
+    "color": "gray",
+    "text": "Initialize",
+    "highlighted": false,
+    "parent_text": "Initialize. Modified.",
+    "children_count": 0
+  },
+  {
+    "name": "Add New Tab",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      315,
+      28
+    ],
+    "rect": [
+      299,
+      16,
+      331,
+      40
+    ],
+    "width": 32,
+    "height": 24,
+    "color": "black",
+    "text": "Add New Tab",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "File",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      30,
+      58
+    ],
+    "rect": [
+      10,
+      42,
+      51,
+      74
+    ],
+    "width": 41,
+    "height": 32,
+    "color": "black",
+    "text": "File",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Edit",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      81,
+      58
+    ],
+    "rect": [
+      59,
+      42,
+      103,
+      74
+    ],
+    "width": 44,
+    "height": 32,
+    "color": "black",
+    "text": "Edit",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "View",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      136,
+      58
+    ],
+    "rect": [
+      111,
+      42,
+      161,
+      74
+    ],
+    "width": 50,
+    "height": 32,
+    "color": "black",
+    "text": "View",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Headings",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      314,
+      58
+    ],
+    "rect": [
+      286,
+      42,
+      342,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Headings",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Lists",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      370,
+      58
+    ],
+    "rect": [
+      342,
+      42,
+      398,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Lists",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Bold (Ctrl+B)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      414,
+      58
+    ],
+    "rect": [
+      398,
+      42,
+      430,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Bold (Ctrl+B)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Italic (Ctrl+I)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      446,
+      58
+    ],
+    "rect": [
+      430,
+      42,
+      462,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Italic (Ctrl+I)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Strikethrough (Ctrl+Shift+X)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      478,
+      58
+    ],
+    "rect": [
+      462,
+      42,
+      494,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Strikethrough (Ctrl+Shift+X)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Link (Ctrl+K)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      510,
+      58
+    ],
+    "rect": [
+      494,
+      42,
+      526,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Link (Ctrl+K)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Table",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      554,
+      58
+    ],
+    "rect": [
+      526,
+      42,
+      582,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Table",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Clear formatting (Ctrl+Space)",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      598,
+      58
+    ],
+    "rect": [
+      582,
+      42,
+      614,
+      74
+    ],
+    "width": 32,
+    "height": 32,
+    "color": "black",
+    "text": "Clear formatting (Ctrl+Space)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Writing tools",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      756,
+      58
+    ],
+    "rect": [
+      728,
+      42,
+      784,
+      74
+    ],
+    "width": 56,
+    "height": 32,
+    "color": "black",
+    "text": "Writing tools",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "What's new",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      803,
+      58
+    ],
+    "rect": [
+      788,
+      43,
+      818,
+      73
+    ],
+    "width": 30,
+    "height": 30,
+    "color": "black",
+    "text": "What's new",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "User avatar",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      837,
+      58
+    ],
+    "rect": [
+      822,
+      42,
+      852,
+      74
+    ],
+    "width": 30,
+    "height": 32,
+    "color": "gray",
+    "text": "User avatar",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Settings",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      871,
+      58
+    ],
+    "rect": [
+      856,
+      42,
+      886,
+      74
+    ],
+    "width": 30,
+    "height": 32,
+    "color": "black",
+    "text": "Settings",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Ln 7, Col 95",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      57,
+      978
+    ],
+    "rect": [
+      22,
+      970,
+      92,
+      986
+    ],
+    "width": 70,
+    "height": 16,
+    "color": "dark-green",
+    "text": "Ln 7, Col 95",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "92 of 418 characters",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      165,
+      978
+    ],
+    "rect": [
+      111,
+      970,
+      219,
+      986
+    ],
+    "width": 108,
+    "height": 16,
+    "color": "dark-green",
+    "text": "92 of 418 characters",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Formatted",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      354,
+      978
+    ],
+    "rect": [
+      310,
+      964,
+      399,
+      992
+    ],
+    "width": 89,
+    "height": 28,
+    "color": "black",
+    "text": "Formatted",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "Formatted",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      364,
+      978
+    ],
+    "rect": [
+      336,
+      970,
+      393,
+      986
+    ],
+    "width": 57,
+    "height": 16,
+    "color": "gray",
+    "text": "Formatted",
+    "highlighted": false,
+    "parent_text": "Formatted",
+    "children_count": 0
+  },
+  {
+    "name": "100%",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      539,
+      978
+    ],
+    "rect": [
+      523,
+      970,
+      555,
+      986
+    ],
+    "width": 32,
+    "height": 16,
+    "color": "dark-green",
+    "text": "100%",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Windows (CRLF)",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      636,
+      978
+    ],
+    "rect": [
+      591,
+      970,
+      682,
+      986
+    ],
+    "width": 91,
+    "height": 16,
+    "color": "dark-green",
+    "text": "Windows (CRLF)",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "UTF-8",
+    "type": "text",
+    "control_type": "Text",
+    "position": [
+      777,
+      978
+    ],
+    "rect": [
+      759,
+      970,
+      795,
+      986
+    ],
+    "width": 36,
+    "height": 16,
+    "color": "dark-green",
+    "text": "UTF-8",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "System",
+    "type": "text",
+    "control_type": "MenuBar",
+    "position": [
+      19,
+      19
+    ],
+    "rect": [
+      8,
+      8,
+      30,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 1
+  },
+  {
+    "name": "System",
+    "type": "menu",
+    "control_type": "MenuItem",
+    "position": [
+      19,
+      19
+    ],
+    "rect": [
+      8,
+      8,
+      30,
+      30
+    ],
+    "width": 22,
+    "height": 22,
+    "color": "black",
+    "text": "System",
+    "highlighted": false,
+    "parent_text": "System",
+    "children_count": 0
+  },
+  {
+    "name": "Minimize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      778,
+      16
+    ],
+    "rect": [
+      755,
+      1,
+      802,
+      31
+    ],
+    "width": 47,
+    "height": 30,
+    "color": "black",
+    "text": "Minimize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Maximize",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      825,
+      16
+    ],
+    "rect": [
+      802,
+      1,
+      848,
+      31
+    ],
+    "width": 46,
+    "height": 30,
+    "color": "black",
+    "text": "Maximize",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  },
+  {
+    "name": "Close",
+    "type": "button",
+    "control_type": "Button",
+    "position": [
+      871,
+      16
+    ],
+    "rect": [
+      848,
+      1,
+      895,
+      31
+    ],
+    "width": 47,
+    "height": 30,
+    "color": "black",
+    "text": "Close",
+    "highlighted": false,
+    "parent_text": "",
+    "children_count": 0
+  }
+]

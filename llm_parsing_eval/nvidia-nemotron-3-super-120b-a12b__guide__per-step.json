@@ -1,0 +1,200 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "provider": "openrouter",
+  "variant": "guide",
+  "condition": "per-step",
+  "per_task": {
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Search",
+          2,
+          true
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          1,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 1
+    },
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Goto",
+          "Start Menu",
+          2,
+          false
+        ],
+        [
+          "<error>",
+          "no-parse",
+          2,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 0
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "RightClick",
+          "Logs",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Send to",
+          4,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          4,
+          true
+        ],
+        [
+          "Goto",
+          "MenuItem",
+          5,
+          false
+        ],
+        [
+          "<error>",
+          "no-parse",
+          5,
+          null
+        ]
+      ],
+      "targets": 7,
+      "resolved": 6
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "budget.xlsx",
+          2,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          2,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Goto",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Documents",
+          2,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          3,
+          null
+        ]
+      ],
+      "targets": 4,
+      "resolved": 4
+    }
+  }
+}

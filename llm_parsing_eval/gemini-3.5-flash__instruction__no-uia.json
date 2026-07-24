@@ -1,0 +1,39 @@
+{
+  "model": "gemini-3.5-flash",
+  "provider": "gemini",
+  "variant": "instruction",
+  "condition": "no-uia",
+  "per_task": {
+    "W01": {
+      "prompt_chars": 2823,
+      "call_error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+      "schema_valid": false
+    },
+    "W02": {
+      "prompt_chars": 2848,
+      "call_error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+      "schema_valid": false
+    },
+    "W03": {
+      "prompt_chars": 2849,
+      "call_error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+      "schema_valid": false
+    },
+    "W04": {
+      "prompt_chars": 2819,
+      "call_error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+      "schema_valid": false
+    },
+    "W09": {
+      "prompt_chars": 2844,
+      "call_error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+      "schema_valid": false
+    },
+    "W10": {
+      "prompt_chars": 2860,
+      "call_error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+      "schema_valid": false
+    }
+  },
+  "generated_spec_shape": []
+}

@@ -1,0 +1,164 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "provider": "openrouter",
+  "variant": "instruction",
+  "condition": "per-step",
+  "per_task": {
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Type",
+          "notepad",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "win+r",
+          3,
+          null
+        ],
+        [
+          "<error>",
+          "no-parse",
+          4,
+          null
+        ]
+      ],
+      "targets": 0,
+      "resolved": 0
+    },
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Select",
+          "Start",
+          1,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          2,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 1
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "<error>",
+          "no-parse",
+          1,
+          null
+        ]
+      ],
+      "targets": 0,
+      "resolved": 0
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "Logs",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Select",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 6,
+      "resolved": 6
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Goto",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          1,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 1
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "<error>",
+          "no-parse",
+          1,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 1
+    }
+  }
+}

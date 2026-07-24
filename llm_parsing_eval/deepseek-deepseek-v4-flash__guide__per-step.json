@@ -1,0 +1,266 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "openrouter",
+  "variant": "guide",
+  "condition": "per-step",
+  "per_task": {
+    "W09": {
+      "n_scans": 2,
+      "stream": [
+        [
+          "Goto",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Search",
+          1,
+          true
+        ],
+        [
+          "Type",
+          "calculator",
+          2,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          2,
+          null
+        ]
+      ],
+      "targets": 2,
+      "resolved": 2
+    },
+    "W03": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Desktop",
+          2,
+          true
+        ],
+        [
+          "Press",
+          "ctrl+shift+n",
+          3,
+          null
+        ],
+        [
+          "Goto",
+          "New folder",
+          4,
+          true
+        ],
+        [
+          "Goto",
+          "New folder",
+          4,
+          true
+        ],
+        [
+          "Type",
+          "Projects",
+          5,
+          null
+        ],
+        [
+          "Press",
+          "enter",
+          5,
+          null
+        ]
+      ],
+      "targets": 6,
+      "resolved": 6
+    },
+    "W01": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Press",
+          "win+r",
+          1,
+          null
+        ],
+        [
+          "Goto",
+          "Open:",
+          2,
+          true
+        ],
+        [
+          "Press",
+          "win+r",
+          2,
+          null
+        ]
+      ],
+      "targets": 1,
+      "resolved": 1
+    },
+    "W04": {
+      "n_scans": 5,
+      "stream": [
+        [
+          "Goto",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "RightClick",
+          "Logs",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "Show more options",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Select",
+          "Send to",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Goto",
+          "Compressed (zipped) folder",
+          4,
+          true
+        ],
+        [
+          "Select",
+          "Compressed (zipped) folder",
+          5,
+          false
+        ]
+      ],
+      "targets": 9,
+      "resolved": 8
+    },
+    "W02": {
+      "n_scans": 4,
+      "stream": [
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "File Explorer",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "File Explorer",
+          2,
+          true
+        ],
+        [
+          "Select",
+          "budget.xlsx",
+          3,
+          true
+        ],
+        [
+          "Goto",
+          "Rename",
+          4,
+          true
+        ]
+      ],
+      "targets": 5,
+      "resolved": 5
+    },
+    "W10": {
+      "n_scans": 3,
+      "stream": [
+        [
+          "Goto",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Select",
+          "Documents",
+          1,
+          true
+        ],
+        [
+          "Goto",
+          "Search Documents",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "Documents",
+          2,
+          true
+        ],
+        [
+          "Goto",
+          "report.docx",
+          3,
+          true
+        ],
+        [
+          "Type",
+          "report.docx",
+          3,
+          null
+        ]
+      ],
+      "targets": 5,
+      "resolved": 5
+    }
+  }
+}

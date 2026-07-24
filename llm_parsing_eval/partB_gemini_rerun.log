@@ -1,0 +1,31 @@
+gold subtasks parsed: 93
+uia context: 224 pruned elements in prompt, 210 distinct names for scoring; gold resolvability 50.0%
+filtered to 1 model(s): gemini-3.5-flash
+retaining 7 previously-run model(s)
+
+=== model: gemini-3.5-flash (gemini) ===
+
+--- variant=original ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 2/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 3/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 4/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 5/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 6/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 7/20)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  call_failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+
+--- variant=paraphrase_1 ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 2/20)
+  call failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+  call_failed: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}
+
+--- variant=paraphrase_2 ---
+  transient error (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently exp); waiting 60s then retrying (attempt 1/20)
+  call failed: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELLED'}}
+  call_failed: 499 CANCELLED. {'error': {'code': 499, 'message': 'The operation was cancelled.', 'status': 'CANCELLED'}}
+
+wrote JSON  -> Spreadsheet\generated_chunks\metrics_report_uia-initial.json
+wrote MD    -> Spreadsheet\generated_chunks\model_comparison_uia-initial.md
