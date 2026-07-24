@@ -67,18 +67,3 @@ python run_gemma4.py --input_dir Dismal
 python run_qwen3vl.py --model Qwen/Qwen3-VL-30B-A3B-Instruct-FP8 \
                      --input_dir Dismal
 ```
-
-Each script writes annotated PNGs and per-image JSON into separate output
-directories so you can compare the three models side-by-side.
-
-## Memory footprint (single H100 80 GB, bf16)
-
-| Model | Params (active) | Approx. VRAM | Fits H100? |
-|-------|-----------------|--------------|------------|
-| EGM-Qwen3-VL-8B | 8B | ~17 GB | ✅ huge headroom |
-| Gemma 4 E4B | ~4B effective | ~9 GB | ✅ huge headroom |
-| Gemma 4 26B-A4B | 26B total / 3.8B active | ~52 GB | ✅ |
-| Gemma 4 31B (dense) | 31B | ~62 GB | ✅ tight |
-| Qwen3-VL-30B-A3B (bf16) | 30B / 3B active | ~62 GB | ✅ tight |
-| Qwen3-VL-30B-A3B-FP8 | 30B / 3B active | ~32 GB | ✅ best perf/watt |
-| Qwen3-VL-8B | 8B | ~17 GB | ✅ |
