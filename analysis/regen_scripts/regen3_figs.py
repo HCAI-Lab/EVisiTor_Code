@@ -4,13 +4,13 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-BASE = r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"
+BASE = os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest")
 NEW = "2026-07-07"
-OUT = r"G:\ACT-RModels\EVisiTor2026\regen_2026-07-07"
+OUT = os.environ.get("EVISITOR_OUTPUT_ROOT", os.path.join(os.path.dirname(os.path.abspath(__file__)), "regen_output_2026-07-07"))
 os.makedirs(OUT, exist_ok=True)
 
 H={}; HSD={}
-with open(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv") as f:
+with open(os.path.join(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"), "HumanCompletionTime.csv")) as f:
     for row in csv.DictReader(f):
         t=int(row["Step"]); H[t]=float(row["Average length time per task"]); HSD[t]=float(row["standart deviation"])
 H=np.array([H[i] for i in range(1,15)]); HSD=np.array([HSD[i] for i in range(1,15)]); Htot=H.sum()

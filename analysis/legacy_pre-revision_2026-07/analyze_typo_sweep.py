@@ -33,7 +33,7 @@ SWEEP_ROOT = os.path.join(HERE, "logs", "typo_sweep")
 CALIBRATED_ROOT = os.path.join(HERE, "logs", "calibrated_full_realistic")
 HUMAN_SUMMARY = os.path.join(HERE, "logs", "human_error_analysis",
                              "human_error_rates_summary.csv")
-HUMAN_TIME_CSV = r"G:/ExcelDataAnalysis/HumanCompletionTime.csv"
+HUMAN_TIME_CSV = os.path.join(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:/ExcelDataAnalysis"), "HumanCompletionTime.csv")
 OUT_DIR = os.path.join(HERE, "logs", "typo_sweep_analysis")
 
 NON_CONTENT = {"shift", "enter", "return", "delete"}

@@ -3,12 +3,12 @@ import numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-BASE=r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"
+BASE=os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest")
 NEW="2026-07-07"
-OUT=r"G:\ACT-RModels\EVisiTor2026\regen_2026-07-07"
+OUT=os.environ.get("EVISITOR_OUTPUT_ROOT", os.path.join(os.path.dirname(os.path.abspath(__file__)), "regen_output_2026-07-07"))
 
 H={}; HSD={}
-with open(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv") as f:
+with open(os.path.join(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"), "HumanCompletionTime.csv")) as f:
     for r in csv.DictReader(f):
         t=int(r["Step"]); H[t]=float(r["Average length time per task"]); HSD[t]=float(r["standart deviation"])
 

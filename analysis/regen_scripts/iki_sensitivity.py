@@ -1,7 +1,7 @@
 import os, glob, csv
 import numpy as np
 
-BASE=r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"; NEW="2026-07-07"
+BASE=os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest"); NEW="2026-07-07"
 CMD={"shift","return","delete"}
 
 def gaps(folder, include_bs=False):

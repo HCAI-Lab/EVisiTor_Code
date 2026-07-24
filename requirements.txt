@@ -1,0 +1,27 @@
+# Python dependencies for the ANALYSIS and LLM-PARSING-EVAL scripts.
+#
+# The live VisiTor/EVisiTor bridge (UI Automation perception + motor execution)
+# has its own, Windows-specific, fully pinned set -- see
+# bridge/VisiTor/requirements.txt.  Install that instead/as-well only if you are
+# driving the real Excel/Windows interface.
+#
+# These are the packages the analysis/ and knowledge_acquisition/ scripts import.
+# Versions are lower bounds known to work; the analysis environment was not
+# frozen, so newer releases are generally fine.  Python 3.10+ recommended.
+
+# --- core analysis (Tables 4, 7-9, S11-S16; Appendix L sweeps) ---
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+openpyxl>=3.1            # reading/writing .xlsx (gold workbook, KST start book)
+
+# --- LLM parsing-eval re-scoring / re-running (knowledge_acquisition/) ---
+# Needed only to RE-RUN the parsers; the raw model outputs are already shipped
+# under llm_parsing_eval/, so re-scoring alone needs just the core set above.
+openai>=1.30            # OpenAI + OpenAI-compatible (OpenRouter, local) clients
+google-generativeai>=0.7  # Gemini
+pydantic>=2.6
+pillow>=10.0            # image handling for vision parsers
+opencv-python>=4.9      # cv2, used by some vision-parser preprocessing
+webcolors>=1.13

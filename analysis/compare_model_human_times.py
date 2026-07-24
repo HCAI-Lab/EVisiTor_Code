@@ -4,12 +4,13 @@ Usage: python compare_vischeck.py <batch_dir> [<batch_dir2> ...]
 Each batch_dir contains run_XXX/task_times.csv (columns: run_id,task,start_time,end_time,duration).
 Human data: G:/ExcelDataAnalysis/HumanCompletionTime.csv (Step, mean, sd) - 14 steps.
 """
+import os
 import csv
 import math
 import sys
 from pathlib import Path
 
-HUMAN_CSV = Path(r"G:/ExcelDataAnalysis/HumanCompletionTime.csv")
+HUMAN_CSV = Path(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:/ExcelDataAnalysis")) / "HumanCompletionTime.csv"
 
 
 def load_human():

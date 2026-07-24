@@ -17,6 +17,7 @@ Conditions:
 Output: printed tables + Spreadsheet/logs/final_check_150_merged/
 w1_per_task.json
 """
+import os
 import json
 from pathlib import Path
 
@@ -26,12 +27,13 @@ from scipy.stats import wasserstein_distance
 
 SUBTASKS = list(range(1, 15))
 N_BOOT = 10_000
-MERGED = Path(r"g:\ACT-RModels\Spreadsheet\logs\final_check_150_merged")
-BASE_LOGS = Path(r"g:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest")
+MERGED = Path(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"g:\ACT-RModels\Spreadsheet\logs")) / "final_check_150_merged"
+BASE_LOGS = Path(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"g:\ACT-RModels\Spreadsheet\logs")) / "ablation_150_formula_latest"
 
 # ---- human side (identical to w1_participant_bootstrap.py) -----------------
-hw = pd.read_csv(r"G:\ExcelDataAnalysis\Human Data\eye_tracking_analysis"
-                 r"\task_time_windows_from_breakdown.csv")
+hw = pd.read_csv(str(Path(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"))
+                     / "Human Data" / "eye_tracking_analysis"
+                     / "task_time_windows_from_breakdown.csv"))
 piv = hw.pivot_table(index="subject", columns="step_num", values="length_sec")
 H = piv.drop(["Subject1", "Subject14"]).dropna().values
 assert H.shape == (21, 14), H.shape
@@ -52,8 +54,7 @@ def runs_matrix(batch_dir, prefix):
     return np.array(rows)
 
 
-MERGED_PAPER = Path(r"g:\ACT-RModels\Spreadsheet\logs"
-                    r"\final_check_150_paper_merged")
+MERGED_PAPER = Path(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"g:\ACT-RModels\Spreadsheet\logs")) / "final_check_150_paper_merged"
 
 CONDS = {
     "base": runs_matrix(BASE_LOGS / "Ablation_Full_Realistic", "2026-07-07"),

@@ -15,6 +15,15 @@ from pathlib import Path
 SPREADSHEET = Path(__file__).resolve().parent
 REPO = SPREADSHEET.parent
 
+# Released layout: the model .lisp sources live under
+# models/spreadsheet_excel/, not next to these analysis scripts (they were
+# flat in the original monorepo). Override with EVISITOR_MODELS_DIR.
+MODELS_DIR = Path(os.environ.get(
+    "EVISITOR_MODELS_DIR", str(REPO / "models" / "spreadsheet_excel")))
+# Human data root (IRB-restricted; request access -- see REPRODUCE.md).
+HUMAN_DATA_ROOT = Path(os.environ.get(
+    "EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"))
+
 BATCH_ROOT = Path(os.environ.get(
     "ABLATION_BATCH_ROOT",
     str(SPREADSHEET / "logs" /
@@ -69,10 +78,9 @@ FROZEN_SOURCES = [
 ] + [wrapper for (_c, _v, _b, _k, wrapper) in CELLS]
 
 # Human data (see analyze_ablation_fc.py / w1_per_task_check_rate.py)
-HUMAN_MEANS_CSV = Path(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv")
-HUMAN_WINDOWS_CSV = Path(
-    r"G:\ExcelDataAnalysis\Human Data\eye_tracking_analysis"
-    r"\task_time_windows_from_breakdown.csv")
+HUMAN_MEANS_CSV = HUMAN_DATA_ROOT / "HumanCompletionTime.csv"
+HUMAN_WINDOWS_CSV = (HUMAN_DATA_ROOT / "Human Data" / "eye_tracking_analysis"
+                     / "task_time_windows_from_breakdown.csv")
 HUMAN_EXCLUDED_SUBJECTS = ["Subject1", "Subject14"]
 
 
@@ -85,7 +93,7 @@ def sha256_file(path: Path) -> str:
 
 
 def compute_source_hashes() -> dict:
-    return {name: sha256_file(SPREADSHEET / name) for name in FROZEN_SOURCES}
+    return {name: sha256_file(MODELS_DIR / name) for name in FROZEN_SOURCES}
 
 
 def load_source_hashes(root: Path = BATCH_ROOT) -> dict:

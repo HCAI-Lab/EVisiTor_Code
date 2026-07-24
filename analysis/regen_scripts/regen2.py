@@ -1,12 +1,12 @@
 import os, glob, csv, math
 import numpy as np
 
-BASE = r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"
+BASE = os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest")
 OLD, NEW = "2026-05-28", "2026-07-07"
 
 # human
 H={}; HSD={}
-with open(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv") as f:
+with open(os.path.join(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"), "HumanCompletionTime.csv")) as f:
     for row in csv.DictReader(f):
         t=int(row["Step"]); H[t]=float(row["Average length time per task"]); HSD[t]=float(row["standart deviation"])
 H=np.array([H[i] for i in range(1,15)]); HSD=np.array([HSD[i] for i in range(1,15)]); Htot=H.sum()

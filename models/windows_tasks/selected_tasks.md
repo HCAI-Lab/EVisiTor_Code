@@ -1,7 +1,7 @@
 # Selected Windows Tasks from the PSAI Computer-Use Dataset
 
 **Dataset:** [anaisleila/computer-use-data-psai](https://huggingface.co/datasets/anaisleila/computer-use-data-psai) (MIT license, Paradigm Shift AI, 2025)
-**Local clone:** `G:\computer-use-data-psai` (49.2 GB total: 16 parquet shards in `data/`, MP4 screen recordings in `videos/`, DOM snapshots in `dom_snaps/`)
+**Local clone:** set `EVISITOR_PSAI_ROOT` to your copy (the authors used `G:\computer-use-data-psai`; 49.2 GB total: 16 parquet shards in `data/`, MP4 screen recordings in `videos/`, DOM snapshots in `dom_snaps/`)
 **Filter applied:** `os == 'WINDOWS'` → 142 unique recordings, 105 unique task templates (many templates performed by two vendors)
 **Full filtered metadata:** `windows_tasks_all.json` (this folder; `windows_tasks_partial.json` is an earlier partial scan kept for provenance)
 **Full rows for the 9 candidate recordings (incl. `reasoning_steps` and `events` JSON):** `candidate_tasks_full.json` (this folder)

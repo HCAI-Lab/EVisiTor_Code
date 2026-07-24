@@ -25,11 +25,12 @@ import csv
 import os
 from collections import defaultdict
 
+_HUMAN_ROOT = os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:/ExcelDataAnalysis")
 DATA_CANDIDATES = [
-    r"G:/ExcelDataAnalysis/Human Data/key_analysis/key_down_events_dedup_updated.csv",
-    r"G:/ExcelDataAnalysis/Human Data/key_analysis/key_down_events_dedup.csv",
+    os.path.join(_HUMAN_ROOT, "Human Data", "key_analysis", "key_down_events_dedup_updated.csv"),
+    os.path.join(_HUMAN_ROOT, "Human Data", "key_analysis", "key_down_events_dedup.csv"),
 ]
-HUMAN_TIME_CSV = r"G:/ExcelDataAnalysis/HumanCompletionTime.csv"
+HUMAN_TIME_CSV = os.path.join(_HUMAN_ROOT, "HumanCompletionTime.csv")
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "logs", "human_error_analysis")
 

@@ -2,7 +2,7 @@ import os, glob, csv, sys
 import numpy as np
 
 # ---- HUMAN: use their own util, their own definition ----
-HUM_DIR = r"G:\ExcelDataAnalysis\Human Data\Typing Data"
+HUM_DIR = os.path.join(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"), "Human Data", "Typing Data")
 sys.path.insert(0, HUM_DIR)
 import typing_task_utils as U
 
@@ -18,7 +18,7 @@ subj = formula_rows.groupby("subject")["mean_iki"].mean()
 print(f"  mean over subjects           : {subj.mean():.3f} s  (n_subj={subj.size})")
 
 # ---- MODEL: identical rule on keypresses.csv ('=' -> 'return', np.diff all keys, NO cutoff) ----
-BASE=r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"; NEW="2026-07-07"
+BASE=os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest"); NEW="2026-07-07"
 def model_formula_iki(folder):
     seg_ikis=[]
     for rd in sorted(glob.glob(os.path.join(BASE,folder,"run_*"))):

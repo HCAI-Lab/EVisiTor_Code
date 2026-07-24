@@ -2,8 +2,11 @@
 # 1-10 executed and tasks 3-10 scored.  11 conditions from 0.0 to 1.0 in steps
 # of 0.1, 142 runs each, on the de-duplicated model build.
 param(
-    [string]$BatchRoot = "G:\ACT-RModels\Spreadsheet\logs\draft34_20260722_checkprob_sweep",
-    [string]$SeedFile = "G:\ACT-RModels\Spreadsheet\logs\draft34_20260722_dedup_factorial\seed_list.txt",
+    [string]$RepoRoot,
+    [string]$SpreadsheetDir,
+    [string]$ActrHome,
+    [string]$BatchRoot,
+    [string]$SeedFile,
     [string]$ModelSource = "New_Error (3-5-2-TCP-7-21-2026).lisp",
     [int]$Runs = 142,
     [int]$MaxConcurrent = 12,
@@ -12,7 +15,18 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-Set-Location "G:\ACT-RModels"
+
+# Released-layout defaults (this script lives in analysis/batch_provenance/<batch>/).
+if (-not $RepoRoot)       { $RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..\..")).Path }
+if (-not $SpreadsheetDir) { $SpreadsheetDir = Join-Path $RepoRoot "models\spreadsheet_excel" }
+if (-not $ActrHome)       { $ActrHome = if ($env:EVISITOR_ACTR_HOME) { $env:EVISITOR_ACTR_HOME } else { Join-Path $RepoRoot "actr7.x" } }
+if (-not $BatchRoot)      { $BatchRoot = Join-Path $RepoRoot "reproduce_output\draft34_20260722_checkprob_sweep" }
+if (-not $SeedFile)       { $SeedFile = Join-Path $PSScriptRoot "seed_list.txt" }
+
+# Bridge actr7.x/ and Spreadsheet/ onto the released layout (no frozen-source edits).
+& (Join-Path $RepoRoot "reproduce\Setup-Layout.ps1") -RepoRoot $RepoRoot -SpreadsheetDir $SpreadsheetDir -ActrHome $ActrHome
+
+Set-Location $RepoRoot
 if (-not (Test-Path $SeedFile)) { throw "Seed file missing: $SeedFile" }
 if (Test-Path $BatchRoot) { throw "Output root already exists: $BatchRoot" }
 
@@ -20,15 +34,15 @@ New-Item -ItemType Directory -Path $BatchRoot | Out-Null
 $frozenDir = Join-Path $BatchRoot "frozen_sources"
 New-Item -ItemType Directory -Path $frozenDir | Out-Null
 $sourceFiles = @(
-    (Join-Path "G:\ACT-RModels\Spreadsheet" $ModelSource),
-    "G:\ACT-RModels\Spreadsheet\fucntion_new_tcp.lisp",
-    "G:\ACT-RModels\Spreadsheet\Ablation_support.lisp",
-    "G:\ACT-RModels\Spreadsheet\running_model_v4.lisp",
-    "G:\ACT-RModels\Spreadsheet\Complete_error_model_tcp.lisp",
-    "G:\ACT-RModels\Spreadsheet\Visicon_generator_V3.lisp",
-    "G:\ACT-RModels\Spreadsheet\Run_CheckProb_Shard.lisp",
-    "G:\ACT-RModels\Spreadsheet\Ablation_NoVisual_CheckProb.lisp",
-    "G:\ACT-RModels\Spreadsheet\run_draft34_checkprob_sweep.ps1",
+    (Join-Path $SpreadsheetDir $ModelSource),
+    (Join-Path $SpreadsheetDir "fucntion_new_tcp.lisp"),
+    (Join-Path $SpreadsheetDir "Ablation_support.lisp"),
+    (Join-Path $SpreadsheetDir "running_model_v4.lisp"),
+    (Join-Path $SpreadsheetDir "Complete_error_model_tcp.lisp"),
+    (Join-Path $SpreadsheetDir "Visicon_generator_V3.lisp"),
+    (Join-Path $SpreadsheetDir "Run_CheckProb_Shard.lisp"),
+    (Join-Path $SpreadsheetDir "Ablation_NoVisual_CheckProb.lisp"),
+    $PSCommandPath,
     $SeedFile
 )
 $hashes = [ordered]@{}
@@ -89,7 +103,7 @@ while ($queue.Count -or $running.Count) {
         $env:FORMULA_CHECK_PROB = [string]::Format(
             [Globalization.CultureInfo]::InvariantCulture, "{0:0.000}", $w.prob)
         $p = Start-Process -FilePath "sbcl" -PassThru -NoNewWindow `
-            -WorkingDirectory "G:\ACT-RModels" `
+            -WorkingDirectory $RepoRoot `
             -ArgumentList "--dynamic-space-size", "$DynamicSpaceMB", "--noinform", "--non-interactive", "--load", "Spreadsheet/Run_CheckProb_Shard.lisp" `
             -RedirectStandardOutput (Join-Path $logDir "$($w.name)_console.txt") `
             -RedirectStandardError (Join-Path $logDir "$($w.name)_err.txt")

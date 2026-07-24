@@ -40,7 +40,7 @@ import statistics
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PSAI_ROOT = r"G:\computer-use-data-psai"
+PSAI_ROOT = os.environ.get("EVISITOR_PSAI_ROOT", r"G:\computer-use-data-psai")
 LOCAL_EVENT_JSONS = [
     os.path.join(HERE, "..", "candidate_tasks_full.json"),
     os.path.join(HERE, "..", "new_candidate_tasks_full.json"),

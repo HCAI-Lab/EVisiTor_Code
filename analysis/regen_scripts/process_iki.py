@@ -1,7 +1,7 @@
 import os, glob, csv
 import numpy as np
 
-BASE=r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"; NEW="2026-07-07"
+BASE=os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest"); NEW="2026-07-07"
 CMD={"shift","return","delete"}
 CONDS=[("Perfect",'Ablation_Perfect'),("Correction Checking",'Ablation_Correction_Checking'),
        ("Visual Search Only",'Ablation_Visual_Search_Only'),("Batched Formula Typing",'Ablation_Batched_Formula_Typing'),

@@ -17,6 +17,7 @@ Part 2: Typo-rate sweep extension (reviewer theme C: R1#3, R2#7, R3#3):
 Also re-verifies the ablation-batch Full-Realistic pooled P(correction) and
 backspaces/run quoted in the paper (run_id filtered to 2026-07-07*).
 """
+import os
 import json
 import math
 from pathlib import Path
@@ -25,7 +26,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-OUT = Path(r"g:\ACT-RModels\EVisiTor2026\revision_2026-07-14")
+OUT = Path(os.environ.get("EVISITOR_OUTPUT_ROOT", str(Path(__file__).resolve().parent / "revision_output_2026-07-14")))
 OUT.mkdir(exist_ok=True)
 
 # ---------------------------------------------------------------- Part 1
@@ -117,7 +118,7 @@ report["steiger"] = {"r_realistic": float(r12), "r_perfect": float(r13),
                      "df": n - 3, "p": float(p_steiger)}
 
 # ---------------------------------------------------------------- Part 2
-SWEEP = Path(r"g:\ACT-RModels\Spreadsheet\logs\typo_sweep")
+SWEEP = Path(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"g:\ACT-RModels\Spreadsheet\logs")) / "typo_sweep"
 CMD_KEYS = {"shift", "delete", "enter", "return", "escape", "tab"}
 
 def formula_entries(kp):
@@ -171,7 +172,7 @@ for rate_dir in sorted(SWEEP.glob("rate_*")):
 report["sweep"] = sweep_rows
 
 # --- ablation-batch Full Realistic: verify P(correction) & backspaces/run
-AB = Path(r"g:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest\Ablation_Full_Realistic")
+AB = Path(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"g:\ACT-RModels\Spreadsheet\logs")) / "ablation_150_formula_latest" / "Ablation_Full_Realistic"
 entries, entries_bs, n_runs, bs_total = 0, 0, 0, 0
 for run in sorted(AB.glob("run_*")):
     f = run / "keypresses.csv"

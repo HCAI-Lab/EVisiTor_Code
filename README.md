@@ -9,6 +9,23 @@ produced the reported results: their SHA-256 hashes match
 `analysis/batch_provenance/draft36_check090_factorial/source_hashes.json`
 (the freeze recorded when the reported batch was launched).
 
+## Reproducing
+
+See **[`REPRODUCE.md`](REPRODUCE.md)** for step-by-step instructions, the full
+environment-variable list, and a matrix of what reproduces from a clone alone
+versus what additionally needs the ACT-R runtime, IRB-restricted human data, or
+the licensed dataset. Two requirements are easy to miss:
+
+- **ACT-R 7.x is not bundled** (it is distributed separately). Download it from
+  <https://github.com/asmaloney/ACT-R> and unpack it to `actr7.x/`, or set
+  `EVISITOR_ACTR_HOME`. `reproduce/Setup-Layout.ps1` wires it into the layout the
+  frozen Lisp drivers expect; `reproduce/Run-Smoke-Test.ps1` then runs a short
+  end-to-end check.
+- **Select the reported build.** Set
+  `SPREADSHEET_ABLATION_BASE_MODEL="New_Error (3-5-2-TCP-7-21-2026).lisp"` — the
+  default fallback is the *earlier* build without the per-token formula check.
+  See REPRODUCE.md → "The reproduction trap".
+
 ## Layout
 
 - `models/spreadsheet_excel/` — ACT-R spreadsheet models. The reported
@@ -93,8 +110,9 @@ produced the reported results: their SHA-256 hashes match
   available upon request, per the paper's Data Availability statement.
   `analysis/human_data_scripts/` documents exactly how the published
   human-side statistics were computed, but ships no data. The analysis
-  scripts read the human CSVs from a local `G:\ExcelDataAnalysis` path; edit
-  the constants at the top of each script to point at your own copy.
+  scripts read the human CSVs from a local `G:\ExcelDataAnalysis` path by
+  default; set `EVISITOR_HUMAN_DATA_ROOT` to point at your own copy (no script
+  edits needed — see REPRODUCE.md).
 - **Raw per-run model batches** (the 1,136-run factorial plus the Appendix L
   sweeps, several hundred MB of per-run CSVs). They are regenerable with the
   run scripts and archived seed list above; the aggregate outputs are in

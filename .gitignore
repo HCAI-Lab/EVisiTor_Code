@@ -1,0 +1,21 @@
+# Layout junctions created by reproduce/Setup-Layout.ps1 (not real content).
+/Spreadsheet
+/actr7.x
+
+# Reproduction outputs (regenerated batches, smoke runs, regen figures).
+# NOTE: does not touch the shipped models/windows_tasks/logs/ (already tracked).
+/reproduce_output/
+reproduce_output/
+regen_output_*/
+revision_output_*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+Thumbs.db
+.DS_Store

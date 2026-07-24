@@ -21,7 +21,7 @@ ROOT = Path(os.environ.get(
     "CHECKPROB_SWEEP_ROOT",
     HERE / "logs" / "draft34_20260722_checkprob_sweep"))
 LABEL = os.environ.get("CHECKPROB_LABEL", "Ablation_NoVisual_CheckProb")
-HUMAN_CSV = Path(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv")
+HUMAN_CSV = Path(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis")) / "HumanCompletionTime.csv"
 N_REQUIRED = int(os.environ.get("ABLATION_N_RUNS", "142"))
 SCORED = [int(t) for t in os.environ.get("CHECKPROB_SCORED_TASKS",
                                          "3,4,5,6,7,8,9,10").split(",")]

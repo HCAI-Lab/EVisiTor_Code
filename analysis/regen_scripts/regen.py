@@ -1,7 +1,7 @@
 import os, glob, csv, math
 import numpy as np
 
-BASE = r"G:\ACT-RModels\Spreadsheet\logs\ablation_150_formula_latest"
+BASE = os.path.join(os.environ.get("EVISITOR_BATCH_LOGS_ROOT", r"G:\ACT-RModels\Spreadsheet\logs"), "ablation_150_formula_latest")
 PREFIX = "2026-07-07"
 
 CONDITIONS = {
@@ -15,7 +15,7 @@ CONDITIONS = {
 # ---- human ----
 human_mean = {}
 human_sd = {}
-with open(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv") as f:
+with open(os.path.join(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis"), "HumanCompletionTime.csv")) as f:
     for row in csv.DictReader(f):
         t = int(row["Step"])
         human_mean[t] = float(row["Average length time per task"])
@@ -89,7 +89,7 @@ for label in ["Full Realistic","Perfect"]:
     print(f"    mean abs err = {tot_abs/14:.3f}")
 
 # ---- save CSV ----
-out = r"C:\Users\ITXPC\AppData\Local\Temp\claude\g--ACT-RModels\5ba9268e-db61-4a6f-88ba-ec4498fb8f2b\scratchpad\newbatch_summary.csv"
+out = os.path.join(os.environ.get("EVISITOR_OUTPUT_ROOT", os.path.dirname(os.path.abspath(__file__))), "newbatch_summary.csv")
 with open(out,"w",newline="") as f:
     w=csv.writer(f)
     w.writerow(["condition","n","total_mean","total_sd","pct_vs_human","r","rmse","norm_rmse","model_sd_avg"])

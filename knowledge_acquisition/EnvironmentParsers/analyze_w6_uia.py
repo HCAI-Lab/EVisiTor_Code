@@ -18,7 +18,7 @@ Writes: scratchpad/w6_uia_section.md
 from __future__ import annotations
 import json, os, sys
 
-ROOT = "g:/ACT-RModels"
+ROOT = os.environ.get("EVISITOR_REPO_ROOT", "g:/ACT-RModels")
 HERE = os.path.join(ROOT, "EnvironmentParsers")
 GI = os.path.join(ROOT, "EVisiTor2026", "NewInterfaces_PSAI", "GenericInterface")
 EVAL = os.path.join(GI, "llm_parsing_eval")

@@ -13,7 +13,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = Path(os.environ.get(
     "DRAFT34_ERROR_SWEEP_ROOT",
     HERE / "logs" / "draft34_20260721_error_rate_sweeps"))
-HUMAN_CSV = Path(r"G:\ExcelDataAnalysis\HumanCompletionTime.csv")
+HUMAN_CSV = Path(os.environ.get("EVISITOR_HUMAN_DATA_ROOT", r"G:\ExcelDataAnalysis")) / "HumanCompletionTime.csv"
 N_REQUIRED = int(os.environ.get("ABLATION_N_RUNS", "142"))
 N_BOOT = 5000
 BOOT_SEED = 20260721
