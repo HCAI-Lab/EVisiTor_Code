@@ -58,4 +58,5 @@ try {
 }
 Write-Host ""
 Write-Host "Smoke run OK. Output: $outRoot"
-Write-Host "Check $outRoot\batch_summary.csv for per-run completion times."
+$cellLabel = [IO.Path]::GetFileNameWithoutExtension($cells[$Cell])
+Write-Host "Check $outRoot\$cellLabel\batch_summary.csv for per-run completion times."

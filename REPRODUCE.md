@@ -127,6 +127,12 @@ without editing any hash-frozen source. Each cell writes its summary under its
 wrapper name. For example, the second command writes
 `reproduce_output/smoke_cell111/Ablation_Full_Realistic/batch_summary.csv`.
 
+For typo substitutions, the model looks for
+`../MSR Spelling Correction Data/motor_model.json` relative to the loaded
+`fucntion_new_tcp.lisp`. A clone uses the built-in QWERTY fallback. If you
+want to replay a batch that used a custom substitution table, supply the
+same table at that path.
+
 ## 2. Regenerate a full batch
 
 The reported factorial has eight cells with 142 runs each. After verifying the
@@ -205,7 +211,8 @@ IRB-restricted files from your authorized human-data directory.
 
 From the repository root, point these settings at your own directories. The
 analysis writes its results into the batch root unless you set
-`ABLATION_OUT_DIR` to a separate existing directory.
+`ABLATION_OUT_DIR` to a separate existing directory. Leave the optional
+`ABLATION_TASK1_OVERRIDE_DIR` unset for the reported factorial.
 
 ```powershell
 $env:ABLATION_BATCH_ROOT = Join-Path $PWD 'reproduce_output/factorial_142'
