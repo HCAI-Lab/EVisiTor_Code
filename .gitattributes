@@ -1,0 +1,4 @@
+# These files are fingerprinted as raw bytes in the batch manifests.
+models/spreadsheet_excel/*.lisp -text
+analysis/batch_provenance/**/frozen_sources/** -text
+analysis/batch_provenance/**/seed_list.txt -text
