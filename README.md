@@ -4,10 +4,9 @@ Code and materials for *AI-augmented ACT-R modeling in real interfaces:
 Automating visual perception, knowledge acquisition, and motor misexecution*
 (Bagherzadeh & Tehranchi, 2026).
 
-All model sources in `models/spreadsheet_excel/` are the exact builds that
-produced the reported results: their SHA-256 hashes match
-`analysis/batch_provenance/draft36_check090_factorial/source_hashes.json`
-(the freeze recorded when the reported batch was launched).
+The factorial source manifest records the SHA-256 hashes of the 15 model
+files used for the reported batch. Run `python reproduce/verify_integrity.py`
+to check those files and the archived draft34 sweep sources.
 
 ## Reproducing
 
@@ -21,9 +20,9 @@ the licensed dataset. Two requirements are easy to miss:
   `EVISITOR_ACTR_HOME`. `reproduce/Setup-Layout.ps1` wires it into the layout the
   frozen Lisp drivers expect; `reproduce/Run-Smoke-Test.ps1` then runs a short
   end-to-end check.
-- **Select the reported build.** Set
-  `SPREADSHEET_ABLATION_BASE_MODEL="New_Error (3-5-2-TCP-7-21-2026).lisp"` — the
-  default fallback is the *earlier* build without the per-token formula check.
+- **Select the reported build and check probability.** Set
+  `SPREADSHEET_ABLATION_BASE_MODEL="New_Error (3-5-2-TCP-7-21-2026).lisp"`
+  and `FORMULA_CHECK_PROB=0.90` when generating factorial runs.
   See REPRODUCE.md → "The reproduction trap".
 
 ## Layout
@@ -84,7 +83,7 @@ the licensed dataset. Two requirements are easy to miss:
   (Supplementary Appendix L), `analyze_human_error_rates.py` (calibrated
   0.034 / 0.063 typo rates), and `compare_model_human_times.py`.
   - `analysis/batch_provenance/` — per-batch reproducibility configuration and
-    aggregate outputs: the 142-element seed list, the SHA-256 source freeze
+    aggregate outputs: the seed list (142 runs plus 50 reserve seeds), the SHA-256 source freeze
     (`source_hashes.json`), the `design_manifest.json` of each Appendix L sweep,
     and the aggregates behind Tables 4 and 7-9 and S11-S16
     (`cell_summary.csv`, `factorial_effects.{csv,json}`, `w1_results.json`,
